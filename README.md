@@ -12,7 +12,7 @@ First, you need a userstyle manager that supports installing UserCSS.
 
 #### UserCSS file
 
-Open [FreshMint.user.css](https://github.com/SebastJava/FreshMint/raw/main/FreshMint.user.css) here in your web browser.
+Open [FreshMint.user.css](https://raw.githubusercontent.com/SebastJava/FreshMint/main/FreshMint.user.css) here in your web browser.
 
 Stylus will open a new tab showing some basic information & options:
 
