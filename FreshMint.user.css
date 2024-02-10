@@ -1,9 +1,13 @@
 /* ==UserStyle==
 @name           FreshMint
-@namespace      github.com/SebastJava/FreshMint
+@namespace      https://github.com/SebastJava
 @version        1.0.0
-@description    forums.linuxmint.com redesigned, modernized.
+@description    The Linux Mint Forums now redesigned
 @author         SebastJava
+@homepageURL    https://github.com/SebastJava/FreshMint
+@supportURL     https://github.com/SebastJava/FreshMint/issues
+@updateURL      https://raw.githubusercontent.com/SebastJava/FreshMint/main/FreshMint.user.css
+@license        MIT
 ==/UserStyle== */
 
 @-moz-document domain("forums.linuxmint.com") {
