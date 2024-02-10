@@ -1,3 +1,12 @@
+/* ==UserStyle==
+@name           FreshMint
+@namespace      github.com/SebastJava/FreshMint
+@version        1.0.0
+@description    forums.linuxmint.com redesigned, modernized.
+@author         SebastJava
+==/UserStyle== */
+
+@-moz-document domain("forums.linuxmint.com") {
     .headerbar {background-image: none; border-radius: 7px 7px 0 0; margin-bottom: 0;}
 
     #site-description h1, #site-description p:not(.skiplink) {display: none;}
@@ -6,6 +15,7 @@
     .logo, .site_logo {width: 400px; height: 58px;}
     .logo {padding: 10px;}
     .site_logo {
-      background-image: url(https://raw.githubusercontent.com/SebastJava/prosilver-lm/master/theme/images/site_logo.svg);}
+      background-image: url(https://raw.githubusercontent.com/SebastJava/FreshMint/main/site_logo.svg);}
 
     .navbar {background-image: none; border-radius: 0 0 7px 7px;}
+}
