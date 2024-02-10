@@ -19,7 +19,7 @@
     .logo, .site_logo {width: 400px; height: 58px;}
     .logo {padding: 10px;}
     .site_logo {
-      background-image: url(https://raw.githubusercontent.com/SebastJava/FreshMint/main/site_logo.svg);}
+      background-image: url(https://raw.githubusercontent.com/SebastJava/FreshMint/main/images/site_logo.svg);}
 
     .navbar {background-image: none; border-radius: 0 0 7px 7px;}
 }
