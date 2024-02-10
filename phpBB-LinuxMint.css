@@ -1,7 +1,7 @@
 .headerbar {background-image: none; border-radius: 7px 7px 0 0; margin-bottom: 0;}
 
 #site-description h1, #site-description p:not(.skiplink) {display: none;}
-/* This {display: none;} could be better achieved with a deletion in ./template/overall_header.html */
+/* This {display: none;} could be better achieved with two deletions in ./template/overall_header.html */
 
 .logo, .site_logo {width: 400px; height: 58px;}
 .logo {padding: 10px;}
