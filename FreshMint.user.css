@@ -40,7 +40,7 @@
     padding-top: 0px; border-radius: 0 0 7px 7px;}
   #nav-main {padding-top: 4px; border-top: 1px solid white;}
   #page-header .navbar a {color: white;}
-  .navbar ul.dropdown-contents a, .navbar div.dropdown-contents a {color: #0046CD;}
+  #page-header .navbar ul.dropdown-contents a, #page-header .navbar div.dropdown-contents a {color: #0046CD;}
 
   #notification_list .footer:hover {background-color: #CFE1F6;}
   
