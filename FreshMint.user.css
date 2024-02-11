@@ -17,9 +17,15 @@
   a, a:hover {color: #0046CD;}
   a:hover {text-decoration: underline;}
   .forumbg .header a:hover, .forabg .header a:hover, th a:hover {color: white; text-decoration: underline;}
+  
+/* LINUXMINT.COM background: linear-gradient(150deg, #69B53F 0%, #2AB9A5 100%) */
+
+  #page-header {background-color: #1AB481; background-image: linear-gradient(90deg, #69B53F 20%, #2AB9A5 80%);
+    border-radius: 7px;}
 
 /* HEADERBAR */
-  .headerbar {background-color: green; background-image: none; border-radius: 7px 7px 0 0; margin-bottom: 0;}
+  .headerbar {background-color: transparent; background-image: none;
+    border-radius: 7px 7px 0 0; margin-bottom: 0;}
 
   #site-description h1, #site-description p:not(.skiplink) {display: none;}
   /* This {display: none;} could be better achieved with two deletions in ./template/overall_header.html */
@@ -30,7 +36,8 @@
     background-image: url(https://raw.githubusercontent.com/SebastJava/FreshMint/main/images/site_logo.svg);}
 
 /* NAVBAR */
-  .navbar {background-color: green; background-image: none; padding-top: 0px; border-radius: 0 0 7px 7px;}
+  .navbar {background-color: transparent; background-image: none;
+    padding-top: 0px; border-radius: 0 0 7px 7px;}
   #nav-main {padding-top: 4px; border-top: 1px solid white;}
   .navbar a {color: white;}
   .navbar ul.dropdown-contents a, .navbar div.dropdown-contents a {color: #0046CD;}
