@@ -13,7 +13,7 @@
 
 @-moz-document domain("forums.linuxmint.com") {
 
-  body, body#phpbb {background-color: #F2F2F2;}
+  html, body#phpbb {background-color: #F2F2F2;}
   .wrap {background-color: transparent; border-color: transparent;}
 
 /* ANCHORS */
