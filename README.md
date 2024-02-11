@@ -1,5 +1,13 @@
-## Preview
-![FreshMint preview](images/FreshMint-initial-commit.png)
+## FreshMint
+A new skin for the Linux Mint forums. A real daily experience. Not just screenshots... Not just a showcase... It's real ! Install this new skin today and live better !
+
+It works on Firefox, it works on Chrome, and it works on Android. And, one day, it will work everywhere, when the Linux Mint team integrates code like this on its own servers... 
+
+**before:**
+![FreshMint preview](images/preview-old.png)  
+
+**after:**
+![FreshMint preview](images/preview-new.png)
 
 ## Installation
 
@@ -22,3 +30,7 @@ Stylus will open a new tab showing some basic information & options:
 Once installed, you will be redirected to Stylus' editor page with the newly installed/updated UserCSS loaded. Close this if you don't want or need to modify the style.
 
 Now you can see and feel your new https://forums.linuxmint.com
+
+## Troubleshooting
+
+* **Flashing of unstyled content (FOUC):** To avoid this, click on the Stylus Options (gear icon). In the "Advanced" section, turn on the "Instant inject mode".
