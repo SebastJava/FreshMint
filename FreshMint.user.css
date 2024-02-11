@@ -34,10 +34,10 @@
   #site-description h1, #site-description p:not(.skiplink) {display: none;}
   /* This {display: none;} could be better achieved with two deletions in ./template/overall_header.html */
 
-  .logo, .site_logo {width: 484px; height: 70px;}
+  .logo, .site_logo {width: 480px; height: 70px;}
   .logo {padding: 10px;}
   .site_logo {
-    background-image: url("https://raw.githubusercontent.com/SebastJava/FreshMint/main/images/site_logo.svg");}
+    background-image: url("https://raw.githubusercontent.com/SebastJava/FreshMint/main/images/site_logo3.svg");}
 
   #search-box.search-header {margin-top: 35px;}
 
