@@ -13,24 +13,28 @@
 
 @-moz-document domain("forums.linuxmint.com") {
 
-    a, a:hover {color: #0046CD;}
-    a:hover {text-decoration: underline;}
-    .forumbg .header a:hover, .forabg .header a:hover, th a:hover {color: white; text-decoration: underline;}
+/* ANCHORS */
+  a, a:hover {color: #0046CD;}
+  a:hover {text-decoration: underline;}
+  .forumbg .header a:hover, .forabg .header a:hover, th a:hover {color: white; text-decoration: underline;}
 
-    .headerbar {background-color: green; background-image: none; border-radius: 7px 7px 0 0; margin-bottom: 0;}
+/* HEADERBAR */
+  .headerbar {background-color: green; background-image: none; border-radius: 7px 7px 0 0; margin-bottom: 0;}
 
-    #site-description h1, #site-description p:not(.skiplink) {display: none;}
-    /* This {display: none;} could be better achieved with two deletions in ./template/overall_header.html */
+  #site-description h1, #site-description p:not(.skiplink) {display: none;}
+  /* This {display: none;} could be better achieved with two deletions in ./template/overall_header.html */
 
-    .logo, .site_logo {width: 400px; height: 58px;}
-    .logo {padding: 10px;}
-    .site_logo {
-      background-image: url(https://raw.githubusercontent.com/SebastJava/FreshMint/main/images/site_logo.svg);}
+  .logo, .site_logo {width: 400px; height: 58px;}
+  .logo {padding: 10px;}
+  .site_logo {
+    background-image: url(https://raw.githubusercontent.com/SebastJava/FreshMint/main/images/site_logo.svg);}
 
-    .navbar {background-color: green; background-image: none; padding-top: 0px; border-radius: 0 0 7px 7px;}
-    #nav-main {padding-top: 4px; border-top: 1px solid white;}
-    .navbar a {color: white;}
-    .navbar ul.dropdown-contents a, .navbar div.dropdown-contents a {color: #0046CD;}
-    
-    #notification_list .footer:hover {background-color: #CFE1F6;}
+/* NAVBAR */
+  .navbar {background-color: green; background-image: none; padding-top: 0px; border-radius: 0 0 7px 7px;}
+  #nav-main {padding-top: 4px; border-top: 1px solid white;}
+  .navbar a {color: white;}
+  .navbar ul.dropdown-contents a, .navbar div.dropdown-contents a {color: #0046CD;}
+
+  #notification_list .footer:hover {background-color: #CFE1F6;}
+  
 }
