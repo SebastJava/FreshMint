@@ -27,12 +27,14 @@
     border-radius: 7px;}
 
 /* HEADERBAR */
-  .headerbar {background-color: transparent; background-image: none; margin-bottom: 0;}
+  .headerbar {background-color: transparent;
+    background-image: url("https://raw.githubusercontent.com/SebastJava/FreshMint/main/images/banner-v6.svg");
+    border-radius: 7px 7px 0 0; margin-bottom: 0;}
 
   #site-description h1, #site-description p:not(.skiplink) {display: none;}
   /* This {display: none;} could be better achieved with two deletions in ./template/overall_header.html */
 
-  .logo, .site_logo {width: 400px; height: 58px;}
+  .logo, .site_logo {width: 484px; height: 70px;}
   .logo {padding: 10px;}
   .site_logo {
     background-image: url("https://raw.githubusercontent.com/SebastJava/FreshMint/main/images/site_logo.svg");}
@@ -48,6 +50,7 @@
   
 /* RESPONSIVE DESIGN */
   @media (max-width: 700px) {
+    .headerbar {background-image: none;}
     /* change display value from none to inline-block to show logo */
     .logo {display: inline-block; float: none; padding: 7px 0px;}
     .logo, .site_logo { width: 300px; height: 37px; }
