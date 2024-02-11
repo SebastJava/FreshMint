@@ -31,4 +31,6 @@
     #nav-main {padding-top: 4px; border-top: 1px solid white;}
     .navbar a {color: white;}
     .navbar ul.dropdown-contents a, .navbar div.dropdown-contents a {color: #0046CD;}
+    
+    #notification_list .footer:hover {background-color: #CFE1F6;}
 }
