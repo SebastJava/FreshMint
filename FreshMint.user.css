@@ -54,10 +54,10 @@
   @media (max-width: 700px) {
     .headerbar {background-image: none;}
     /* change display value from none to inline-block to show logo */
-    .logo {display: inline-block; float: none; padding: 7px 0px;}
-    .logo, .site_logo { width: 300px; height: 37px; }
+    .logo {display: inline-block; float: none; padding: 0;}
+    .logo, .site_logo { width: 240px; height: 35px;}
     .site_logo {
-      background-image: url("https://raw.githubusercontent.com/SebastJava/FreshMint/main/images/site_logo-RD700.svg");}
+      background-image: url("https://raw.githubusercontent.com/SebastJava/FreshMint/main/images/site_logo3.svg");}
     #page-header { border-radius: 0px; margin-left: -5px; margin-right: -5px;}
   }
 }
