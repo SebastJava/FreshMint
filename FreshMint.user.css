@@ -8,6 +8,7 @@
 @supportURL     https://github.com/SebastJava/FreshMint/issues
 @updateURL      https://raw.githubusercontent.com/SebastJava/FreshMint/main/FreshMint.user.css
 @license        MIT
+@preprocessor   default
 ==/UserStyle== */
 
 @-moz-document domain("forums.linuxmint.com") {
