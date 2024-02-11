@@ -13,6 +13,8 @@
 
 @-moz-document domain("forums.linuxmint.com") {
 
+  .wrap {background-color: transparent; border-color: transparent;}
+
 /* ANCHORS */
   a, a:hover {color: #0046CD;}
   a:hover {text-decoration: underline;}
