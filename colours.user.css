@@ -320,7 +320,7 @@ Colours and backgrounds for content.css
 -------------------------------------------------------------- */
 
 ul.forums {
-	background-color: #F2F2F2;
+	background-color: #EFFFEF;
 	background-image: none;
 }
 
@@ -347,7 +347,7 @@ li.row strong {
 }
 
 li.row:hover {
-	background-color: #EFFFEF;
+	background-color: #F8F8F8;
 }
 
 li.row:hover dd {
@@ -1097,7 +1097,7 @@ input.disabled {
 }
 
 .dropdown-extended ul li:hover {
-	background-color: #EFFFEF;
+	background-color: #F8F8F8;
 	color: #000000;
 }
 

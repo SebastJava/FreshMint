@@ -41,7 +41,7 @@
   #page-header .navbar ul.dropdown-contents a, #page-header .navbar div.dropdown-contents a {color: #0046CD;}
   #page-header .breadcrumbs .crumb::before {color:white;}
 
-  #notification_list .footer:hover {background-color: #EFFFEF;}
+  #notification_list .footer:hover {background-color: #F8F8F8;}
 
   /* POSTLINKS */
   .postlink, .postlink:visited {text-decoration: none; border-bottom: none;}
@@ -69,6 +69,6 @@
   .action-bar .button { height: 24px; box-sizing: border-box; }
 
   /* REVERT custom gradient color on the old Minty theme */
-  ul.forums > li.row:first-child {background-color: #F2F2F2; background-image: none;}
-  ul.forums > li.row:first-child:hover {background-color: #EFFFEF; background-image: none;}
+  ul.forums > li.row:first-child {background-color: #EFFFEF; background-image: none;}
+  ul.forums > li.row:first-child:hover {background-color: #F8F8F8; background-image: none;}
 }
