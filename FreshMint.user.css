@@ -36,8 +36,6 @@
 
   .logo, .site_logo {width: 480px; height: 70px;}
   .logo {padding: 10px;}
-  .site_logo {
-    background-image: url("https://raw.githubusercontent.com/SebastJava/FreshMint/main/images/site_logo3.svg");}
 
   #search-box.search-header {margin-top: 35px;}
 
@@ -67,6 +65,10 @@
     #page-header { border-radius: 0px; margin-left: -5px; margin-right: -5px;}
   }
 
+/* BUG FIX: make sure every action-bar button is at the same height as ".search-box .inputbox" */
+  .action-bar .button { height: 24px; box-sizing: border-box; }
+
+/*_____________________________________________________________________________________________________________*/
 /* COLORS */
   .forabg, .forumbg {background-color: #2AB9A5; background-image: none;}
   ul.forums {background-color: #F2F2F2; background-image: none;}
@@ -80,8 +82,7 @@
   .bg1 {background-color: white;}
   .bg2 {background-color: #F2F2F2;}
 
-  .action-bar .button { height: 24px; box-sizing: border-box; }
-  /* ▲ BUG FIX: make sure every action-bar button is at the same height as ".search-box .inputbox" */
+
   
   div.rules {background-color: #FFCAD2; color: #BD002F;}
   
