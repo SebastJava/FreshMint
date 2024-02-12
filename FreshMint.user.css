@@ -77,4 +77,9 @@
 
   .action-bar .button { height: 24px; box-sizing: border-box; }
   /* ▲ BUG FIX: make sure every action-bar button is at the same height as ".search-box .inputbox" */
+  
+  div.rules {background-color: #FFCAD2; color: #BD002F;}
+  
+  
+  
 }
