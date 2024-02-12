@@ -122,7 +122,7 @@ a:hover { color: #0046CD; }
 }
 
 .bg1 {
-	background-color: white;
+	background-color: #EFFFEF;
 }
 
 table.zebra-list tr:nth-child(odd) td, ul.zebra-list li:nth-child(odd) {
@@ -130,7 +130,7 @@ table.zebra-list tr:nth-child(odd) td, ul.zebra-list li:nth-child(odd) {
 }
 
 .bg2 {
-	background-color: #F2F2F2;
+	background-color: white;
 }
 
 table.zebra-list tr:nth-child(even) td, ul.zebra-list li:nth-child(even) {
@@ -347,7 +347,7 @@ li.row strong {
 }
 
 li.row:hover {
-	background-color: #E4FFED;
+	background-color: #EFFFEF;
 }
 
 li.row:hover dd {
@@ -1097,7 +1097,7 @@ input.disabled {
 }
 
 .dropdown-extended ul li:hover {
-	background-color: #E4FFED;
+	background-color: #EFFFEF;
 	color: #000000;
 }
 

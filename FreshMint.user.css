@@ -41,7 +41,7 @@
   #page-header .navbar ul.dropdown-contents a, #page-header .navbar div.dropdown-contents a {color: #0046CD;}
   #page-header .breadcrumbs .crumb::before {color:white;}
 
-  #notification_list .footer:hover {background-color: #E4FFED;}
+  #notification_list .footer:hover {background-color: #EFFFEF;}
 
   /* POSTLINKS */
   .postlink, .postlink:visited {text-decoration: none; border-bottom: none;}
