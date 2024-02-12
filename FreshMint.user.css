@@ -13,33 +13,28 @@
 
 @-moz-document domain("forums.linuxmint.com") {
 
-  html, body#phpbb {background-color: #F2F2F2;}
-  .wrap {background-color: transparent; border-color: transparent;}
-
-/* ANCHORS */
-  a, a:hover {color: #0046CD;}
+  /* ANCHORS */
   a:hover {text-decoration: underline !important;}
-  .forumbg .header a:hover, .forabg .header a:hover, th a:hover {color: white; text-decoration: underline;}
-  
-/* LINUXMINT.COM background: linear-gradient(150deg, #69B53F 0%, #2AB9A5 100%) (HSL 99,48,48 -> HSL 172,63,45) */
+  /*.forumbg .header a:hover, .forabg .header a:hover, th a:hover {text-decoration: underline;}*/
 
+  /* LINUXMINT.COM background:
+    linear-gradient(150deg, #69B53F 0%, #2AB9A5 100%) (HSL 99,48,48 -> HSL 172,63,45) */
   #page-header {background-color: #1AB481; background-image: linear-gradient(90deg, #69B53F 33%, #2AB9A5 67%);
     border-radius: 7px;}
 
-/* HEADERBAR */
-  .headerbar {background-color: transparent;
-    background-image: none;
-    border-radius: 7px 7px 0 0; margin-bottom: 0;}
+  /* HEADERBAR */
+  .headerbar {background-color: transparent; background-image: none; border-radius: 7px 7px 0 0;
+    margin-bottom: 0;}
 
-  #site-description h1, #site-description p:not(.skiplink) {display: none;}
   /* This {display: none;} could be better achieved with two deletions in ./template/overall_header.html */
+  #site-description h1, #site-description p:not(.skiplink) {display: none;}
 
   .logo, .site_logo {width: 480px; height: 70px;}
   .logo {padding: 10px;}
 
   #search-box.search-header {margin-top: 35px;}
 
-/* PAGE-HEADER NAVBAR */
+  /* PAGE-HEADER NAVBAR */
   #page-header .navbar {background-color: transparent; background-image: none; padding-top: 0px;}
   #page-header #nav-main {padding-top: 4px; border-top: 1px solid white;}
   #page-header .navbar a {color: white;}
@@ -47,45 +42,30 @@
   #page-header .breadcrumbs .crumb::before {color:white;}
 
   #notification_list .footer:hover {background-color: #E4FFED;}
-  
-/* POSTLINKS */
-  .postlink, .postlink:visited, .postlink:hover {
-    color: #004CE4; background-color: transparent; border-bottom: none;}
-  .postlink, .postlink:visited { text-decoration: none;}
-  .postlink:hover {text-decoration: underline;}
-  
-/* RESPONSIVE DESIGN */
+
+  /* POSTLINKS */
+  .postlink, .postlink:visited {text-decoration: none; border-bottom: none;}
+  .postlink:hover {text-decoration: underline; border-bottom: none;}
+
+  /* NAV-FOOTER */
+  #nav-footer {color: white;}
+  #nav-footer a {color: white; font-weight: bold;}
+
+  /* RESPONSIVE DESIGN */
   @media (max-width: 700px) {
+
     .headerbar {background-image: none;}
+
     /* change display value from none to inline-block to show logo */
     .logo {display: inline-block; float: none; padding: 0;}
     .logo, .site_logo { width: 240px; height: 35px;}
     .site_logo {
       background-image: url("https://raw.githubusercontent.com/SebastJava/FreshMint/main/images/site_logo3.svg");}
+
     #page-header { border-radius: 0px; margin-left: -5px; margin-right: -5px;}
   }
 
-/* BUG FIX: make sure every action-bar button is at the same height as ".search-box .inputbox" */
+  /* BUG FIX: make sure every action-bar button is at the same height as ".search-box .inputbox" */
   .action-bar .button { height: 24px; box-sizing: border-box; }
 
-/*_____________________________________________________________________________________________________________*/
-/* COLORS */
-  .forabg, .forumbg {background-color: #2AB9A5; background-image: none;}
-  ul.forums {background-color: #F2F2F2; background-image: none;}
-  li.row {border-top-color: #FFF; border-bottom-color: #CCC;}
-  li.row:hover, .dropdown-extended ul li:hover {background-color: #E4FFED;}
-
-  .navbar {background-color: #1AB481; background-image: linear-gradient(90deg, #69B53F 20%, #2AB9A5 80%);}
-  #nav-footer {color: white;}
-  #nav-footer a {color: white; font-weight: bold;}
-  
-  .bg1 {background-color: white;}
-  .bg2 {background-color: #F2F2F2;}
-
-
-  
-  div.rules {background-color: #FFCAD2; color: #BD002F;}
-  
-  
-  
 }
