@@ -593,7 +593,7 @@ dd.profile-warnings {
 Colours and backgrounds for buttons.css
 -------------------------------------------------------------- */
 .button {
-	border-color: #C7C3BF;
+	border-color: #BFBFBF;
 	background-color: #E9E9E9; /* Old browsers */ /* FF3.6+ */
 	background-image: -webkit-linear-gradient(top, #FFFFFF 0%, #E9E9E9 100%);
 	background-image: linear-gradient(to bottom, #FFFFFF 0%,#E9E9E9 100%); /* W3C */
@@ -605,7 +605,7 @@ Colours and backgrounds for buttons.css
 
 .button:hover,
 .button:focus {
-	border-color: #0A8ED0;
+	border-color: #333333;
 	background-color: #FFFFFF; /* Old browsers */ /* FF3.6+ */
 	background-image: -webkit-linear-gradient(top, #E9E9E9 0%, #FFFFFF 100%);
 	background-image: linear-gradient(to bottom, #E9E9E9 0%,#FFFFFF 100%); /* W3C */
@@ -615,19 +615,19 @@ Colours and backgrounds for buttons.css
 
 .button .icon,
 .button-secondary {
-	color: #8f8f8f;
+	color: #8F8F8F;
 }
 
 .button-secondary:focus,
 .button-secondary:hover,
 .button:focus .icon,
 .button:hover .icon {
-	color: #0A8ED0;
+	color: #333333;
 }
 
 .button-search:hover,
 .button-search-end:hover {
-	border-color: #C7C3BF;
+	border-color: #BFBFBF;
 }
 
 .caret	{ border-color: #DADADA; }
@@ -1124,8 +1124,8 @@ a.button1:hover, input.button1:hover, a.button2:hover, input.button2:hover, inpu
 
 /* Focus states */
 input.button1:focus, input.button2:focus, input.button3:focus {
-	border-color: #11A3EA;
-	color: #0F4987;
+	border-color: #808080;
+	color: #333333;
 }
 
 input.disabled {
