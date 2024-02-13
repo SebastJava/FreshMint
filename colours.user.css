@@ -889,14 +889,14 @@ ul.cplist {
 /* Link styles for the sub-section links */
 .navigation a {
 	color: #333333;
-	background: #CADCEB;
-	background: linear-gradient(to right, #E0E0E0 50%,#F9F9F9 100%);
+	background: #E0E0E0;
+	/*background: linear-gradient(to right, #E0E0E0 0%,#F9F9F9 75%);*/
 }
 
 .rtl .navigation a {
 	color: #333333;
-	background: #CADCEB;
-	background: linear-gradient(to right, #E0E0E0 50%,#F9F9F9 100%);
+	background: #E0E0E0;
+	/*background: linear-gradient(to right, #E0E0E0 0%,#F9F9F9 75%);*/
 }
 
 .navigation a:hover {
