@@ -47,7 +47,7 @@ Colours and backgrounds for links.css
 -------------------------------------------------------------- */
 
 a { color: #0046CD; }
-a:hover { color: #0046CD; }
+a:hover { color: #333333; }
 
 /* Links on gradient backgrounds */
 .forumbg .header a, .forabg .header a, th a {
@@ -65,7 +65,7 @@ a:hover { color: #0046CD; }
 
 /* Post body links */
   .postlink, .postlink:visited, .postlink:hover {
-	color: #004CE4; background-color: transparent; border-bottom-color: transparent;
+	color: #0046CD; background-color: transparent; border-bottom-color: transparent;
 }
 
 .signature a, .signature a:hover {
