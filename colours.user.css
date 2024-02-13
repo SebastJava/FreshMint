@@ -181,7 +181,7 @@ table.table1 tbody tr {
 }
 
 table.table1 tbody tr:hover, table.table1 tbody tr.hover {
-	background-color: #CFE1F6;
+	background-color: #F8F8F8;
 	color: #000;
 }
 
@@ -682,7 +682,7 @@ Colours and backgrounds for buttons.css
 
 .search-results li:hover,
 .search-results li.active {
-	background-color: #CFE1F6;
+	background-color: #F8F8F8;
 }
 
 /* Icon images
