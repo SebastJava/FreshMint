@@ -851,12 +851,9 @@ ul.cplist {
 
 .tabs .activetab > a,
 .tabs .activetab > a:hover {
-	background-color: #CADCEB; /* Old browsers */ /* FF3.6+ */
-	background-image: -webkit-linear-gradient(top, #E2F2FF 0%, #CADCEB 100%);
-	background-image: linear-gradient(to bottom, #E2F2FF 0%,#CADCEB 100%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#E2F2FF', endColorstr='#CADCEB',GradientType=0 ); /* IE6-9 */
-	border-color: #CADCEB;
-	box-shadow: 0 1px 1px #F2F9FF inset;
+	background-color: #EFFFEF;
+	border-color: #CCC #CCC #EFFFEF #CCC;
+	box-shadow: none;
 	color: #333333;
 }
 
