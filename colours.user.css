@@ -605,7 +605,7 @@ Colours and backgrounds for buttons.css
 
 .button:hover,
 .button:focus {
-	border-color: #333333;
+	border-color: #8F8F8F;
 	background-color: #FFFFFF; /* Old browsers */ /* FF3.6+ */
 	background-image: -webkit-linear-gradient(top, #E9E9E9 0%, #FFFFFF 100%);
 	background-image: linear-gradient(to bottom, #E9E9E9 0%,#FFFFFF 100%); /* W3C */
@@ -1124,7 +1124,7 @@ a.button1:hover, input.button1:hover, a.button2:hover, input.button2:hover, inpu
 
 /* Focus states */
 input.button1:focus, input.button2:focus, input.button3:focus {
-	border-color: #808080;
+	border-color: #8F8F8F;
 	color: #333333;
 }
 
