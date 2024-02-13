@@ -261,14 +261,14 @@ dl.details dd {
 }
 
 .jumpbox-cat-link {
-	background-color: #0076b1;
-	border-top-color: #0076B1;
+	background-color: #2AB9A5;
+	border-top-color: #2AB9A5;
 	color: #FFFFFF;
 }
 
 .jumpbox-cat-link:hover {
-	background-color: #12A3EB;
-	border-top-color: #12A3EB;
+	background-color: #333333;
+	border-top-color: #333333;
 	color: #FFFFFF;
 }
 
@@ -285,11 +285,11 @@ dl.details dd {
 }
 
 .jumpbox-sub-link {
-	background-color: #E1EBF2;
+	background-color: #EFFFEF;
 }
 
 .jumpbox-sub-link:hover {
-	background-color: #F1F8FF;
+	background-color: white;
 }
 
 /* Miscellaneous styles
@@ -1167,10 +1167,8 @@ input.disabled {
 }
 
 .dropdown-extended .header {
-	background-color: #F1F8FF; /* Old browsers */ /* FF3.6+ */
-	background-image: -webkit-linear-gradient(top, #F1F8FF 0%, #CADCEB 100%);
-	background-image: linear-gradient(to bottom, #F1F8FF 0%,#CADCEB 100%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#F1F8FF', endColorstr='#CADCEB',GradientType=0 ); /* IE6-9 */
+	background-color: #EFFFEF;
+	background-image: none;
 }
 
 .dropdown .pointer {
@@ -1182,7 +1180,7 @@ input.disabled {
 }
 
 .dropdown-extended .pointer-inner {
-	border-color: #F1F8FF transparent;
+	border-color: #EFFFEF transparent;
 }
 
 .dropdown .dropdown-contents {
