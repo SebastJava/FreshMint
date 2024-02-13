@@ -69,6 +69,6 @@
   .action-bar .button { height: 24px; box-sizing: border-box; }
 
   /* REVERT custom gradient color on the old Minty theme */
-  ul.forums > li.row:first-child {background-color: #EFFFEF; background-image: none;}
+  ul.forums > li.row:first-child {background-color: white; background-image: none;}
   ul.forums > li.row:first-child:hover {background-color: #F8F8F8; background-image: none;}
 }

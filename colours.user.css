@@ -320,7 +320,7 @@ Colours and backgrounds for content.css
 -------------------------------------------------------------- */
 
 ul.forums {
-	background-color: #EFFFEF;
+	background-color: white;
 	background-image: none;
 }
 
@@ -329,7 +329,7 @@ ul.topiclist li {
 }
 
 ul.topiclist dd {
-	border-left-color: #FFFFFF;
+	border-left-color: #E6E6E6;
 }
 
 .rtl ul.topiclist dd {
@@ -338,8 +338,8 @@ ul.topiclist dd {
 }
 
 li.row {
-	border-top-color: #FFFFFF;
-	border-bottom-color: #CCCCCC;
+	border-top-color: #E6E6E6;
+	border-bottom-color: #E6E6E6;
 }
 
 li.row strong {
@@ -351,7 +351,7 @@ li.row:hover {
 }
 
 li.row:hover dd {
-	border-left-color: #CCCCCC;
+	border-left-color: #E6E6E6;
 }
 
 .rtl li.row:hover dd {
