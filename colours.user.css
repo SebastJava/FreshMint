@@ -64,8 +64,12 @@ a:hover { color: #333333; }
 }
 
 /* Post body links */
-  .postlink, .postlink:visited, .postlink:hover {
+.postlink, .postlink:visited {
 	color: #0046CD; background-color: transparent; border-bottom-color: transparent;
+}
+
+.postlink:hover {
+	color: #BD002F; background-color: transparent; border-bottom-color: transparent;
 }
 
 .signature a, .signature a:hover {
@@ -119,6 +123,11 @@ a:hover { color: #333333; }
 .post h3 a.first-unread,
 .post:target h3 a {
 	color: #0046CD;
+}
+
+.post h3 a.first-unread,
+.post:target h3 a:hover {
+	color: #333333;
 }
 
 .bg1 {
