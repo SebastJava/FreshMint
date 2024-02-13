@@ -661,7 +661,7 @@ Colours and backgrounds for buttons.css
 
 .pagination li a:hover, .pagination li a:hover .icon, .pagination .dropdown-visible a.dropdown-trigger, .nojs .pagination .dropdown-container:hover a.dropdown-trigger {
 	background: #505050;
-	border-color: #368AD2;
+	border-color: #505050;
 	filter: none;
 	color: #FFFFFF;
 	text-shadow: none;
