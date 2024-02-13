@@ -28,12 +28,12 @@ h1 {
 }
 
 h2 {
-	color: #28313F;
+	color: #333333;
 }
 
 h3 {
 	border-bottom-color: #CCCCCC;
-	color: #115098;
+	color: #505050;
 }
 
 hr {
@@ -386,7 +386,7 @@ li.header dt, li.header dd {
 }
 
 .content h2, .panel h2 {
-	color: #115098;
+	color: #333333;
 	border-bottom-color: #CCCCCC;
 }
 
