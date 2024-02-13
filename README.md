@@ -1,13 +1,13 @@
 ## FreshMint (WORK IN PROGRESS...)
 A new skin for the Linux Mint forums. A real daily experience. Not just screenshots... Not just a showcase... It's real ! Install this new skin today and live better !
 
-It works on Firefox, it works on Chrome, and it works on Android. And, one day, it will work everywhere, when the Linux Mint team integrates code like this on its own servers... 
+It works on Firefox, it works on Chrome, and it works on Android. And, one day, it will work everywhere, when the Linux Mint team integrates this code on its own servers... 
 
 **before:**
-![FreshMint preview](images/preview-old.png)  
+![FreshMint preview](screenshots/preview-old.png)  
 
 **after:**
-![FreshMint preview](images/preview-new.png)
+![FreshMint preview](screenshots/preview-new.png)
 
 ## Installation
 
