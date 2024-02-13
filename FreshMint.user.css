@@ -39,6 +39,8 @@
   #page-header #nav-main {padding-top: 4px; border-top: 1px solid white;}
   #page-header .navbar a {color: white;}
   #page-header .navbar ul.dropdown-contents a, #page-header .navbar div.dropdown-contents a {color: #0046CD;}
+  #page-header .navbar ul.dropdown-contents a:hover, #page-header .navbar div.dropdown-contents a:hover {
+    color: #333333;}
   #page-header .breadcrumbs .crumb::before {color:white;}
 
   #notification_list .footer:hover {background-color: #F8F8F8;}
