@@ -83,7 +83,7 @@ a:hover { color: #333333; }
 
 /* Arrow links  */
 .arrow-left:hover, .arrow-right:hover {
-	color: #368AD2;
+	color: #333333;
 }
 
 /* Round cornered boxes and backgrounds
@@ -492,7 +492,7 @@ dl.thumbnail dt a:hover {
 }
 
 dl.thumbnail dt a:hover img {
-	border-color: #368AD2;
+	border-color: #505050;
 }
 
 /* Post poll styles
