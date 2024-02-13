@@ -267,8 +267,8 @@ dl.details dd {
 }
 
 .jumpbox-cat-link:hover {
-	background-color: #333333;
-	border-top-color: #333333;
+	background-color: #505050;
+	border-top-color: #505050;
 	color: #FFFFFF;
 }
 
@@ -891,7 +891,7 @@ ul.cplist {
 
 /* Link styles for the sub-section links */
 .navigation a {
-	color: #333;
+	color: #333333;
 	background: #CADCEB; /* Old browsers */ /* FF3.6+ */
 	background: -webkit-linear-gradient(left, #B4C4D1 50%, #CADCEB 100%);
 	background: linear-gradient(to right, #B4C4D1 50%,#CADCEB 100%); /* W3C */
@@ -1014,7 +1014,7 @@ option.disabled-option {
 /* Definition list layout for forms
 ---------------------------------------- */
 dd label {
-	color: #333;
+	color: #333333;
 }
 
 fieldset.fields1 {
