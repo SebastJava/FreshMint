@@ -113,12 +113,12 @@ a:hover { color: #0046CD; }
 }
 
 .post:target .content {
-	color: #000000;
+	color: #333333;
 }
 
 .post h3 a.first-unread,
 .post:target h3 a {
-	color: #000000;
+	color: #0046CD;
 }
 
 .bg1 {
