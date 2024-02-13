@@ -580,7 +580,7 @@ fieldset.polls dd div {
 }
 
 .online {
-	background-image: url("./en/icon_user_online.gif");
+	background-image: url("https://raw.githubusercontent.com/SebastJava/FreshMint/main/images/icon_user_online.svg");
 }
 
 dd.profile-warnings {
@@ -687,73 +687,118 @@ Colours and backgrounds for buttons.css
 /* Icon images
 ---------------------------------------- */
 
-.contact-icon						{ background-image: url("./images/icons_contact.png"); }
+.contact-icon {
+	background-image: url("https://forums.linuxmint.com/styles/minty/theme/images/icons_contact.png"); }
 
 /* Profile & navigation icons */
-.pm-icon						{ background-position: 0 0; }
-.email-icon						{ background-position: -21px 0; }
-.jabber-icon						{ background-position: -80px 0; }
-.phpbb_icq-icon						{ background-position: -61px 0 ; }
-.phpbb_wlm-icon						{ background-position: -182px 0; }
-.phpbb_aol-icon						{ background-position: -244px 0; }
-.phpbb_website-icon					{ background-position: -40px 0; }
-.phpbb_youtube-icon					{ background-position: -98px 0; }
-.phpbb_facebook-icon					{ background-position: -119px 0; }
-.phpbb_skype-icon					{ background-position: -161px 0; }
-.phpbb_twitter-icon					{ background-position: -203px 0; }
-.phpbb_yahoo-icon					{ background-position: -224px 0; }
+.pm-icon { background-position: 0 0; }
+.email-icon { background-position: -21px 0; }
+.jabber-icon { background-position: -80px 0; }
+.phpbb_icq-icon { background-position: -61px 0 ; }
+.phpbb_wlm-icon { background-position: -182px 0; }
+.phpbb_aol-icon { background-position: -244px 0; }
+.phpbb_website-icon { background-position: -40px 0; }
+.phpbb_youtube-icon { background-position: -98px 0; }
+.phpbb_facebook-icon { background-position: -119px 0; }
+.phpbb_skype-icon { background-position: -161px 0; }
+.phpbb_twitter-icon { background-position: -203px 0; }
+.phpbb_yahoo-icon { background-position: -224px 0; }
 
 /* Forum icons & Topic icons */
-.global_read						{ background-image: url("./images/announce_read.gif"); }
-.global_read_mine					{ background-image: url("./images/announce_read_mine.gif"); }
-.global_read_locked					{ background-image: url("./images/announce_read_locked.gif"); }
-.global_read_locked_mine				{ background-image: url("./images/announce_read_locked_mine.gif"); }
-.global_unread						{ background-image: url("./images/announce_unread.gif"); }
-.global_unread_mine					{ background-image: url("./images/announce_unread_mine.gif"); }
-.global_unread_locked					{ background-image: url("./images/announce_unread_locked.gif"); }
-.global_unread_locked_mine				{ background-image: url("./images/announce_unread_locked_mine.gif"); }
+.global_read {
+	background-image: url("https://forums.linuxmint.com/styles/minty/theme/images/announce_read.svg"); }
+.global_read_mine {
+	background-image: url("https://forums.linuxmint.com/styles/minty/theme/images/announce_read_mine.svg"); }
+.global_read_locked {
+	background-image: url("https://forums.linuxmint.com/styles/minty/theme/images/announce_read_locked.svg"); }
+.global_read_locked_mine {
+	background-image: url("https://forums.linuxmint.com/styles/minty/theme/images/announce_read_locked_mine.svg"); }
+.global_unread {
+	background-image: url("https://forums.linuxmint.com/styles/minty/theme/images/announce_unread.svg"); }
+.global_unread_mine {
+	background-image: url("https://forums.linuxmint.com/styles/minty/theme/images/announce_unread_mine.svg"); }
+.global_unread_locked {
+	background-image: url("https://forums.linuxmint.com/styles/minty/theme/images/announce_unread_locked.svg"); }
+.global_unread_locked_mine {
+	background-image: url("https://forums.linuxmint.com/styles/minty/theme/images/announce_unread_locked_mine.svg"); }
 
-.announce_read						{ background-image: url("./images/announce_read.gif"); }
-.announce_read_mine					{ background-image: url("./images/announce_read_mine.gif"); }
-.announce_read_locked					{ background-image: url("./images/announce_read_locked.gif"); }
-.announce_read_locked_mine				{ background-image: url("./images/announce_read_locked_mine.gif"); }
-.announce_unread					{ background-image: url("./images/announce_unread.gif"); }
-.announce_unread_mine					{ background-image: url("./images/announce_unread_mine.gif"); }
-.announce_unread_locked					{ background-image: url("./images/announce_unread_locked.gif"); }
-.announce_unread_locked_mine				{ background-image: url("./images/announce_unread_locked_mine.gif"); }
+.announce_read {
+	background-image: url("https://forums.linuxmint.com/styles/minty/theme/images/announce_read.svg"); }
+.announce_read_mine {
+	background-image: url("https://forums.linuxmint.com/styles/minty/theme/images/announce_read_mine.svg"); }
+.announce_read_locked {
+	background-image: url("https://forums.linuxmint.com/styles/minty/theme/images/announce_read_locked.svg"); }
+.announce_read_locked_mine {
+	background-image: url("https://forums.linuxmint.com/styles/minty/theme/images/announce_read_locked_mine.svg"); }
+.announce_unread {
+	background-image: url("https://forums.linuxmint.com/styles/minty/theme/images/announce_unread.svg"); }
+.announce_unread_mine {
+	background-image: url("https://forums.linuxmint.com/styles/minty/theme/images/announce_unread_mine.svg"); }
+.announce_unread_locked {
+	background-image: url("https://forums.linuxmint.com/styles/minty/theme/images/announce_unread_locked.svg"); }
+.announce_unread_locked_mine {
+	background-image: url("https://forums.linuxmint.com/styles/minty/theme/images/announce_unread_locked_mine.svg"); }
 
-.forum_link						{ background-image: url("./images/forum_link.gif"); }
-.forum_read						{ background-image: url("./images/forum_read.gif"); }
-.forum_read_locked					{ background-image: url("./images/forum_read_locked.gif"); }
-.forum_read_subforum					{ background-image: url("./images/forum_read_subforum.gif"); }
-.forum_unread						{ background-image: url("./images/forum_unread.gif"); }
-.forum_unread_locked					{ background-image: url("./images/forum_unread_locked.gif"); }
-.forum_unread_subforum					{ background-image: url("./images/forum_unread_subforum.gif"); }
+.forum_link {
+	background-image: url("https://forums.linuxmint.com/styles/minty/theme/images/forum_link.svg"); }
+.forum_read {
+	background-image: url("https://forums.linuxmint.com/styles/minty/theme/images/forum_read.svg"); }
+.forum_read_locked {
+	background-image: url("https://forums.linuxmint.com/styles/minty/theme/images/forum_read_locked.svg"); }
+.forum_read_subforum {
+	background-image: url("https://forums.linuxmint.com/styles/minty/theme/images/forum_read_subforum.svg"); }
+.forum_unread {
+	background-image: url("https://forums.linuxmint.com/styles/minty/theme/images/forum_unread.svg"); }
+.forum_unread_locked {
+	background-image: url("https://forums.linuxmint.com/styles/minty/theme/images/forum_unread_locked.svg"); }
+.forum_unread_subforum {
+	background-image: url("https://forums.linuxmint.com/styles/minty/theme/images/forum_unread_subforum.svg"); }
 
-.sticky_read						{ background-image: url("./images/sticky_read.gif"); }
-.sticky_read_mine					{ background-image: url("./images/sticky_read_mine.gif"); }
-.sticky_read_locked					{ background-image: url("./images/sticky_read_locked.gif"); }
-.sticky_read_locked_mine				{ background-image: url("./images/sticky_read_locked_mine.gif"); }
-.sticky_unread						{ background-image: url("./images/sticky_unread.gif"); }
-.sticky_unread_mine					{ background-image: url("./images/sticky_unread_mine.gif"); }
-.sticky_unread_locked					{ background-image: url("./images/sticky_unread_locked.gif"); }
-.sticky_unread_locked_mine				{ background-image: url("./images/sticky_unread_locked_mine.gif"); }
+.sticky_read {
+	background-image: url("https://forums.linuxmint.com/styles/minty/theme/images/sticky_read.svg"); }
+.sticky_read_mine {
+	background-image: url("https://forums.linuxmint.com/styles/minty/theme/images/sticky_read_mine.svg"); }
+.sticky_read_locked {
+	background-image: url("https://forums.linuxmint.com/styles/minty/theme/images/sticky_read_locked.svg"); }
+.sticky_read_locked_mine {
+	background-image: url("https://forums.linuxmint.com/styles/minty/theme/images/sticky_read_locked_mine.svg"); }
+.sticky_unread {
+	background-image: url("https://forums.linuxmint.com/styles/minty/theme/images/sticky_unread.svg"); }
+.sticky_unread_mine {
+	background-image: url("https://forums.linuxmint.com/styles/minty/theme/images/sticky_unread_mine.svg"); }
+.sticky_unread_locked {
+	background-image: url("https://forums.linuxmint.com/styles/minty/theme/images/sticky_unread_locked.svg"); }
+.sticky_unread_locked_mine {
+	background-image: url("https://forums.linuxmint.com/styles/minty/theme/images/sticky_unread_locked_mine.svg"); }
 
-.topic_moved						{ background-image: url("./images/topic_moved.gif"); }
+.topic_moved {
+	background-image: url("https://forums.linuxmint.com/styles/minty/theme/images/topic_moved.svg"); }
 .pm_read,
-.topic_read						{ background-image: url("./images/topic_read.gif"); }
-.topic_read_mine					{ background-image: url("./images/topic_read_mine.gif"); }
-.topic_read_hot						{ background-image: url("./images/topic_read_hot.gif"); }
-.topic_read_hot_mine					{ background-image: url("./images/topic_read_hot_mine.gif"); }
-.topic_read_locked					{ background-image: url("./images/topic_read_locked.gif"); }
-.topic_read_locked_mine					{ background-image: url("./images/topic_read_locked_mine.gif"); }
+.topic_read {
+	background-image: url("https://forums.linuxmint.com/styles/minty/theme/images/topic_read.svg"); }
+.topic_read_mine {
+	background-image: url("https://forums.linuxmint.com/styles/minty/theme/images/topic_read_mine.svg"); }
+.topic_read_hot {
+	background-image: url("https://forums.linuxmint.com/styles/minty/theme/images/topic_read_hot.svg"); }
+.topic_read_hot_mine {
+	background-image: url("https://forums.linuxmint.com/styles/minty/theme/images/topic_read_hot_mine.svg"); }
+.topic_read_locked {
+	background-image: url("https://forums.linuxmint.com/styles/minty/theme/images/topic_read_locked.svg"); }
+.topic_read_locked_mine {
+	background-image: url("https://forums.linuxmint.com/styles/minty/theme/images/topic_read_locked_mine.svg"); }
 .pm_unread,
-.topic_unread						{ background-image: url("./images/topic_unread.gif"); }
-.topic_unread_mine					{ background-image: url("./images/topic_unread_mine.gif"); }
-.topic_unread_hot					{ background-image: url("./images/topic_unread_hot.gif"); }
-.topic_unread_hot_mine					{ background-image: url("./images/topic_unread_hot_mine.gif"); }
-.topic_unread_locked					{ background-image: url("./images/topic_unread_locked.gif"); }
-.topic_unread_locked_mine				{ background-image: url("./images/topic_unread_locked_mine.gif"); }
+.topic_unread {
+	background-image: url("https://forums.linuxmint.com/styles/minty/theme/images/topic_unread.svg"); }
+.topic_unread_mine {
+	background-image: url("https://forums.linuxmint.com/styles/minty/theme/images/topic_unread_mine.svg"); }
+.topic_unread_hot {
+	background-image: url("https://forums.linuxmint.com/styles/minty/theme/images/topic_unread_hot.svg"); }
+.topic_unread_hot_mine {
+	background-image: url("https://forums.linuxmint.com/styles/minty/theme/images/topic_unread_hot_mine.svg"); }
+.topic_unread_locked {
+	background-image: url("https://forums.linuxmint.com/styles/minty/theme/images/topic_unread_locked.svg"); }
+.topic_unread_locked_mine {
+	background-image: url("https://forums.linuxmint.com/styles/minty/theme/images/topic_unread_locked_mine.svg"); }
 
 
 /*
@@ -1098,7 +1143,7 @@ input.disabled {
 
 .loading_indicator {
 	background-color: #000000;
-	background-image: url("./images/loading.gif");
+	background-image: url("https://forums.linuxmint.com/styles/minty/theme/images/loading.gif");
 }
 
 .dropdown-extended ul li {
