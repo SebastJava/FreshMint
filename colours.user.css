@@ -889,23 +889,19 @@ ul.cplist {
 /* Link styles for the sub-section links */
 .navigation a {
 	color: #333333;
-	background: #CADCEB; /* Old browsers */ /* FF3.6+ */
-	background: -webkit-linear-gradient(left, #B4C4D1 50%, #CADCEB 100%);
-	background: linear-gradient(to right, #B4C4D1 50%,#CADCEB 100%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#B4C4D1', endColorstr='#CADCEB',GradientType=1 ); /* IE6-9 */
+	background: #CADCEB;
+	background: linear-gradient(to right, #E0E0E0 50%,#F9F9F9 100%);
 }
 
 .rtl .navigation a {
-	background: #B4C4D1; /* Old browsers */ /* FF3.6+ */
-	background: -webkit-linear-gradient(left, #CADCEB 50%, #B4C4D1 100%);
-	background: linear-gradient(to right, #CADCEB 50%,#B4C4D1 100%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#CADCEB', endColorstr='#B4C4D1',GradientType=1 ); /* IE6-9 */
+	color: #333333;
+	background: #CADCEB;
+	background: linear-gradient(to right, #E0E0E0 50%,#F9F9F9 100%);
 }
 
 .navigation a:hover {
-	background: #AABAC6;
+	background: #F9F9F9;
 	color: #BC2A4D;
-	filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
 }
 
 .navigation .active-subsection a {
