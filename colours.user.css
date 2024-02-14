@@ -22,6 +22,7 @@
 @var color bg1 "background 1" #EFFFEF
 @var color bg2 "background 2" #FFFFFF
 @var color bg3 "background 3" #EFFFEF
+@var color accent "accent" #2AB9A5
 @var text forumbg-navbarbg "forumbg & navbarbg" "#1AB481 linear-gradient(90deg, #69B53F 33%, #2AB9A5 67%)"
 
 ==/UserStyle== */
@@ -277,8 +278,8 @@ dl.details dd {
 }
 
 .jumpbox-cat-link {
-	background-color: #2AB9A5;
-	border-top-color: #2AB9A5;
+	background-color: var(--accent);
+	border-top-color: var(--accent);
 	color: #FFFFFF;
 }
 
@@ -434,7 +435,7 @@ dl.faq dt {
 /* Quote block */
 blockquote {
 	background-color: #F2F2F2;
-	border-color: #2AB9A5;
+	border-color: var(--accent);
 }
 
 blockquote blockquote {
@@ -676,8 +677,8 @@ Colours and backgrounds for buttons.css
 }
 
 .pagination li.active span {
-	background: #2AB9A5;
-	border-color: #2AB9A5;
+	background: var(--accent);
+	border-color: var(--accent);
 	color: #FFFFFF;
 }
 
