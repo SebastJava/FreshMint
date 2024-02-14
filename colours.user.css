@@ -19,6 +19,9 @@
 @var color postlink "postlink" #0046CD
 @var color postlink-visited "postlink:visited" #0046CD
 @var color postlink-hover "postlink:hover" #BD002F
+@var color bg1 "background 1" #EFFFEF
+@var color bg2 "background 2" #FFFFFF
+@var color bg3 "background 3" #EFFFEF
 @var text forumbg-navbarbg "forumbg & navbarbg" "#1AB481 linear-gradient(90deg, #69B53F 33%, #2AB9A5 67%)"
 
 ==/UserStyle== */
@@ -145,7 +148,7 @@ a:hover { color: var(--anchor-hover); }
 }
 
 .bg1 {
-	background-color: #EFFFEF;
+	background-color: var(--bg1);
 }
 
 table.zebra-list tr:nth-child(odd) td, ul.zebra-list li:nth-child(odd) {
@@ -153,7 +156,7 @@ table.zebra-list tr:nth-child(odd) td, ul.zebra-list li:nth-child(odd) {
 }
 
 .bg2 {
-	background-color: white;
+	background-color: var(--bg2);
 }
 
 table.zebra-list tr:nth-child(even) td, ul.zebra-list li:nth-child(even) {
@@ -161,7 +164,7 @@ table.zebra-list tr:nth-child(even) td, ul.zebra-list li:nth-child(even) {
 }
 
 .bg3 {
-	background-color: #EFFFEF;
+	background-color: var(--bg3);
 }
 
 .ucprowbg {
