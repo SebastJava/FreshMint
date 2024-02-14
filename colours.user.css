@@ -113,8 +113,8 @@ a:hover { color: #333333; }
 }
 
 .panel {
-	background-color: #ECF1F3;
-	color: #28313F;
+	background-color: #EFFFEF;
+	color: #333333;
 }
 
 .post:target .content {
