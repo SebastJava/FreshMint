@@ -8,7 +8,19 @@
 @supportURL     https://github.com/SebastJava/FreshMint/issues
 @updateURL      https://raw.githubusercontent.com/SebastJava/FreshMint/main/colours.user.css
 @license        MIT
+
 @preprocessor   default
+
+@var color body-background "body background" #F2F2F2
+@var color body-text "body text" #505050
+@var color post-content "post content" #333333
+@var color anchor "links & titles" #0046CD
+@var color anchor-hover "links & titles hover" #333333
+@var color postlink "postlink" #0046CD
+@var color postlink-visited "postlink:visited" #0046CD
+@var color postlink-hover "postlink:hover" #BD002F
+@var text forumbg-navbarbg "forumbg & navbarbg" "#1AB481 linear-gradient(90deg, #69B53F 33%, #2AB9A5 67%)"
+
 ==/UserStyle== */
 
 @-moz-document domain("forums.linuxmint.com") {
@@ -19,8 +31,8 @@ Colours and backgrounds for common.css
 -------------------------------------------------------------- */
 
 html, body {
-	color: #505050;
-	background-color: #F2F2F2;
+	color: var(--body-text);
+	background-color: var(--body-background);
 }
 
 h1 {
@@ -46,8 +58,8 @@ hr {
 Colours and backgrounds for links.css
 -------------------------------------------------------------- */
 
-a { color: #0046CD; }
-a:hover { color: #333333; }
+a { color: var(--anchor); }
+a:hover { color: var(--anchor-hover); }
 
 /* Links on gradient backgrounds */
 .forumbg .header a, .forabg .header a, th a {
@@ -64,12 +76,16 @@ a:hover { color: #333333; }
 }
 
 /* Post body links */
-.postlink, .postlink:visited {
-	color: #0046CD; background-color: transparent; border-bottom-color: transparent;
+.postlink {
+	color: var(--postlink); background-color: transparent; border-bottom-color: transparent;
+}
+
+.postlink:visited {
+	color: var(--postlink-visited); background-color: transparent; border-bottom-color: transparent;
 }
 
 .postlink:hover {
-	color: #BD002F; background-color: transparent; border-bottom-color: transparent;
+	color: var(--postlink-hover); background-color: transparent; border-bottom-color: transparent;
 }
 
 .signature a, .signature a:hover {
@@ -98,18 +114,15 @@ a:hover { color: #333333; }
 }
 
 .forumbg {
-	background-color: #1AB481;
-	background-image: linear-gradient(90deg, #69B53F 33%, #2AB9A5 67%);
+	background: var(--forumbg-navbarbg);
 }
 
 .forabg {
-	background-color: #1AB481;
-	background-image: linear-gradient(90deg, #69B53F 33%, #2AB9A5 67%);
+	background: var(--forumbg-navbarbg);
 }
 
 .navbar {
-	background-color: #1AB481;
-	background-image: linear-gradient(90deg, #69B53F 33%, #2AB9A5 67%);
+	background: var(--forumbg-navbarbg);
 }
 
 .panel {
@@ -118,17 +131,17 @@ a:hover { color: #333333; }
 }
 
 .post:target .content {
-	color: #333333;
+	color: var(--post-content);
 }
 
 .post h3 a.first-unread,
 .post:target h3 a {
-	color: #0046CD;
+	color: var(--anchor);
 }
 
 .post h3 a.first-unread,
 .post:target h3 a:hover {
-	color: #333333;
+	color: var(--anchor-hover);
 }
 
 .bg1 {
@@ -376,13 +389,13 @@ li.header dt, li.header dd {
 /* Post body styles
 ----------------------------------------*/
 .postbody {
-	color: #333333;
+	color: var(--post-content);
 }
 
 /* Content container styles
 ----------------------------------------*/
 .content {
-	color: #333333;
+	color: var(--post-content);
 }
 
 .content h2, .panel h2 {
