@@ -37,7 +37,7 @@
   /* PAGE-HEADER NAVBAR */
   #page-header .navbar {background-color: transparent; background-image: none; padding-top: 0px;}
   #page-header #nav-main {padding-top: 4px; border-top: 1px solid white;}
-  #page-header .navbar a {color: white;}
+  #page-header .navbar a {color: white; font-weight: bold;}
   #page-header .navbar ul.dropdown-contents a, #page-header .navbar div.dropdown-contents a {color: #0046CD;}
   #page-header .navbar ul.dropdown-contents a:hover, #page-header .navbar div.dropdown-contents a:hover {
     color: #333333;}
