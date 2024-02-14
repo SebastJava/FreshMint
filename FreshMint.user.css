@@ -74,4 +74,8 @@
   ul.forums > li.row:first-child {background-color: white; background-image: none;}
   ul.forums > li.row:first-child:hover {background-color: #F8F8F8; background-image: none;}
   :not(.row .big-column).bg3 {background-color: #EFFFEF;}
+
+  /* EXTRAS */
+  blockquote { border-style: solid; border-width: 0 0 0 12px; padding-left: 12px; margin-left: 0; }
+
 }
