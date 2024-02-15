@@ -1,6 +1,6 @@
 ## FreshMint
 
-A new skin for the Linux Mint forums!  
+A new skin for the Linux Mint Forums!  
 Not just screenshots... Not just a showcase...  
 
 Start wearing this new skin today and start living better!  
