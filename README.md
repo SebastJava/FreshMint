@@ -63,6 +63,7 @@ https://github.com/openstyles/stylus/wiki/UserCSS
 You can compare using screenshots:
 
 ![](screenshots/Minty-vs-FreshMint.png)
+[FULL SCREEN IMAGE](https://raw.githubusercontent.com/SebastJava/FreshMint/main/screenshots/Minty-vs-FreshMint.png) (press F11)
 
 You can also instantly switch between the old and the new. Click on the Stylus icon, then click on the FreshMint checkbox:
 
