@@ -11,21 +11,6 @@ It works on Firefox and Chrome. On your Linux Mint system and on your Android ph
 
 ## Installation
 
-#### Prerequisites (optional)
-
-The default board style on the forums is **Minty**. That's a fork from the standard **Prosilver** style. This **FreshMint** here is build directly on top of that **Prosilver** source.
-
-**If you are in a hurry, don't worry and just skip this step.** All the `colors.css` got duplicated, so this FreshMint should look the same on both Minty and Prosilver. But if you want to make sure everything is 100% accurate, please switch to Prosilver before installing FreshMint on top of it.
-
-<details>
-<summary>Click here to switch to Prosilver</summary>
-
-1. [Login](https://forums.linuxmint.com/ucp.php?mode=login&redirect=index.php) or [Register](https://forums.linuxmint.com/ucp.php?mode=register) to the forums.
-2. Go to your [User Control Panel](https://forums.linuxmint.com/ucp.php).
-3. Click on the **Board preferences** tab and select **prosilver** for your board style.
-4. Click on the **Submit** button.
-</details>
-
 #### Userstyle manager
 
 First, you need a userstyle manager that supports installing UserCSS.
@@ -45,6 +30,21 @@ Stylus will then open a new tab showing some basic information & options:
 Once installed, you will be redirected to Stylus editor page with the newly installed/updated UserCSS loaded. Close this if you don't want or need to modify the style.
 
 **Now you can see and feel your new [Linux Mint Forums](https://forums.linuxmint.com) !**
+
+#### A better start (optional)
+
+The default board style on the forums is **Minty**. That's a fork from the standard **Prosilver** style. This **FreshMint** here is build directly on top of that **Prosilver** source.
+
+**If you are in a hurry, don't worry and just skip this step.** All the `colors.css` got duplicated, so this FreshMint should look the same on both Minty and Prosilver. But if you want to make sure everything is 100% accurate, please switch to Prosilver before installing FreshMint on top of it.
+
+<details>
+<summary>Click here to switch to Prosilver</summary>
+
+1. [Login](https://forums.linuxmint.com/ucp.php?mode=login&redirect=index.php) or [Register](https://forums.linuxmint.com/ucp.php?mode=register) to the forums.
+2. Go to your [User Control Panel](https://forums.linuxmint.com/ucp.php).
+3. Click on the **Board preferences** tab and select **prosilver** for your board style.
+4. Click on the **Submit** button.
+</details>
 
 ## Compare !
 You can compare using screenshots:
