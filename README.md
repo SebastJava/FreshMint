@@ -96,7 +96,6 @@ On top of that, the blue color is the standard color code for HTML links. This w
 Anyway, i knew this would be controversial, so i turned this into a variable so you can instantly try any color. [Experiment with colors and styles!](https://github.com/SebastJava/FreshMint?tab=readme-ov-file#experiment-with-colors-and-styles)
 
 **References:**  
-  
 https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html  
 </details>
 
