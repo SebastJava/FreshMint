@@ -60,7 +60,8 @@ You can find more information here:
 https://github.com/openstyles/stylus/wiki/UserCSS
 
 ## Compare!
-You can compare using screenshots:
+<details>
+<summary>Click here to compare using screenshots or toggle old/new</summary>
 
 ![](screenshots/Minty-vs-FreshMint.png)
 [FULL SCREEN IMAGE](https://raw.githubusercontent.com/SebastJava/FreshMint/main/screenshots/Minty-vs-FreshMint.png) (press F11)
@@ -68,16 +69,50 @@ You can compare using screenshots:
 You can also instantly switch between the old and the new. Click on the Stylus icon, then click on the FreshMint checkbox:
 
 ![](screenshots/Stylus-on-off.png)
+</details>
+
+## Color selection rules
+
+<details>
+<summary>Click here to find out where these color choices come from</summary>
+
+![website-vs-forums](screenshots/website-vs-forums.png)
+[FULL SCREEN IMAGE](https://raw.githubusercontent.com/SebastJava/FreshMint/main/screenshots/website-vs-forums.png) (press F11)
+
+#### Color gradient
+
+This color gradient has the exact same colors as those found on the main website. We all agree there should be some consistency all across the different Linux Mint websites. But the page-header here on FreshMint is much smaller than the one on the [main website](https://linuxmint.com/). So, i find it works better here with a 90° angle and different starting and ending points: `linear-gradient(90deg, #69B53F 33%, #2AB9A5 67%)`.
+
+Anyway, i turned this into a text variable, so you can quickly try anything you want. [Experiment with colors and styles!](https://github.com/SebastJava/FreshMint#experiment-with-colors-and-styles)
+
+#### A word about these blue links (anchors)
+
+These blue links (#0046CD as of 2024-02-15) have color contrasts greater than 7 on white or extra-light backgrounds such as #F8F8F8 and #EFFFEF. This means it is easily readable by anyone at any size.
+
+I was unable to find such excellent color contrasts with a green color that would fit this theme and be noticeable. Anyway, the current color palette is based on a gradient that goes from yellowish green to blueish green. So, there is some sort of color harmony here. That's analogous colors. It fits.
+
+On top of that, the blue color is the standard color code for HTML links. This way, newbies won't be lost...
+
+Anyway, i knew this would be controversial, so i turned this into a variable so you can instantly try any color. [Experiment with colors and styles!](https://github.com/SebastJava/FreshMint#experiment-with-colors-and-styles)
+
+**References:**  
+https://colorable.jxnblk.com  
+https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html  
+</details>
 
 ## Experiment with colors and styles!
 
-This theme is based on UserCSS. There are some variables you can instantly try and see. Click on the Stylus icon, then click on the FreshMint gear icon:
+This theme is based on UserCSS. There are some variables you can instantly try and see. Click on the Stylus icon, then click on the FreshMint gear icon.
+
+<details>
+<summary>Click here to see how</summary>
 
 ![](screenshots/Stylus-configure.png)
 
 You will then get a control panel where you can instantly change some CSS variables:
 
 ![](screenshots/Stylus-UserCSS-config.png)
+</details>
 
 ## Everything got redesigned
 
