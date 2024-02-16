@@ -1,4 +1,5 @@
 ## FreshMint
+[![PayPal](sponsors/PayPal-Donate.svg)](https://paypal.me/SebastJava)
 
 A new skin for the Linux Mint Forums!  
 Not just screenshots... Not just a showcase...  
@@ -68,6 +69,16 @@ The default board style on the forums is **Minty**. That's a fork from the stand
 
 You can find more information here:  
 https://github.com/openstyles/stylus/wiki/UserCSS
+
+## Sponsoring
+
+This skin is free software, released under MIT license. If you like it, please consider sponsoring or donating to help fund the project.
+
+* [PayPal](https://paypal.me/SebastJava)
+
+There is a lot of work behind all this. Hard work to create efficient coding and constant re-editing on the design side.
+
+Fund it, star it, and like it on the forums!
 
 ## Compare!
 <details>
