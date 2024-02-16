@@ -83,7 +83,7 @@ You can also instantly switch between the old and the new. Click on the Stylus i
 
 This color gradient has the exact same colors as those found on the main website. We all agree there should be some consistency all across the different Linux Mint websites. But the page-header here on FreshMint is much smaller than the one on the [main website](https://linuxmint.com/). So, i find it works better here with a 90° angle and different starting and ending points: `linear-gradient(90deg, #69B53F 33%, #2AB9A5 67%)`.
 
-Anyway, i turned this into a text variable, so you can quickly try anything you want. [Experiment with colors and styles!](https://github.com/SebastJava/FreshMint#experiment-with-colors-and-styles)
+Anyway, i turned this into a text variable, so you can quickly try anything you want. [Experiment with colors and styles!](https://github.com/SebastJava/FreshMint?tab=readme-ov-file#experiment-with-colors-and-styles)
 
 #### A word about these blue links (anchors)
 
@@ -93,7 +93,7 @@ I was unable to find such excellent color contrasts with a green color that woul
 
 On top of that, the blue color is the standard color code for HTML links. This way, newbies won't be lost...
 
-Anyway, i knew this would be controversial, so i turned this into a variable so you can instantly try any color. [Experiment with colors and styles!](https://github.com/SebastJava/FreshMint#experiment-with-colors-and-styles)
+Anyway, i knew this would be controversial, so i turned this into a variable so you can instantly try any color. [Experiment with colors and styles!](https://github.com/SebastJava/FreshMint?tab=readme-ov-file#experiment-with-colors-and-styles)
 
 **References:**  
 https://colorable.jxnblk.com  
