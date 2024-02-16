@@ -17,6 +17,16 @@ And it would work on all browsers and all systems if the Linux Mint team chose t
 **after:**
 ![FreshMint preview](screenshots/preview-new.png)
 
+## Everything got redesigned
+
+The page header is the first thing people will see and thus it is very important. Extra care was taken on this page header. But there is much more than this here. Everything was looked at and readjusted.
+
+* a communicative design
+* sufficient contrasts
+* colors that echo the main website
+
+And then the extra coding was reduced to very little. So it shouldn't pose too much trouble when the time comes to update the phpBB engine.
+
 ## Installation
 
 #### Userstyle manager
@@ -85,18 +95,16 @@ This color gradient has the exact same colors as those found on the main website
 
 Anyway, i turned this into a text variable, so you can quickly try anything you want. [Experiment with colors and styles!](https://github.com/SebastJava/FreshMint?tab=readme-ov-file#experiment-with-colors-and-styles)
 
-#### A word about these blue links (anchors)
+#### References
 
-These blue links (`#0046CD` as of 2024-02-15) have color contrasts greater than 7 on white or extra-light backgrounds such as `#F8F8F8` and `#EFFFEF`. This means it is easily readable by anyone at any size: [contrast-checker](https://colorable.jxnblk.com)
+> A contrast ratio of 3:1 is the minimum level recommended by [ISO-9241-3] and [ANSI-HFES-100-1988] for standard text and vision. The 4.5:1 ratio is used in this provision to account for the loss in contrast that results from moderately low visual acuity, congenital or acquired color deficiencies, or the loss of contrast sensitivity that typically accompanies aging.  
+> source: https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html
 
-I was unable to find such excellent color contrasts with a green color that would fit this theme and be noticeable. Anyway, the current color palette is based on a gradient that goes from yellowish green to blueish green. So, there is some sort of color harmony here. That's analogous colors. It fits.
-
-On top of that, the blue color is the standard color code for HTML links. This way, newbies won't be lost...
-
-Anyway, i knew this would be controversial, so i turned this into a variable so you can instantly try any color. [Experiment with colors and styles!](https://github.com/SebastJava/FreshMint?tab=readme-ov-file#experiment-with-colors-and-styles)
-
-**References:**  
-https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html  
+https://colorable.jxnblk.com  
+https://marijohannessen.github.io/color-contrast-checker/  
+https://uxmovement.com/content/why-you-should-avoid-bright-saturated-background-colors/  
+https://uxmovement.com/content/why-you-should-never-use-pure-black-for-text-or-backgrounds/  
+https://flatuicolors.com/  
 </details>
 
 ## Experiment with colors and styles!
@@ -112,16 +120,6 @@ You will then get a control panel where you can instantly change some CSS variab
 
 ![](screenshots/Stylus-UserCSS-config.png)
 </details>
-
-## Everything got redesigned
-
-The page header is the first thing people will see and thus it is very important. Extra care was taken on this page header. But there is much more than this here. Everything was looked at and readjusted.
-
-* a communicative design
-* sufficient contrasts
-* colors that echo the main website
-
-And then the extra coding was reduced to very little. So it shouldn't pose too much trouble when the time comes to update the phpBB engine.
 
 ## Troubleshooting
 
