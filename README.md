@@ -87,7 +87,7 @@ Anyway, i turned this into a text variable, so you can quickly try anything you 
 
 #### A word about these blue links (anchors)
 
-These blue links (#0046CD as of 2024-02-15) have color contrasts greater than 7 on white or extra-light backgrounds such as #F8F8F8 and #EFFFEF. This means it is easily readable by anyone at any size.
+These blue links (`#0046CD` as of 2024-02-15) have color contrasts greater than 7 on white or extra-light backgrounds such as `#F8F8F8` and `#EFFFEF`. This means it is easily readable by anyone at any size.
 
 I was unable to find such excellent color contrasts with a green color that would fit this theme and be noticeable. Anyway, the current color palette is based on a gradient that goes from yellowish green to blueish green. So, there is some sort of color harmony here. That's analogous colors. It fits.
 
