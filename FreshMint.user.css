@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           FreshMint
 @namespace      https://github.com/SebastJava
-@version        1.1
+@version        1.1.1
 @description    The Linux Mint Forums now redesigned
 @author         SebastJava
 @homepageURL    https://github.com/SebastJava/FreshMint
@@ -1309,4 +1309,4 @@ li.notification-reported strong, li.notification-disapproved strong {
   /* EXTRAS */
   blockquote { border-style: solid; border-width: 0 0 0 12px; padding-left: 12px; margin-left: 0; }
 
-}
+} /* THIS PAIR OF CURLY BRACKETS ({}) ENCOMPASS THIS ENTIRE DOCUMENT! */
