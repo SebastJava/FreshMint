@@ -14,7 +14,7 @@
 @var color body-background "body background" #F2F2F2
 @var color body-text "body text" #505050
 @var color post-content "post content" #333333
-@var color anchor "links & titles" #0046CD
+@var color anchor "links & titles" #007D69
 @var color anchor-hover "links & titles hover" #333333
 @var color postlink "postlink" #0046CD
 @var color postlink-visited "postlink:visited" #701CC6
@@ -1249,7 +1249,6 @@ li.notification-reported strong, li.notification-disapproved strong {
 
   /* ANCHORS */
   a:hover {text-decoration: underline !important;}
-  /*.forumbg .header a:hover, .forabg .header a:hover, th a:hover {text-decoration: underline;}*/
 
   #page-header {background: var(--page-header); border-radius: 7px;}
 
