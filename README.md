@@ -73,7 +73,7 @@ https://github.com/openstyles/stylus/wiki/UserCSS
 
 ## Sponsoring
 
-This skin is free software, released under GNU General Public License, version 2 (GPL-2.0). If you like it, please consider sponsoring or donating to help fund the project.
+This theme is free software, released under GNU General Public License, version 2 (GPL-2.0). If you like it, please consider sponsoring or donating to help fund the project.
 
 * [GitHub-Sponsors](https://github.com/sponsors/SebastJava)
 * [PayPal-Donate](https://paypal.me/SebastJava)
