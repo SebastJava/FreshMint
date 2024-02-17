@@ -73,8 +73,8 @@ https://github.com/openstyles/stylus/wiki/UserCSS
 
 This theme is free software, released under GNU General Public License, version 2 (GPL-2.0). If you like it, please consider sponsoring or donating to help fund the project.
 
-[![GitHub](sponsors/GitHub-Sponsor.svg)](https://github.com/sponsors/SebastJava)
-[![PayPal](sponsors/PayPal-Donate.svg)](https://paypal.me/SebastJava)
+* https://github.com/sponsors/SebastJava
+* https://paypal.me/SebastJava
 
 There is a lot of work behind all this. Hard work to create efficient coding and constant re-editing on the design side. Fund it, like it, star it!
 
