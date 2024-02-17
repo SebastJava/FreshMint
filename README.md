@@ -1,4 +1,5 @@
 ## FreshMint
+[![GitHub](sponsors/GitHub-Sponsor.svg)](https://github.com/sponsors/SebastJava)
 [![PayPal](sponsors/PayPal-Donate.svg)](https://paypal.me/SebastJava)
 
 A new skin for the Linux Mint Forums!  
