@@ -1,6 +1,4 @@
 ## FreshMint
-[![GitHub](sponsors/GitHub-Sponsor.svg)](https://github.com/sponsors/SebastJava)
-[![PayPal](sponsors/PayPal-Donate.svg)](https://paypal.me/SebastJava)
 
 A new skin for the Linux Mint Forums!  
 Not just screenshots... Not just a showcase...  
@@ -75,12 +73,10 @@ https://github.com/openstyles/stylus/wiki/UserCSS
 
 This theme is free software, released under GNU General Public License, version 2 (GPL-2.0). If you like it, please consider sponsoring or donating to help fund the project.
 
-* [GitHub-Sponsors](https://github.com/sponsors/SebastJava)
-* [PayPal-Donate](https://paypal.me/SebastJava)
+[![GitHub](sponsors/GitHub-Sponsor.svg)](https://github.com/sponsors/SebastJava)
+[![PayPal](sponsors/PayPal-Donate.svg)](https://paypal.me/SebastJava)
 
-There is a lot of work behind all this. Hard work to create efficient coding and constant re-editing on the design side.
-
-Fund it, star it, and like it on the forums!
+There is a lot of work behind all this. Hard work to create efficient coding and constant re-editing on the design side. Fund it, like it, star it!
 
 ## Compare!
 <details>
