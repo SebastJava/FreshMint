@@ -33,7 +33,3 @@ Some titles are hardly distinguishable, being just slightly bigger bold text, wi
 And lets not talk about those annoying ads that got added recently. I don't care much, because the design is already bad. But if the forums had a good design, those ads would just be in the way.
 
 And there are still more things I could talk about but I will stop there... Images are worth a thousand words... Just take a look ! Everything got refreshed, and yet the coding is kept small and professional.
-
-### Think different:
-https://sebastjava.com/forums/ (showcase until January 21, 2024)
-https://github.com/SebastJava/prosilver-lm#readme (source code)
