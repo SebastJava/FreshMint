@@ -78,7 +78,7 @@ This theme is free software, released under GNU General Public License, version 
 
 There is a lot of work behind all this. Hard work to create efficient coding and constant re-editing on the design side. Fund it, like it, star it!
 
-## Compare!
+## Compare
 <details>
 <summary>Click here to compare using screenshots or toggle old/new</summary>
 
@@ -116,7 +116,7 @@ https://uxmovement.com/content/why-you-should-never-use-pure-black-for-text-or-b
 https://flatuicolors.com/  
 </details>
 
-## Experiment with colors and styles!
+## Experiment with colors and styles
 
 This theme is based on UserCSS. There are some variables you can instantly try and see. Click on the Stylus icon, then click on the FreshMint gear icon.
 
@@ -129,6 +129,14 @@ You will then get a control panel where you can instantly change some CSS variab
 
 ![](screenshots/Stylus-UserCSS-config.png)
 </details>
+
+## Forum signatures
+
+There are also new signatures for members of the Linux Mint community. A signature is a signature. The style should stand out a little.
+
+[LM-forums-signatures](https://github.com/SebastJava/LM-forums-signatures)
+
+![my Signature](https://raw.githubusercontent.com/SebastJava/LM-forums-signatures/main/img_host/sebastjava-sign-2lines-14.png)
 
 ## Troubleshooting
 
