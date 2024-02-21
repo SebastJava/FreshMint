@@ -132,9 +132,7 @@ You will then get a control panel where you can instantly change some CSS variab
 
 ## Forum signatures
 
-There are also new signatures for members of the Linux Mint community. A signature is a signature. The style should stand out a little.
-
-[LM-forums-signatures](https://github.com/SebastJava/LM-forums-signatures)
+There are also new signatures for members of the Linux Mint community. A signature is a signature. The style should stand out a little: [LM-forums-signatures](https://github.com/SebastJava/LM-forums-signatures)
 
 ![my Signature](https://raw.githubusercontent.com/SebastJava/LM-forums-signatures/main/img_host/sebastjava-sign-2lines-14.png)
 
