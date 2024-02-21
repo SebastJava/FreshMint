@@ -1,9 +1,9 @@
 ## FreshMint
 
-A new skin for the Linux Mint Forums!  
+A new theme for the Linux Mint Forums!  
 Not just screenshots... Not just a showcase...  
 
-Start wearing this new skin today and start living better!  
+Start using this new theme today and improve your user experience!  
 
 It works on Firefox and Chrome.  
 It works on your computer.  
