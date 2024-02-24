@@ -11,18 +11,23 @@
 
 @preprocessor   default
 
-@var color body-background "body background" #F2F2F2
+@var color body-background "body background" #F0F0F0
 @var color body-text "body text" #505050
 @var color post-content "post content" #333333
+
 @var color anchor "links & titles" #007D69
 @var color anchor-hover "links & titles hover" #333333
 @var color postlink "postlink" #0065CD
 @var color postlink-visited "postlink:visited" #893CD8
 @var color postlink-hover "postlink:hover" #333333
-@var color bg1 "background 1" #EFFFEF
-@var color bg2 "background 2" #FFFFFF
-@var color bg3 "background 3" #EFFFEF
+
+@var color ul-forums "forums lists" #FFFFFF
+@var color li-row-hover "list row hover" #F8F8F8
+@var color bg1 "background 1 (bg1)" #EFFFEF
+@var color bg2 "background 2 (bg2)" #FFFFFF
+@var color bg3 "background 3 (bg3)" #EFFFEF
 @var color accent "accent" #2AB9A5
+
 @var text page-header "page-header" "#1AB481 linear-gradient(90deg, #69B53F 33%, #2AB9A5 67%)"
 @var text forumbg-navbarbg "forumbg & navbarbg" "#1AB481 linear-gradient(90deg, #69B53F 33%, #2AB9A5 67%)"
 ==/UserStyle== */
@@ -355,7 +360,7 @@ Colours and backgrounds for content.css
 -------------------------------------------------------------- */
 
 ul.forums {
-	background-color: white;
+	background-color: var(--ul-forums);
 	background-image: none;
 }
 
@@ -382,7 +387,7 @@ li.row strong {
 }
 
 li.row:hover {
-	background-color: #F8F8F8;
+	background-color: var(--li-row-hover);
 }
 
 li.row:hover dd {
@@ -1302,8 +1307,8 @@ li.notification-reported strong, li.notification-disapproved strong {
   .action-bar .button { height: 24px; box-sizing: border-box; }
 
   /* REVERT CUSTOM COLORS FROM THE OLD MINTY THEME */
-  ul.forums > li.row:first-child {background-color: white; background-image: none;}
-  ul.forums > li.row:first-child:hover {background-color: #F8F8F8; background-image: none;}
+  ul.forums > li.row:first-child {background-color: var(--ul-forums); background-image: none;}
+  ul.forums > li.row:first-child:hover {background-color: var(--li-row-hover); background-image: none;}
   :not(.row .big-column).bg3 {background-color: #EFFFEF;}
 
   /* EXTRAS */
