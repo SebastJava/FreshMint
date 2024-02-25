@@ -22,7 +22,7 @@
 @var color postlink-visited "postlink:visited" #893CD8
 @var color postlink-hover "postlink:hover" #333333
 
-@var color ul-forums "forums lists" #FFFFFF
+@var color ul-forums "forums lists bg" #FFFFFF
 @var color li-row-hover "list row hover" #F8F8F8
 @var color ul-topiclist-li "list text" #333333
 @var color list-borders "list borders" #E6E6E6
@@ -40,7 +40,7 @@
 @var color username-coloured "team username" #69B53F
 
 @var text page-header "page-header" "#1AB481 linear-gradient(90deg, #69B53F 33%, #2AB9A5 67%)"
-@var text forumbg-navbarbg "forumbg & navbarbg" "#1AB481 linear-gradient(90deg, #69B53F 33%, #2AB9A5 67%)"
+@var text forumbg-navbarbg "forum & navbar bg" "#1AB481 linear-gradient(90deg, #69B53F 33%, #2AB9A5 67%)"
 ==/UserStyle== */
 
 @-moz-document domain("forums.linuxmint.com") {
