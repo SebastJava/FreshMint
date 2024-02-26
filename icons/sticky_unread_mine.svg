@@ -1,7 +1,19 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
- <defs>
-  <style>.cls-1 {
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="32"
+   height="32"
+   viewBox="0 0 32 32"
+   version="1.1"
+   id="svg13"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <defs
+     id="defs2">
+    <style
+       id="style1">.cls-1 {
         fill: none;
       }
 
@@ -24,32 +36,82 @@
       .cls-5 {
         fill: #fff
       }</style>
-  <linearGradient id="Nepojmenovaný_přechod_36" x1="-127.5" x2="-127.5" y1="-30.18" y2="-31.18" data-name="Nepojmenovaný přechod 36" gradientTransform="matrix(19 0 0 -25.25 2438.5 -758.5)" gradientUnits="userSpaceOnUse">
-   <stop stop-color="#dbdee3" offset="0"/>
-   <stop stop-color="#fdfdfd" offset="1"/>
-  </linearGradient>
- </defs>
- <title>Datový zdroj 39</title>
- <g id="Vrstva_2" data-name="Vrstva 2">
-  <g id="Vrstva_1-2" data-name="Vrstva 1">
-   <g id="unread">
-    <g id="sticky_unread_mine" data-name="sticky unread mine">
-     <path class="cls-1" d="M0,0H32V32H0Z"/>
-     <path class="cls-2" d="M28,13A12,12,0,1,1,16,1,12,12,0,0,1,28,13"/>
-     <path class="cls-2" d="m23 24a7 7 0 1 1-7-7 7 7 0 0 1 7 7"/>
-     <path class="cls-3" d="M27,13A11,11,0,1,1,16,2,11,11,0,0,1,27,13"/>
-     <path class="cls-3" d="m22 24a6 6 0 1 1-6-6 6 6 0 0 1 6 6"/>
-     <path class="cls-4" d="M26.5,13A10.5,10.5,0,1,1,16,2.5,10.5,10.5,0,0,1,26.5,13"/>
-     <path class="cls-4" d="m21.5 24a5.5 5.5 0 1 1-5.5-5.5 5.5 5.5 0 0 1 5.5 5.5"/>
-     <path class="cls-5" d="m20.09 21.58a9.5 9.5 0 1 0-8.18 0 4.75 4.75 0 1 0 8.18 0z"/>
-     <path class="cls-6" d="m13.38 14c0 2.33 2.62 7 2.62 7s2.63-4.67 2.63-7-2.63-2.31-2.63-2.31-2.62 0-2.62 2.31zm4.5 10a1.78 1.78 0 0 1-1.88 1.69 1.68 1.68 0 1 1 0-3.34 1.78 1.78 0 0 1 1.88 1.65z"/>
-     <path class="cls-6" d="M16,8H10V7h6Zm6,2H10V9H22Z"/>
-     <g id="star-copy-23">
-      <path class="cls-7" d="M22.59,11.87,27,9.43l.55.31a12,12,0,0,0-5.28-7l-2.35.35,3.51,3.6Z"/>
-      <path class="cls-2" d="M27,8.29,30.09,10,29.5,6.38,32,3.82l-3.45-.53L27,0,25.45,3.29,22,3.82l2.5,2.56L23.91,10Z"/>
-     </g>
-    </g>
-   </g>
-  </g>
- </g>
+    <linearGradient
+       id="Nepojmenovaný_přechod_36"
+       x1="-127.5"
+       x2="-127.5"
+       y1="-30.18"
+       y2="-31.18"
+       data-name="Nepojmenovaný přechod 36"
+       gradientTransform="matrix(19 0 0 -25.25 2438.5 -758.5)"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         stop-color="#dbdee3"
+         offset="0"
+         id="stop1" />
+      <stop
+         stop-color="#fdfdfd"
+         offset="1"
+         id="stop2" />
+    </linearGradient>
+  </defs>
+  <title
+     id="title2">Datový zdroj 39</title>
+  <path
+     class="cls-1"
+     d="M 0,0 H 32 V 32 H 0 Z"
+     id="path2" />
+  <path
+     class="cls-2"
+     d="M 28,13 A 12,12 0 1 1 16,1 12,12 0 0 1 28,13"
+     id="path3" />
+  <path
+     class="cls-2"
+     d="m 23,24 a 7,7 0 1 1 -7,-7 7,7 0 0 1 7,7"
+     id="path4" />
+  <path
+     class="cls-3"
+     d="M 27,13 A 11,11 0 1 1 16,2 11,11 0 0 1 27,13"
+     id="path5" />
+  <path
+     class="cls-3"
+     d="m 22,24 a 6,6 0 1 1 -6,-6 6,6 0 0 1 6,6"
+     id="path6" />
+  <path
+     class="cls-4"
+     d="M 26.5,13 A 10.5,10.5 0 1 1 16,2.5 10.5,10.5 0 0 1 26.5,13"
+     id="path7" />
+  <path
+     class="cls-4"
+     d="M 21.5,24 A 5.5,5.5 0 1 1 16,18.5 5.5,5.5 0 0 1 21.5,24"
+     id="path8" />
+  <path
+     class="cls-5"
+     d="m 20.09,21.58 a 9.5,9.5 0 1 0 -8.18,0 4.75,4.75 0 1 0 8.18,0 z"
+     id="path9" />
+  <path
+     class="cls-6"
+     d="m 13.38,14 c 0,2.33 2.62,7 2.62,7 0,0 2.63,-4.67 2.63,-7 0,-2.33 -2.63,-2.31 -2.63,-2.31 0,0 -2.62,0 -2.62,2.31 z m 4.5,10 A 1.78,1.78 0 0 1 16,25.69 1.68,1.68 0 1 1 16,22.35 1.78,1.78 0 0 1 17.88,24 Z"
+     id="path10" />
+  <path
+     class="cls-6"
+     d="M 16,8 H 10 V 7 h 6 z m 6,2 H 10 V 9 h 12 z"
+     id="path11" />
+  <path
+     class="cls-7"
+     d="M 22.59,11.87 27,9.43 27.55,9.74 a 12,12 0 0 0 -5.28,-7 l -2.35,0.35 3.51,3.6 z"
+     id="path12" />
+  <path
+     class="cls-2"
+     d="M 27,8.29 30.09,10 29.5,6.38 32,3.82 28.55,3.29 27,0 25.45,3.29 22,3.82 24.5,6.38 23.91,10 Z"
+     id="path13" />
+  <metadata
+     id="metadata13">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>Datový zdroj 39</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
 </svg>
