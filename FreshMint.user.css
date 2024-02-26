@@ -1322,7 +1322,7 @@ li.notification-reported strong, li.notification-disapproved strong {
   }
 
   /* BUG FIX: make sure every action-bar button is at the same height as ".search-box .inputbox" */
-  .action-bar .button { height: 24px; box-sizing: border-box; }
+  .action-bar .button, .pagination li.active span { height: 24px; box-sizing: border-box; }
 
   /* BUG FIX: clean corners */
   .dropdown-extended .header {border-radius: 3px 3px 0 0;}
