@@ -92,6 +92,7 @@ Colours and backgrounds for links.css
 
 a { color: var(--anchor); }
 a:hover { color: var(--anchor-hover); }
+a:visited { color: var(--anchor); }
 
 /* Links on gradient backgrounds */
 .forumbg .header a, .forabg .header a, th a {
