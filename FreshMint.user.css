@@ -41,6 +41,9 @@
 
 @var text page-header "page-header" "#1AB481 linear-gradient(90deg, #69B53F 33%, #2AB9A5 67%)"
 @var text forumbg-navbarbg "forum & navbar bg" "#1AB481 linear-gradient(90deg, #69B53F 33%, #2AB9A5 67%)"
+
+@var color rules-bg "rules background" #E60026
+@var color rules-fg "rules text" #FFF
 ==/UserStyle== */
 
 @-moz-document domain("forums.linuxmint.com") {
@@ -356,8 +359,8 @@ li.reported:hover {
 }
 
 div.rules {
-	background-color: #FFCAD2;
-	color: #BD002F;
+	background-color: var(--rules-bg);
+	color: var(--rules-fg);
 }
 
 p.post-notice {
@@ -647,7 +650,7 @@ Colours and backgrounds for buttons.css
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FFFFFF', endColorstr='#E9E9E9',GradientType=0 ); /* IE6-9 */
 	box-shadow: 0 0 0 1px #FFFFFF inset;
 	-webkit-box-shadow: 0 0 0 1px #FFFFFF inset;
-	color: #D31141;
+	color: #E60026;
 }
 
 .button:hover,
@@ -893,7 +896,7 @@ ul.cplist {
 
 .tabs .tab > a:hover {
 	background: white;
-	color: #D31141;
+	color: #E60026;
 }
 
 .tabs .activetab > a,
@@ -927,7 +930,7 @@ ul.cplist {
 }
 
 .responsive-tab .responsive-tab-link:hover:before {
-	border-color: #D31141;
+	border-color: #E60026;
 }
 
 /* UCP navigation menu
@@ -953,12 +956,12 @@ ul.cplist {
 
 .navigation .active-subsection a {
 	background: #F9F9F9;
-	color: #D31141;
+	color: #E60026;
 	filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
 }
 
 .navigation .active-subsection a:hover {
-	color: #D31141;
+	color: #E60026;
 }
 
 @media only screen and (max-width: 900px), only screen and (max-device-width: 900px)
@@ -1154,8 +1157,8 @@ a.button1, a.button2 {
 
 /* Hover states */
 a.button1:hover, input.button1:hover, a.button2:hover, input.button2:hover, input.button3:hover {
-	border-color: #D31141;
-	color: #D31141;
+	border-color: #E60026;
+	color: #E60026;
 	background-color: #D2D2D2; /* Old browsers */ /* FF3.6+ */
 	background-image: -webkit-linear-gradient(top, #EFEFEF 0%, #D2D2D2 100%);
 	background-image: linear-gradient(to bottom, #EFEFEF 0%,#D2D2D2 100%); /* W3C */
@@ -1251,11 +1254,11 @@ input.disabled {
 }
 
 li.notification-reported strong, li.notification-disapproved strong {
-	color: #D31141;
+	color: #E60026;
 }
 
 .badge {
-	background-color: #D31141;
+	background-color: #E60026;
 	color: #ffffff;
 }
 
@@ -1266,7 +1269,9 @@ li.notification-reported strong, li.notification-disapproved strong {
 /* FRESHMINT.USER.CSS */
 
   /* ANCHORS */
+  a {font-weight: bold;}
   a:hover {text-decoration: underline !important;}
+  a.button:hover {color: #333;}
 
   #page-header {background: var(--page-header); border-radius: 7px;}
 
@@ -1328,8 +1333,9 @@ li.notification-reported strong, li.notification-disapproved strong {
   :not(.row .big-column).bg3 {background-color: #EFFFEF;}
 
   /* EXTRAS */
-  blockquote { border-style: solid; border-width: 0 0 0 12px; padding-left: 12px; margin-left: 0; }
+  blockquote {border-style: solid; border-width: 0 0 0 12px; padding-left: 12px; margin-left: 0;}
   strong {font-weight: bold !important;}
   .username-coloured {color: var(--username-coloured) !important; font-weight: bold;}
+  div.rules a {font-weight: bold;}
 
 } /* THIS PAIR OF CURLY BRACKETS ({}) ENCOMPASS THIS ENTIRE DOCUMENT! */
