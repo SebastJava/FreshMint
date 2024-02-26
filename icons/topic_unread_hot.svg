@@ -18,7 +18,7 @@
       }
 
       .cls-5 {
-        fill: url(#Nepojmenovaný_přechod_25);
+        fill: #fff
       }</style>
   <linearGradient id="Nepojmenovaný_přechod_25" x1="-18.78" x2="-18.78" y1="65.92" y2="64.92" data-name="Nepojmenovaný přechod 25" gradientTransform="matrix(25 0 0 -25 485.5 1651.5)" gradientUnits="userSpaceOnUse">
    <stop stop-color="#dbdee3" offset="0"/>
