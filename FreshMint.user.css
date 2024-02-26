@@ -50,10 +50,12 @@
 @-moz-document domain("forums.linuxmint.com") {
 /* THIS PAIR OF CURLY BRACKETS ({}) ENCOMPASS THIS ENTIRE DOCUMENT! */
 
+/*_____________________________________________________________________________________________________*/
+/*_____________________________________________________________________________________________________*/
 
-/*
-COLOURS.USER.CSS
-This very long section (approx. 1200 lines) is based on a duplicate of prosilver/theme/colours.css
+/* COLOURS.USER.CSS____________________________________________________________________________________*/
+
+/* This very long section (approx. 1200 lines) is based on a duplicate of prosilver/theme/colours.css
 These are only color values. Only a few got changed or added. The core FRESHMINT.USER.CSS is just a
 small section at the bottom of this file...*/
 
@@ -1267,8 +1269,7 @@ li.notification-reported strong, li.notification-disapproved strong {
 /*_____________________________________________________________________________________________________*/
 /*_____________________________________________________________________________________________________*/
 
-
-/* FRESHMINT.USER.CSS */
+/* FRESHMINT.USER.CSS__________________________________________________________________________________*/
 
   /* ANCHORS */
   a {font-weight: bold;}
@@ -1339,5 +1340,62 @@ li.notification-reported strong, li.notification-disapproved strong {
   strong {font-weight: bold !important;}
   .username-coloured {color: var(--username-coloured) !important; font-weight: bold;}
   div.rules a {font-weight: bold;}
+
+
+/*_____________________________________________________________________________________________________*/
+/*_____________________________________________________________________________________________________*/
+
+/* FORUM ICONS & TOPIC ICONS___________________________________________________________________________*/
+
+.global_read						{ background-image: url("https://raw.githubusercontent.com/SebastJava/FreshMint/main/icons/announce_read.svg"); }
+.global_read_mine					{ background-image: url("https://raw.githubusercontent.com/SebastJava/FreshMint/main/icons/announce_read_mine.svg"); }
+.global_read_locked					{ background-image: url("https://raw.githubusercontent.com/SebastJava/FreshMint/main/icons/announce_read_locked.svg"); }
+.global_read_locked_mine				{ background-image: url("https://raw.githubusercontent.com/SebastJava/FreshMint/main/icons/announce_read_locked_mine.svg"); }
+.global_unread						{ background-image: url("https://raw.githubusercontent.com/SebastJava/FreshMint/main/icons/announce_unread.svg"); }
+.global_unread_mine					{ background-image: url("https://raw.githubusercontent.com/SebastJava/FreshMint/main/icons/announce_unread_mine.svg"); }
+.global_unread_locked					{ background-image: url("https://raw.githubusercontent.com/SebastJava/FreshMint/main/icons/announce_unread_locked.svg"); }
+.global_unread_locked_mine				{ background-image: url("https://raw.githubusercontent.com/SebastJava/FreshMint/main/icons/announce_unread_locked_mine.svg"); }
+
+.announce_read						{ background-image: url("https://raw.githubusercontent.com/SebastJava/FreshMint/main/icons/announce_read.svg"); }
+.announce_read_mine					{ background-image: url("https://raw.githubusercontent.com/SebastJava/FreshMint/main/icons/announce_read_mine.svg"); }
+.announce_read_locked					{ background-image: url("https://raw.githubusercontent.com/SebastJava/FreshMint/main/icons/announce_read_locked.svg"); }
+.announce_read_locked_mine				{ background-image: url("https://raw.githubusercontent.com/SebastJava/FreshMint/main/icons/announce_read_locked_mine.svg"); }
+.announce_unread					{ background-image: url("https://raw.githubusercontent.com/SebastJava/FreshMint/main/icons/announce_unread.svg"); }
+.announce_unread_mine					{ background-image: url("https://raw.githubusercontent.com/SebastJava/FreshMint/main/icons/announce_unread_mine.svg"); }
+.announce_unread_locked					{ background-image: url("https://raw.githubusercontent.com/SebastJava/FreshMint/main/icons/announce_unread_locked.svg"); }
+.announce_unread_locked_mine				{ background-image: url("https://raw.githubusercontent.com/SebastJava/FreshMint/main/icons/announce_unread_locked_mine.svg"); }
+
+.forum_link						{ background-image: url("https://raw.githubusercontent.com/SebastJava/FreshMint/main/icons/forum_link.svg"); }
+.forum_read						{ background-image: url("https://raw.githubusercontent.com/SebastJava/FreshMint/main/icons/forum_read.svg"); }
+.forum_read_locked					{ background-image: url("https://raw.githubusercontent.com/SebastJava/FreshMint/main/icons/forum_read_locked.svg"); }
+.forum_read_subforum					{ background-image: url("https://raw.githubusercontent.com/SebastJava/FreshMint/main/icons/forum_read_subforum.svg"); }
+.forum_unread						{ background-image: url("https://raw.githubusercontent.com/SebastJava/FreshMint/main/icons/forum_unread.svg"); }
+.forum_unread_locked					{ background-image: url("https://raw.githubusercontent.com/SebastJava/FreshMint/main/icons/forum_unread_locked.svg"); }
+.forum_unread_subforum					{ background-image: url("https://raw.githubusercontent.com/SebastJava/FreshMint/main/icons/forum_unread_subforum.svg"); }
+
+.sticky_read						{ background-image: url("https://raw.githubusercontent.com/SebastJava/FreshMint/main/icons/sticky_read.svg"); }
+.sticky_read_mine					{ background-image: url("https://raw.githubusercontent.com/SebastJava/FreshMint/main/icons/sticky_read_mine.svg"); }
+.sticky_read_locked					{ background-image: url("https://raw.githubusercontent.com/SebastJava/FreshMint/main/icons/sticky_read_locked.svg"); }
+.sticky_read_locked_mine				{ background-image: url("https://raw.githubusercontent.com/SebastJava/FreshMint/main/icons/sticky_read_locked_mine.svg"); }
+.sticky_unread						{ background-image: url("https://raw.githubusercontent.com/SebastJava/FreshMint/main/icons/sticky_unread.svg"); }
+.sticky_unread_mine					{ background-image: url("https://raw.githubusercontent.com/SebastJava/FreshMint/main/icons/sticky_unread_mine.svg"); }
+.sticky_unread_locked					{ background-image: url("https://raw.githubusercontent.com/SebastJava/FreshMint/main/icons/sticky_unread_locked.svg"); }
+.sticky_unread_locked_mine				{ background-image: url("https://raw.githubusercontent.com/SebastJava/FreshMint/main/icons/sticky_unread_locked_mine.svg"); }
+
+.topic_moved						{ background-image: url("https://raw.githubusercontent.com/SebastJava/FreshMint/main/icons/topic_moved.svg"); }
+.pm_read,
+.topic_read						{ background-image: url("https://raw.githubusercontent.com/SebastJava/FreshMint/main/icons/topic_read.svg"); }
+.topic_read_mine					{ background-image: url("https://raw.githubusercontent.com/SebastJava/FreshMint/main/icons/topic_read_mine.svg"); }
+.topic_read_hot						{ background-image: url("https://raw.githubusercontent.com/SebastJava/FreshMint/main/icons/topic_read_hot.svg"); }
+.topic_read_hot_mine					{ background-image: url("https://raw.githubusercontent.com/SebastJava/FreshMint/main/icons/topic_read_hot_mine.svg"); }
+.topic_read_locked					{ background-image: url("https://raw.githubusercontent.com/SebastJava/FreshMint/main/icons/topic_read_locked.svg"); }
+.topic_read_locked_mine					{ background-image: url("https://raw.githubusercontent.com/SebastJava/FreshMint/main/icons/topic_read_locked_mine.svg"); }
+.pm_unread,
+.topic_unread						{ background-image: url("https://raw.githubusercontent.com/SebastJava/FreshMint/main/icons/topic_unread.svg"); }
+.topic_unread_mine					{ background-image: url("https://raw.githubusercontent.com/SebastJava/FreshMint/main/icons/topic_unread_mine.svg"); }
+.topic_unread_hot					{ background-image: url("https://raw.githubusercontent.com/SebastJava/FreshMint/main/icons/topic_unread_hot.svg"); }
+.topic_unread_hot_mine					{ background-image: url("https://raw.githubusercontent.com/SebastJava/FreshMint/main/icons/topic_unread_hot_mine.svg"); }
+.topic_unread_locked					{ background-image: url("https://raw.githubusercontent.com/SebastJava/FreshMint/main/icons/topic_unread_locked.svg"); }
+.topic_unread_locked_mine				{ background-image: url("https://raw.githubusercontent.com/SebastJava/FreshMint/main/icons/topic_unread_locked_mine.svg"); }
 
 } /* THIS PAIR OF CURLY BRACKETS ({}) ENCOMPASS THIS ENTIRE DOCUMENT! */

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <style>.cls-1 {
+        fill: none;
+      }
+
+      .cls-2, .cls-6 {
+        fill: #cb0033;
+      }
+
+      .cls-3 {
+        fill: #cb0033;
+      }
+
+      .cls-4 {
+        fill: #fff;
+      }
+
+      .cls-5 {
+        fill: url(#Nepojmenovaný_přechod_21);
+      }
+
+      .cls-6 {
+        fill-rule: evenodd;
+      }</style>
+  <linearGradient id="Nepojmenovaný_přechod_21" x1="-30.3" x2="-30.3" y1="-69.36" y2="-70.36" data-name="Nepojmenovaný přechod 21" gradientTransform="matrix(25 0 0 -25 773.5 -1730.5)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#dbdee3" offset="0"/>
+   <stop stop-color="#fdfdfd" offset="1"/>
+  </linearGradient>
+ </defs>
+ <title>Datový zdroj 1</title>
+ <g id="Vrstva_2" data-name="Vrstva 2">
+  <g id="Vrstva_1-2" data-name="Vrstva 1">
+   <g id="unread">
+    <g id="topic_unread" data-name="topic unread">
+     <path class="cls-1" d="M0,0H32V32H0Z"/>
+     <path class="cls-2" d="M31,16A15,15,0,1,1,16,1,15,15,0,0,1,31,16"/>
+     <path class="cls-3" d="M30,16A14,14,0,1,1,16,2,14,14,0,0,1,30,16"/>
+     <path class="cls-4" d="M29.5,16A13.5,13.5,0,1,1,16,2.5,13.49,13.49,0,0,1,29.5,16"/>
+     <path class="cls-5" d="M28.5,16A12.5,12.5,0,1,1,16,3.5,12.5,12.5,0,0,1,28.5,16"/>
+     <path class="cls-6" d="M17,9H8V8h9ZM8,12H24V11H8Zm16,3H8V14H24ZM8,18H24V17H8Zm16,3H8V20H24Zm-8,3H8V23h8Z"/>
+    </g>
+   </g>
+  </g>
+ </g>
+</svg>
