@@ -702,7 +702,7 @@ Colours and backgrounds for buttons.css
 
 .pagination li.ellipsis span {
 	background: transparent;
-	color: #000000;
+	color: var(--body-text);
 }
 
 .pagination li.active span {
@@ -712,8 +712,8 @@ Colours and backgrounds for buttons.css
 }
 
 .pagination li a:hover, .pagination li a:hover .icon, .pagination .dropdown-visible a.dropdown-trigger, .nojs .pagination .dropdown-container:hover a.dropdown-trigger {
-	background: #505050;
-	border-color: #505050;
+	background: #808080;
+	border-color: #808080;
 	filter: none;
 	color: #FFFFFF;
 	text-shadow: none;
