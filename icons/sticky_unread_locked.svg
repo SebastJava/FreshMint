@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <style>.cls-1 {
+        fill: none;
+      }
+
+      .cls-2, .cls-6 {
+        fill: #cb0033;
+      }
+
+      .cls-3 {
+        fill: #cb0033;
+      }
+
+      .cls-4 {
+        fill: #fff;
+      }
+
+      .cls-5, .cls-6, .cls-7 {
+        fill-rule: evenodd;
+      }
+
+      .cls-5 {
+        fill: url(#Nepojmenovaný_přechod_37);
+      }
+
+      .cls-7 {
+        fill: #666;
+      }</style>
+  <linearGradient id="Nepojmenovaný_přechod_37" x1="-127.5" x2="-127.5" y1="1.82" y2=".82" data-name="Nepojmenovaný přechod 37" gradientTransform="matrix(19 0 0 -25.25 2438.5 49.5)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#dbdee3" offset="0"/>
+   <stop stop-color="#fdfdfd" offset="1"/>
+  </linearGradient>
+ </defs>
+ <title>Datový zdroj 35</title>
+ <g id="Vrstva_2" data-name="Vrstva 2">
+  <g id="Vrstva_1-2" data-name="Vrstva 1">
+   <g id="unread">
+    <g id="sticky_unread_locked" data-name="sticky unread locked">
+     <path class="cls-1" d="M0,0H32V32H0Z"/>
+     <path class="cls-2" d="M28,13A12,12,0,1,1,16,1,12,12,0,0,1,28,13"/>
+     <path class="cls-2" d="m23 24a7 7 0 1 1-7-7 7 7 0 0 1 7 7"/>
+     <path class="cls-3" d="M27,13A11,11,0,1,1,16,2,11,11,0,0,1,27,13"/>
+     <path class="cls-3" d="m22 24a6 6 0 1 1-6-6 6 6 0 0 1 6 6"/>
+     <path class="cls-4" d="M26.5,13A10.5,10.5,0,1,1,16,2.5,10.5,10.5,0,0,1,26.5,13"/>
+     <path class="cls-4" d="m21.5 24a5.5 5.5 0 1 1-5.5-5.5 5.5 5.5 0 0 1 5.5 5.5"/>
+     <path class="cls-5" d="m20.09 21.58a9.5 9.5 0 1 0-8.18 0 4.75 4.75 0 1 0 8.18 0z"/>
+     <path class="cls-6" d="m13.38 14c0 2.33 2.62 7 2.62 7s2.63-4.67 2.63-7-2.63-2.31-2.63-2.31-2.62 0-2.62 2.31zm4.5 10a1.78 1.78 0 0 1-1.88 1.69 1.68 1.68 0 1 1 0-3.34 1.78 1.78 0 0 1 1.88 1.65z"/>
+     <path class="cls-6" d="M16,8H10V7h6Zm6,2H10V9H22Z"/>
+     <g id="lock-copy-19">
+      <path class="cls-4" d="M26.39,19a11.77,11.77,0,0,0,1.23-3H25.34a3.19,3.19,0,0,0-3.23,3.18v2.27H21V28.9A7,7,0,0,0,23,24a6.56,6.56,0,0,0-.1-1.18,11.46,11.46,0,0,0,1.1-.88V27h6V19Z"/>
+      <path class="cls-7" d="M30.89,19.18v3.27H32V29H22V22.45h1.11V19.18A2.2,2.2,0,0,1,25.34,17h3.32A2.21,2.21,0,0,1,30.89,19.18ZM25,19h4v3H25Zm-1,5v1h6V24Zm0,2v1h6V26Z"/>
+     </g>
+    </g>
+   </g>
+  </g>
+ </g>
+</svg>

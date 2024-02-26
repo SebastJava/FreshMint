@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="svg25" version="1.1" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+ <defs id="defs7">
+  <linearGradient id="topic_moved-a" x1="50%" x2="50%" y2="100%">
+   <stop id="stop2" stop-color="#DBDEE3" offset="0"/>
+   <stop id="stop4" stop-color="#FDFDFD" offset="1"/>
+  </linearGradient>
+ </defs>
+ <g id="g23" fill="none" fill-rule="evenodd">
+  <path id="path9" d="m0 0h32v32h-32z"/>
+  <path id="path11" transform="translate(1 1)" d="m30 15c0 8.2838-6.7156 15-15 15s-15-6.7162-15-15c0-8.2844 6.7156-15 15-15s15 6.7156 15 15" fill="#2fb99d"/>
+  <path id="path13" transform="translate(1 1)" d="m29 15c0 7.7315-6.2679 14-14 14-7.7321 0-14-6.2685-14-14 0-7.7321 6.2679-14 14-14 7.7321 0 14 6.2679 14 14" fill="#2fb99d"/>
+  <path id="path15" transform="translate(1 1)" d="m28.5 15c0 7.4554-6.0441 13.5-13.5 13.5s-13.5-6.0446-13.5-13.5c0-7.4559 6.0441-13.5 13.5-13.5s13.5 6.0441 13.5 13.5" fill="#FFF"/>
+  <path id="path17" transform="translate(1 1)" d="m27.5 15c0 6.9031-5.5964 12.5-12.5 12.5-6.9036 0-12.5-5.5969-12.5-12.5 0-6.9036 5.5964-12.5 12.5-12.5 6.9036 0 12.5 5.5964 12.5 12.5" fill="url(#topic_moved-a)"/>
+  <path id="path19" transform="translate(8 8)" d="m0.83333 16h9.1667v-1h-10v1h0.83333zm-0.10606-3h15.273v-1h-16v1h0.72727zm11.455-3h3.8182v-1h-4v1h0.18182zm0-3h3.8182v-1h-4v1h0.18182z" fill="#666"/>
+  <path id="path21" transform="translate(8 8)" d="m0.515 10 3.429-3.7 3.429 3.7h1.507l1.12-1.208-4.171-4.514 3.459-3.729v-0.549h-9.288v10h0.515z" fill="#2fb99d"/>
+ </g>
+</svg>

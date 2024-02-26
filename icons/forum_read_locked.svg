@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="svg23" version="1.1" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+ <defs id="defs7">
+  <linearGradient id="forum_read_locked-a" x1="50%" x2="50%" y2="100%">
+   <stop id="stop2" stop-color="#DBDEE3" offset="0"/>
+   <stop id="stop4" stop-color="#FDFDFD" offset="1"/>
+  </linearGradient>
+ </defs>
+ <g id="g21" fill="none" fill-rule="evenodd">
+  <path id="path9" d="m0 0h32v32h-32z"/>
+  <path id="path11" transform="translate(1 1)" d="m30 15c0 8.2838-6.7156 15-15 15s-15-6.7162-15-15c0-8.2844 6.7156-15 15-15s15 6.7156 15 15" fill="#2fb99d"/>
+  <path id="path13" transform="translate(1 1)" d="m29 15c0 7.7315-6.2679 14-14 14-7.7321 0-14-6.2685-14-14 0-7.7321 6.2679-14 14-14 7.7321 0 14 6.2679 14 14" fill="#2fb99d"/>
+  <path id="path15" transform="translate(1 1)" d="m28.5 15c0 7.4554-6.0441 13.5-13.5 13.5s-13.5-6.0446-13.5-13.5c0-7.4559 6.0441-13.5 13.5-13.5s13.5 6.0441 13.5 13.5" fill="#FFF"/>
+  <path id="path17" transform="translate(1 1)" d="m27.5 15c0 6.9031-5.5964 12.5-12.5 12.5-6.9036 0-12.5-5.5969-12.5-12.5 0-6.9036 5.5964-12.5 12.5-12.5 6.9036 0 12.5 5.5964 12.5 12.5" fill="url(#forum_read_locked-a)"/>
+  <path id="path19" d="m13.111 18.909v-1.4545h5.7778v1.4545h-5.7778zm0 2.9091v-1.4545h5.7778v1.4545h-5.7778zm0.72222-10.909h4.3333v4.3636h-4.3333v-4.3636zm7.2222 4.3636v-4.3677c0-1.6027-1.2973-2.9051-2.8969-2.9051h-4.3159c-1.6183 0-2.8969 1.301-2.8969 2.9051v4.3677h-1.4458v8.7273h13v-8.7273h-1.4444z" fill="#666"/>
+ </g>
+</svg>

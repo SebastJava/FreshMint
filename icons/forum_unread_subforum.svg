@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style>.cls-1 {
+        fill: none;
+      }
+
+      .cls-2, .cls-6 {
+        fill: #cb0033;
+      }
+
+      .cls-3 {
+        fill: #cb0033;
+      }
+
+      .cls-4, .cls-7 {
+        fill: #fff;
+      }
+
+      .cls-5 {
+        fill: url(#Nepojmenovaný_přechod_34);
+      }
+
+      .cls-6, .cls-7 {
+        fill-rule: evenodd;
+      }
+
+      .cls-8 {
+        fill: url(#Nepojmenovaný_přechod_34-2);
+      }</style>
+  <linearGradient id="Nepojmenovaný_přechod_34" x1="-82.78" x2="-82.78" y1="33.92" y2="32.92" data-name="Nepojmenovaný přechod 34" gradientTransform="matrix(25 0 0 -25 2085.5 851.5)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#dbdee3" offset="0"/>
+   <stop stop-color="#fdfdfd" offset="1"/>
+  </linearGradient>
+  <linearGradient id="Nepojmenovaný_přechod_34-2" x1="-94.66" x2="-94.66" y1="50.11" y2="49.11" gradientTransform="matrix(9.5 0 0 -9.5 924.25 496.25)" xlink:href="#Nepojmenovaný_přechod_34"/>
+ </defs>
+ <title>Datový zdroj 10</title>
+ <g id="Vrstva_2" data-name="Vrstva 2">
+  <g id="Vrstva_1-2" data-name="Vrstva 1">
+   <g id="unread">
+    <g id="forum_unread_subforum" data-name="forum unread subforum">
+     <path class="cls-1" d="M0,0H32V32H0Z"/>
+     <path class="cls-2" d="M31,16A15,15,0,1,1,16,1,15,15,0,0,1,31,16"/>
+     <path class="cls-3" d="M30,16A14,14,0,1,1,16,2,14,14,0,0,1,30,16"/>
+     <path class="cls-4" d="M29.5,16A13.5,13.5,0,1,1,16,2.5,13.49,13.49,0,0,1,29.5,16"/>
+     <path class="cls-5" d="M28.5,16A12.5,12.5,0,1,1,16,3.5,12.5,12.5,0,0,1,28.5,16"/>
+     <path class="cls-6" d="M16,9H8V8h8ZM8,11v1H24V11Zm16,3v1H8V14ZM8,18h8V17H8Zm9,3H8V20h9Zm-1,3H8V23h8Z"/>
+     <path class="cls-7" d="m19.32 30.63a8 8 0 0 1 11.31-11.31 15 15 0 0 1-11.31 11.31z"/>
+     <path class="cls-2" d="m32 25a7 7 0 1 1-7-7 7 7 0 0 1 7 7"/>
+     <path class="cls-3" d="m31 25a6 6 0 1 1-6-6 6 6 0 0 1 6 6"/>
+     <path class="cls-4" d="m30.5 25a5.5 5.5 0 1 1-5.5-5.5 5.5 5.5 0 0 1 5.5 5.5"/>
+     <path class="cls-8" d="M29.75,25A4.75,4.75,0,1,1,25,20.25,4.75,4.75,0,0,1,29.75,25"/>
+     <path class="cls-6" d="m25 23.5h-3v-1h3zm-3 1v1h6v-1zm0 2v1h6v-1z"/>
+    </g>
+   </g>
+  </g>
+ </g>
+</svg>
