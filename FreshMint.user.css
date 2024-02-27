@@ -1,4 +1,5 @@
 /* ==UserStyle==
+
 @name           FreshMint
 @namespace      https://github.com/SebastJava
 @version        1.1.4
@@ -43,10 +44,14 @@
 @var text page-header "page-header" "#1AB481 linear-gradient(90deg, #69B53F 33%, #2AB9A5 67%)"
 @var text forumbg-navbarbg "forum & navbar bg" "#1AB481 linear-gradient(90deg, #69B53F 33%, #2AB9A5 67%)"
 
+@var text button-bg "button background" "#00AB71 linear-gradient(to bottom, #00AB71 0%, #101010 100%)"
+@var text button-bg-hover "button bg hover" "#00AB71"
+
 @var text rules-bg "rules background" "#BFF2A6 linear-gradient(90deg, #BFF2A6 33%, #A6F2E8 67%)"
 @var color rules-fg "rules text" #333
 @var color rules-anchor "rules links" #0065CD
 @var color rules-anchor-hover "rules links hover" #333
+
 ==/UserStyle== */
 
 @-moz-document domain("forums.linuxmint.com") {
@@ -656,45 +661,40 @@ dd.profile-warnings {
 Colours and backgrounds for buttons.css
 -------------------------------------------------------------- */
 .button {
-	border-color: #BFBFBF;
-	background-color: #E9E9E9; /* Old browsers */ /* FF3.6+ */
-	background-image: -webkit-linear-gradient(top, #FFFFFF 0%, #E9E9E9 100%);
-	background-image: linear-gradient(to bottom, #FFFFFF 0%,#E9E9E9 100%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FFFFFF', endColorstr='#E9E9E9',GradientType=0 ); /* IE6-9 */
-	box-shadow: 0 0 0 1px #FFFFFF inset;
-	-webkit-box-shadow: 0 0 0 1px #FFFFFF inset;
-	color: #E60026;
+	border-color: var(--anchor);
+	background: var(--button-bg);
+	box-shadow: none;
+	color: var(--content);
+	text-shadow: none;
 }
 
 .button:hover,
 .button:focus {
-	border-color: #8F8F8F;
-	background-color: #FFFFFF; /* Old browsers */ /* FF3.6+ */
-	background-image: -webkit-linear-gradient(top, #E9E9E9 0%, #FFFFFF 100%);
-	background-image: linear-gradient(to bottom, #E9E9E9 0%,#FFFFFF 100%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#E9E9E9', endColorstr='#FFFFFF',GradientType=0 ); /* IE6-9 */
-	text-shadow: 1px 1px 0 #FFFFFF, -1px -1px 0 #FFFFFF, -1px -1px 0 rgba(188, 42, 77, 0.2);
+	border-color: var(--anchor);
+	background: var(--button-bg-hover);
+	box-shadow: none;
+	color: var(--content);
+	text-shadow: none;
 }
 
 .button .icon,
 .button-secondary {
-	color: #8F8F8F;
+	color: var(--content);
 }
 
 .button-secondary:focus,
 .button-secondary:hover,
 .button:focus .icon,
 .button:hover .icon {
-	color: #333333;
+	color: var(--content);
 }
 
 .button-search:hover,
 .button-search-end:hover {
-	border-color: #BFBFBF;
+	border-color: var(--anchor);
 }
 
-.caret	{ border-color: #DADADA; }
-.caret	{ border-color: #C7C3BF; }
+.caret	{ border-color: var(--content); }
 
 .contact-icons a	{ border-color: #DCDCDC; }
 .contact-icons a:hover	{ background-color: #F2F6F9; }
@@ -703,12 +703,12 @@ Colours and backgrounds for buttons.css
 ---------------------------------------- */
 
 .pagination li a {
-	background: #ECEDEE;
+	background: var(--button-bg);
 	filter: none;
-	border-color: #B4BAC0;
+	border-color: var(--anchor);
 	box-shadow: none;
-	-webkit-box-shadow: none;
-	color: #5C758C;
+	color: var(--content);
+	text-shadow: none;
 }
 
 .pagination li.ellipsis span {
@@ -717,16 +717,16 @@ Colours and backgrounds for buttons.css
 }
 
 .pagination li.active span {
-	background: var(--accent);
-	border-color: var(--accent);
-	color: #FFFFFF;
+	background: var(--button-bg-hover);
+	border-color: var(--anchor-hover);
+	color: var(--content);
 }
 
 .pagination li a:hover, .pagination li a:hover .icon, .pagination .dropdown-visible a.dropdown-trigger, .nojs .pagination .dropdown-container:hover a.dropdown-trigger {
-	background: #808080;
-	border-color: #808080;
+	background: var(--button-bg-hover);
+	border-color: var(--anchor);
 	filter: none;
-	color: #FFFFFF;
+	color: var(--content);
 	text-shadow: none;
 }
 
