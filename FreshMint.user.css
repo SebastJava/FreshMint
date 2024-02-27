@@ -1335,10 +1335,16 @@ li.notification-reported strong, li.notification-disapproved strong {
   :not(.row .big-column).bg3 {background-color: #EFFFEF;}
 
   /* EXTRAS */
+
   blockquote {border-style: solid; border-width: 0 0 0 12px; padding-left: 12px; margin-left: 0;}
+
   strong {font-weight: bold !important;}
+
   .username-coloured {color: var(--username-coloured) !important; font-weight: bold;}
   .username-coloured:hover {color: var(--anchor-hover) !important;}
+  div.stat-block.online-list p a:not(.username) {color: var(--username-coloured) !important;}
+  div.stat-block.online-list p a:hover:not(.username) {color: var(--anchor-hover) !important;}
+
   div.rules a {font-weight: bold;}
 
 
