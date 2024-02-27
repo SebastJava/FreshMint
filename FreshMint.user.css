@@ -92,7 +92,7 @@ hr {
 Colours and backgrounds for links.css
 -------------------------------------------------------------- */
 
-a { color: var(--anchor); }
+a, a:focus, a:active { color: var(--anchor); }
 a:hover { color: var(--anchor-hover); }
 
 /* Links on gradient backgrounds */
