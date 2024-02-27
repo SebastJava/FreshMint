@@ -14,7 +14,7 @@
 @var color body-background "body background" #000
 @var color body-text "body text" #C4C4C4
 @var color body-titles "body titles" #D3D3D3
-@var color post-content "post content" #FFF
+@var color content "content" #FFF
 
 @var color anchor "links & titles" #0BDE74
 @var color anchor-hover "links & titles hover" #FFF
@@ -167,7 +167,7 @@ a:hover { color: var(--anchor-hover); }
 }
 
 .post:target .content {
-	color: var(--post-content);
+	color: var(--content);
 }
 
 .post h3 a.first-unread,
@@ -433,13 +433,13 @@ li.header dt, li.header dd {
 /* Post body styles
 ----------------------------------------*/
 .postbody {
-	color: var(--post-content);
+	color: var(--content);
 }
 
 /* Content container styles
 ----------------------------------------*/
 .content {
-	color: var(--post-content);
+	color: var(--content);
 }
 
 .content h2, .panel h2 {
@@ -1060,7 +1060,7 @@ select {
 }
 
 label {
-	color: var(--post-content);
+	color: var(--content);
 }
 
 option.disabled-option {
