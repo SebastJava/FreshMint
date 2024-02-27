@@ -1060,7 +1060,7 @@ select {
 }
 
 label {
-	color: #425067;
+	color: var(--post-content);
 }
 
 option.disabled-option {
