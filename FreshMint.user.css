@@ -319,12 +319,6 @@ dl.details dd {
 	color: var(--dropdown-header-text);
 }
 
-/*
-.jumpbox-cat-link:visited {
-	color: var(--dropdown-header-text);
-}
-*/
-
 .jumpbox-forum-link {
 	background-color: var(--dropdown-contents-bg);
 }
