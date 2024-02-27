@@ -94,7 +94,7 @@ hr {
 Colours and backgrounds for links.css
 -------------------------------------------------------------- */
 
-a, a:focus, a:active { color: var(--anchor); }
+a, a:focus, a:active { color: var(--anchor); } /* Fix for values from styles/prosilver/theme/base.css */
 a:hover { color: var(--anchor-hover); }
 
 /* Links on gradient backgrounds */
@@ -1280,82 +1280,81 @@ li.notification-reported strong, li.notification-disapproved strong {
 
 /* FRESHMINT.USER.CSS__________________________________________________________________________________*/
 
-  /* ANCHORS */
-  a {font-weight: bold;}
-  a:hover {text-decoration: underline !important;}
-  a.button:hover {color: #333;}
+/* ANCHORS */
+a {font-weight: bold;}
+a:hover {text-decoration: underline !important;}
 
-  #page-header {background: var(--page-header); border-radius: 7px;}
+#page-header {background: var(--page-header); border-radius: 7px;}
 
-  /* HEADERBAR */
-  .headerbar {background-color: transparent; background-image: none; border-radius: 7px 7px 0 0;
-    margin-bottom: 0;}
+/* HEADERBAR */
+.headerbar {background-color: transparent; background-image: none; border-radius: 7px 7px 0 0;
+  margin-bottom: 0;}
 
-  /* This {display: none;} could be better achieved with two deletions in ./template/overall_header.html */
-  #site-description h1, #site-description p:not(.skiplink) {display: none;}
+/* This {display: none;} could be better achieved with two deletions in ./template/overall_header.html */
+#site-description h1, #site-description p:not(.skiplink) {display: none;}
 
-  .logo, .site_logo {width: 480px; height: 70px;}
-  .logo {padding: 10px;}
+.logo, .site_logo {width: 480px; height: 70px;}
+.logo {padding: 10px;}
 
-  #search-box.search-header {margin-top: 35px;}
+#search-box.search-header {margin-top: 35px;}
 
-  /* PAGE-HEADER NAVBAR */
-  #page-header .navbar {background-color: transparent; background-image: none; padding-top: 0px;}
-  #page-header #nav-main {padding-top: 4px; border-top: 1px solid white;}
-  #page-header .navbar a {color: white; font-weight: bold;}
-  #page-header .navbar ul.dropdown-contents a, #page-header .navbar div.dropdown-contents a {
-    color: var(--anchor);}
-  #page-header .navbar ul.dropdown-contents a:hover, #page-header .navbar div.dropdown-contents a:hover {
-    color: var(--anchor-hover);}
-  #page-header .breadcrumbs .crumb::before {color:white;}
+/* PAGE-HEADER NAVBAR */
+#page-header .navbar {background-color: transparent; background-image: none; padding-top: 0px;}
+#page-header #nav-main {padding-top: 4px; border-top: 1px solid white;}
+#page-header .navbar a {color: white; font-weight: bold;}
+#page-header .navbar ul.dropdown-contents a, #page-header .navbar div.dropdown-contents a {
+  color: var(--anchor);}
+#page-header .navbar ul.dropdown-contents a:hover, #page-header .navbar div.dropdown-contents a:hover {
+  color: var(--anchor-hover);}
+#page-header .breadcrumbs .crumb::before {color:white;}
 
-  #notification_list .footer:hover {background-color: var(--dropdown-extended-hover);}
+#notification_list .footer:hover {background-color: var(--dropdown-extended-hover);}
 
-  /* POSTLINKS */
-  .postlink, .postlink:visited {text-decoration: none; border-bottom: none;}
-  .postlink:hover {text-decoration: underline; border-bottom: none;}
+/* POSTLINKS */
+.postlink, .postlink:visited {text-decoration: none; border-bottom: none;}
+.postlink:hover {text-decoration: underline; border-bottom: none;}
 
-  /* NAV-FOOTER */
-  #nav-footer {color: white;}
-  #nav-footer a {color: white; font-weight: bold;}
+/* NAV-FOOTER */
+#nav-footer {color: white;}
+#nav-footer a {color: white; font-weight: bold;}
 
-  /* RESPONSIVE DESIGN */
-  @media (max-width: 700px) {
+/* RESPONSIVE DESIGN */
+@media (max-width: 700px) {
 
-    .headerbar {background-image: none;}
+  .headerbar {background-image: none;}
 
-    /* change display value from none to inline-block to show logo */
-    .logo {display: inline-block; float: none; padding: 0;}
-    .logo, .site_logo { width: 240px; height: 35px;}
-    .site_logo {
-      background-image: url("https://raw.githubusercontent.com/SebastJava/FreshMint/main/images/logo-Exo2-02.svg");}
+  /* change display value from none to inline-block to show logo */
+  .logo {display: inline-block; float: none; padding: 0;}
+  .logo, .site_logo { width: 240px; height: 35px;}
+  .site_logo {
+    background-image: url("https://raw.githubusercontent.com/SebastJava/FreshMint/main/images/logo-Exo2-02.svg");}
 
-    #page-header { border-radius: 0px; margin-left: -5px; margin-right: -5px;}
-  }
+  #page-header { border-radius: 0px; margin-left: -5px; margin-right: -5px;}
+}
 
-  /* BUG FIX: make sure every action-bar button is at the same height as ".search-box .inputbox" */
-  .action-bar .button, .pagination li.active span { height: 24px; box-sizing: border-box; }
+/* BUG FIX: Make sure every button is at the same height... */
+.action-bar .button, .pagination li.active span { height: 24px; box-sizing: border-box; }
 
-  /* BUG FIX: clean corners */
-  .dropdown-extended .header {border-radius: 3px 3px 0 0;}
+/* BUG FIX: clean corners */
+.dropdown-extended .header {border-radius: 3px 3px 0 0;}
 
-  /* REVERT CUSTOM COLORS FROM THE OLD MINTY THEME */
-  ul.forums > li.row:first-child {background-color: var(--ul-forums); background-image: none;}
-  ul.forums > li.row:first-child:hover {background-color: var(--li-row-hover); background-image: none;}
-  :not(.row .big-column).bg3 {background-color: #EFFFEF;}
+/* REVERT CUSTOM COLORS FROM THE OLD MINTY THEME */
+ul.forums > li.row:first-child {background-color: var(--ul-forums); background-image: none;}
+ul.forums > li.row:first-child:hover {background-color: var(--li-row-hover); background-image: none;}
+:not(.row .big-column).bg3 {background-color: #EFFFEF;}
 
-  /* EXTRAS */
+/* EXTRAS */
 
-  blockquote {border-style: solid; border-width: 0 0 0 12px; padding-left: 12px; margin-left: 0;}
+blockquote {border-style: solid; border-width: 0 0 0 12px; padding-left: 12px; margin-left: 0;}
 
-  strong {font-weight: bold !important;}
+strong {font-weight: bold !important;}
 
-  .username-coloured {color: var(--username-coloured) !important; font-weight: bold;}
-  .username-coloured:hover {color: var(--anchor-hover) !important;}
-  div.stat-block.online-list p a:not(.username) {color: var(--username-coloured) !important;}
-  div.stat-block.online-list p a:hover:not(.username) {color: var(--anchor-hover) !important;}
+.username-coloured {color: var(--username-coloured) !important; font-weight: bold;}
+.username-coloured:hover {color: var(--anchor-hover) !important;}
+div.stat-block.online-list p a:not(.username) {color: var(--username-coloured) !important;}
+div.stat-block.online-list p a:hover:not(.username) {color: var(--anchor-hover) !important;}
 
-  div.rules a {font-weight: bold;}
+div.rules a {font-weight: bold;}
 
 
 /*_____________________________________________________________________________________________________*/
