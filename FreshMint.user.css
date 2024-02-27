@@ -43,8 +43,10 @@
 @var text page-header "page-header" "#1AB481 linear-gradient(90deg, #69B53F 33%, #2AB9A5 67%)"
 @var text forumbg-navbarbg "forum & navbar bg" "#1AB481 linear-gradient(90deg, #69B53F 33%, #2AB9A5 67%)"
 
-@var color rules-bg "rules background" #E60026
-@var color rules-fg "rules text" #FFF
+@var text rules-bg "rules background" "#BFF2A6 linear-gradient(90deg, #BFF2A6 33%, #A6F2E8 67%)"
+@var color rules-fg "rules text" #333
+@var color rules-anchor "rules links" #0065CD
+@var color rules-anchor-hover "rules links hover" #333
 ==/UserStyle== */
 
 @-moz-document domain("forums.linuxmint.com") {
@@ -362,8 +364,16 @@ li.reported:hover {
 }
 
 div.rules {
-	background-color: var(--rules-bg);
+	background: var(--rules-bg);
 	color: var(--rules-fg);
+}
+
+div.rules a {
+	color: var(--rules-anchor);
+}
+
+div.rules a:hover {
+	color: var(--rules-anchor-hover);
 }
 
 p.post-notice {
