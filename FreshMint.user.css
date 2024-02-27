@@ -276,7 +276,7 @@ dl.details dd {
 }
 
 .icon.icon-red, a:hover .icon.icon-red {
-	color: #BC2A4D;
+	color: #66CCFF;
 }
 
 .icon.icon-orange, a:hover .icon.icon-orange {
@@ -352,7 +352,7 @@ dl.details dd {
 }
 
 .error {
-	color: #BC2A4D;
+	color: #E60026;
 }
 
 .reported {
@@ -448,7 +448,7 @@ dl.faq dt {
 
 .posthilit {
 	background-color: #F3BFCC;
-	color: #BC2A4D;
+	color: #E60026;
 }
 
 .announce, .unreadpost {
@@ -643,7 +643,7 @@ fieldset.polls dd div {
 }
 
 dd.profile-warnings {
-	color: #BC2A4D;
+	color: #E60026;
 }
 
 /*
@@ -959,7 +959,7 @@ ul.cplist {
 
 .navigation a:hover {
 	background: #F9F9F9;
-	color: #BC2A4D;
+	color: #E60026;
 }
 
 .navigation .active-subsection a {
@@ -1011,8 +1011,8 @@ dl.mini dt {
 
 /* PM marking colours */
 .pmlist li.pm_message_reported_colour, .pm_message_reported_colour {
-	border-left-color: #BC2A4D;
-	border-right-color: #BC2A4D;
+	border-left-color: #E60026;
+	border-right-color: #E60026;
 }
 
 .pmlist li.pm_marked_colour, .pm_marked_colour {
