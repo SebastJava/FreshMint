@@ -134,7 +134,7 @@ a:visited { color: var(--anchor); }
 
 /* Arrow links  */
 .arrow-left:hover, .arrow-right:hover {
-	color: #333333;
+	color: var(--anchor-hover);
 }
 
 /* Round cornered boxes and backgrounds
@@ -161,7 +161,7 @@ a:visited { color: var(--anchor); }
 }
 
 .panel {
-	background-color: #EFFFEF;
+	background-color: var(--bg3);
 	color: #333333;
 }
 
@@ -296,7 +296,7 @@ dl.details dd {
 }
 
 .icon.icon-black, a:hover .icon.icon-black {
-	color: #333333;
+	color: var(--body-text);
 }
 
 .alert_close .icon:before {
@@ -305,39 +305,43 @@ dl.details dd {
 
 /* Jumpbox */
 .jumpbox .dropdown li {
-	border-top-color: #CCCCCC;
+	border-top-color: #80808080;
 }
 
 .jumpbox-cat-link {
-	background-color: var(--accent);
-	border-top-color: var(--accent);
-	color: #FFFFFF;
+	background-color: var(--dropdown-header-bg);
+	border-top-color: var(--dropdown-header-bg);
+	color: var(--dropdown-header-text);
 }
 
 .jumpbox-cat-link:hover {
-	background-color: #505050;
-	border-top-color: #505050;
-	color: #FFFFFF;
+	background-color: var(--dropdown-extended-hover);
+	border-top-color: var(--dropdown-extended-hover);
+	color: var(--dropdown-header-text);
+}
+
+.jumpbox-cat-link:visited {
+	color: var(--dropdown-header-text);
 }
 
 .jumpbox-forum-link {
-	background-color: #E1EBF2;
+	background-color: var(--dropdown-contents-bg);
 }
 
 .jumpbox-forum-link:hover {
-	background-color: #F6F4D0;
+	background-color: var(--dropdown-extended-hover);
 }
 
 .jumpbox .dropdown .pointer-inner {
-	border-color: #E1EBF2 transparent;
+	border-color: var(--dropdown-contents-bg) transparent;
 }
 
 .jumpbox-sub-link {
-	background-color: #EFFFEF;
+	background-color: var(--dropdown-contents-bg);
 }
 
 .jumpbox-sub-link:hover {
-	background-color: white;
+	background-color: var(--dropdown-extended-hover);
 }
 
 /* Miscellaneous styles
@@ -905,8 +909,8 @@ ul.cplist {
 
 .tabs .activetab > a,
 .tabs .activetab > a:hover {
-	background-color: #EFFFEF;
-	border-color: #CCC #CCC #EFFFEF #CCC;
+	background-color: var(--bg3);
+	border-color: #CCC #CCC var(--bg3) #CCC;
 	box-shadow: none;
 	color: #333333;
 }
@@ -1339,6 +1343,7 @@ li.notification-reported strong, li.notification-disapproved strong {
   blockquote {border-style: solid; border-width: 0 0 0 12px; padding-left: 12px; margin-left: 0;}
   strong {font-weight: bold !important;}
   .username-coloured {color: var(--username-coloured) !important; font-weight: bold;}
+  .username-coloured:hover {color: var(--anchor-hover) !important;}
   div.rules a {font-weight: bold;}
 
 
