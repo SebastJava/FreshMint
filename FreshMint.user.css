@@ -720,6 +720,7 @@ Colours and backgrounds for buttons.css
 	background: var(--button-bg-hover);
 	border-color: var(--anchor-hover);
 	color: var(--content);
+	font-weight: bold;
 }
 
 .pagination li a:hover, .pagination li a:hover .icon, .pagination .dropdown-visible a.dropdown-trigger, .nojs .pagination .dropdown-container:hover a.dropdown-trigger {
