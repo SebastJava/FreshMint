@@ -240,7 +240,7 @@ table.table1 tbody tr {
 }
 
 table.table1 tbody tr:hover, table.table1 tbody tr.hover {
-	background-color: #F8F8F8;
+	background-color: var(--li-row-hover);
 	color: #000;
 }
 
@@ -755,7 +755,7 @@ Colours and backgrounds for buttons.css
 
 .search-results li:hover,
 .search-results li.active {
-	background-color: #F8F8F8;
+	background-color: var(--li-row-hover);
 }
 
 /* Icon images
