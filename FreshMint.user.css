@@ -171,7 +171,7 @@ a:hover { color: var(--anchor-hover); }
 
 .panel {
 	background-color: var(--bg3);
-	color: #333333;
+	color: var(--content);
 }
 
 .post:target .content {
@@ -252,7 +252,7 @@ table.table1 tbody td {
 
 table.table1 tbody th {
 	border-bottom-color: #000000;
-	color: #333333;
+	color: var(--content);
 	background-color: #FFFFFF;
 }
 
@@ -451,12 +451,12 @@ li.header dt, li.header dd {
 }
 
 .content h2, .panel h2 {
-	color: #333333;
+	color: var(--content);
 	border-bottom-color: #CCCCCC;
 }
 
 dl.faq dt {
-	color: #333333;
+	color: var(--content);
 }
 
 .posthilit {
@@ -895,8 +895,8 @@ ul.cplist {
 }
 
 .panel-container table.table1 thead th {
-	color: #333333;
-	border-bottom-color: #333333;
+	color: var(--content);
+	border-bottom-color: var(--content);
 }
 
 .cp-main .pm-message {
@@ -921,7 +921,7 @@ ul.cplist {
 	background-color: var(--bg3);
 	border-color: #CCC #CCC var(--bg3) #CCC;
 	box-shadow: none;
-	color: #333333;
+	color: var(--content);
 }
 
 .tabs .activetab > a:hover {
@@ -937,7 +937,7 @@ ul.cplist {
 .minitabs .activetab > a,
 .minitabs .activetab > a:hover {
 	background-color: #F9F9F9;
-	color: #333333;
+	color: var(--content);
 }
 
 /* Responsive tabs
@@ -955,13 +955,13 @@ ul.cplist {
 
 /* Link styles for the sub-section links */
 .navigation a {
-	color: #333333;
+	color: var(--content);
 	background: #E0E0E0;
 	/*background: linear-gradient(to right, #E0E0E0 0%,#F9F9F9 75%);*/
 }
 
 .rtl .navigation a {
-	color: #333333;
+	color: var(--content);
 	background: #E0E0E0;
 	/*background: linear-gradient(to right, #E0E0E0 0%,#F9F9F9 75%);*/
 }
@@ -991,7 +991,7 @@ ul.cplist {
 /* Preferences pane layout
 ----------------------------------------*/
 .panel-container h2 {
-	color: #333333;
+	color: var(--content);
 }
 
 .panel-container .panel {
@@ -1074,7 +1074,7 @@ option.disabled-option {
 /* Definition list layout for forms
 ---------------------------------------- */
 dd label {
-	color: #333333;
+	color: var(--content);
 }
 
 fieldset.fields1 {
@@ -1099,7 +1099,7 @@ fieldset.quick-login input.inputbox {
 ----------------------------------------*/
 
 .message-box textarea {
-	color: #333333;
+	color: var(--content);
 }
 
 .message-box textarea.drag-n-drop {
@@ -1185,7 +1185,7 @@ a.button1:hover, input.button1:hover, a.button2:hover, input.button2:hover, inpu
 /* Focus states */
 input.button1:focus, input.button2:focus, input.button3:focus {
 	border-color: #8F8F8F;
-	color: #333333;
+	color: var(--content);
 }
 
 input.disabled {
