@@ -1285,7 +1285,7 @@ li.notification-reported strong, li.notification-disapproved strong {
 /* FRESHMINT.USER.CSS__________________________________________________________________________________*/
 
 /* ANCHORS */
-a {font-weight: bold;}
+a {font-weight: bold !important;}
 a:hover {text-decoration: underline !important;}
 
 #page-header {background: var(--page-header); border-radius: 7px;}
