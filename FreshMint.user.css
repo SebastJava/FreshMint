@@ -499,7 +499,7 @@ blockquote blockquote blockquote {
 /* Code block */
 .codebox {
 	background-color: #303030;
-	border-color: #000;
+	border-color: #000000;
 	color: #2AD47F;
 }
 
@@ -508,8 +508,8 @@ blockquote blockquote blockquote {
 }
 
 .codebox p {
-	background-color: #000;
-	border-bottom-color: #000;
+	background-color: #000000;
+	border-bottom-color: #000000;
 }
 
 .codebox code {
@@ -925,7 +925,7 @@ ul.cplist {
 }
 
 .tabs .activetab > a:hover {
-	color: #000000;
+	color: var(--anchor-hover);
 }
 
 /* Mini tabbed menu used in MCP
@@ -1060,7 +1060,7 @@ Colours and backgrounds for forms.css
 select {
 	border-color: #666666;
 	background-color: #FAFAFA;
-	color: #000;
+	color: #333333;
 }
 
 label {
@@ -1083,7 +1083,7 @@ fieldset.fields1 {
 
 /* Hover effects */
 fieldset dl:hover dt label {
-	color: #000000;
+	color: var(--anchor);
 }
 
 fieldset.fields2 dl:hover dt label {
@@ -1147,7 +1147,7 @@ fieldset.quick-login input.inputbox {
 ---------------------------------------- */
 
 a.button1, input.button1, input.button3, a.button2, input.button2 {
-	color: #000;
+	color: #333333;
 	background-color: #EFEFEF; /* Old browsers */ /* FF3.6+ */
 	background-image: -webkit-linear-gradient(top, #D2D2D2 0%, #EFEFEF 100%);
 	background-image: linear-gradient(to bottom, #D2D2D2 0%,#EFEFEF 100%); /* W3C */
@@ -1213,12 +1213,12 @@ input.disabled {
 
 .dropdown-extended ul li:hover {
 	background-color: var(--dropdown-extended-hover);
-	color: #000000;
+	color: var(--content);
 }
 
 .dropdown-extended .header, .dropdown-extended .footer {
 	border-color: #80808080;
-	color: #000000;
+	color: var(--content);
 }
 
 .dropdown-extended .footer {
