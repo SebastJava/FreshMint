@@ -245,7 +245,7 @@ table.table1 tbody tr:hover, table.table1 tbody tr.hover {
 }
 
 table.table1 td {
-	color: #536482;
+	color: var(--content);
 }
 
 table.table1 tbody td {
@@ -269,7 +269,7 @@ dl.details dt {
 }
 
 dl.details dd {
-	color: #536482;
+	color: var(--content);
 }
 
 .sep {
@@ -295,7 +295,7 @@ dl.details dd {
 }
 
 .icon.icon-bluegray, a:hover .icon.icon-bluegray {
-	color: #536482;
+	color: var(--content);
 }
 
 .icon.icon-gray, a:hover .icon.icon-gray {
@@ -914,7 +914,7 @@ ul.cplist {
 ----------------------------------------*/
 .tabs .tab > a {
 	background: #BACCD9;
-	color: #536482;
+	color: var(--content);
 }
 
 .tabs .tab > a:hover {
@@ -949,7 +949,7 @@ ul.cplist {
 /* Responsive tabs
 ----------------------------------------*/
 .responsive-tab .responsive-tab-link:before {
-	border-color: #536482;
+	border-color: var(--content);
 }
 
 .responsive-tab .responsive-tab-link:hover:before {
