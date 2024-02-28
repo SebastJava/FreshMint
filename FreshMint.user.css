@@ -54,6 +54,8 @@
 
 @var color blockquote-bg1 "blockquote bg1" #444
 @var color blockquote-bg2 "blockquote bg2" #333
+@var color codebox-bg "code block background" #1F3347
+@var color codebox-bd "code block border" #001A34
 
 ==/UserStyle== */
 
@@ -498,18 +500,22 @@ blockquote blockquote blockquote {
 
 /* Code block */
 .codebox {
-	background-color: #303030;
-	border-color: #000000;
-	color: #2AD47F;
-}
-
-.codebox a {
+	background-color: var(--codebox-bg) !important;
+	border-color: var(--codebox-bd) !important;
 	color: #55C7FF;
 }
 
+.codebox a {
+	color: #0BDE74;
+}
+
+.codebox a:hover {
+	color: #FFFFFF;
+}
+
 .codebox p {
-	background-color: #000000;
-	border-bottom-color: #000000;
+	background-color: var(--codebox-bd);
+	border-bottom-color: var(--codebox-bd);
 }
 
 .codebox code {
