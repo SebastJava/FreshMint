@@ -639,7 +639,7 @@ fieldset.polls dd div {
 /* Poster profile block
 ----------------------------------------*/
 .postprofile {
-	color: #666666;
+	color: var(--content);
 	border-color: #FFFFFF;
 }
 
