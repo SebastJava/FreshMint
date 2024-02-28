@@ -737,11 +737,11 @@ Colours and backgrounds for buttons.css
 .search-box .inputbox,
 .search-box .inputbox:hover,
 .search-box .inputbox:focus {
-	border-color: #C7C3BF;
+	border-color: #CCC;
 }
 
 .search-header {
-	box-shadow: 0 0 10px #0075B0;
+	box-shadow: 0 0 6px 3px #FFF;
 }
 
 .search-results li:hover,
@@ -1345,6 +1345,8 @@ ul.forums > li.row:first-child:hover {background-color: var(--li-row-hover); bac
 :not(.row .big-column).bg3 {background-color: #EFFFEF;}
 
 /* EXTRAS */
+
+.search-header .inputbox {border-style: solid; border-width: 1px;}
 
 blockquote {border-style: solid; border-width: 0 0 0 12px; padding-left: 12px; margin-left: 0;}
 
