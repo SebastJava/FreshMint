@@ -44,7 +44,7 @@
 @var text page-header "page-header" "#1AB481 linear-gradient(90deg, #69B53F 33%, #2AB9A5 67%)"
 @var text forumbg-navbarbg "forum & navbar bg" "#1AB481 linear-gradient(90deg, #69B53F 33%, #2AB9A5 67%)"
 
-@var text button-bg "button background" "#00AB71 linear-gradient(to bottom, #00AB71 0%, #101010 100%)"
+@var text button-bg "button background" "#00AB71 linear-gradient(to bottom, #00AB71 40%, #006543 80%)"
 @var text button-bg-hover "button bg hover" "#00AB71"
 
 @var text rules-bg "rules background" "#1AB481 linear-gradient(90deg, #69B53F 33%, #2AB9A5 67%)"
