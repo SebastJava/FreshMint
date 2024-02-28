@@ -38,7 +38,7 @@
 @var text dropdown-contents-shadow "dropdown contents shadow" "0px 0px 6px 3px #FFF"
 @var color notification-time "notification time" #A3A3A3
 
-@var color accent "accent" #2AB9A5
+@var color accent "accent" #00AB71
 @var color username-coloured "team username" #8ED500
 
 @var text page-header "page-header" "#1AB481 linear-gradient(90deg, #69B53F 33%, #2AB9A5 67%)"
@@ -51,6 +51,9 @@
 @var color rules-fg "rules text" #FFF
 @var color rules-anchor "rules links" #FFF
 @var color rules-anchor-hover "rules links hover" #333
+
+@var color blockquote-bg1 "blockquote bg1" #444
+@var color blockquote-bg2 "blockquote bg2" #333
 
 ==/UserStyle== */
 
@@ -479,18 +482,18 @@ dl.faq dt {
 ----------------------------------------*/
 /* Quote block */
 blockquote {
-	background-color: #F2F2F2;
+	background-color: var(--blockquote-bg1);
 	border-color: var(--accent);
 }
 
 blockquote blockquote {
 	/* Nested quotes */
-	background-color: #FFFFFF;
+	background-color: var(--blockquote-bg2);
 }
 
 blockquote blockquote blockquote {
 	/* Nested quotes */
-	background-color: #F2F2F2;
+	background-color: var(--blockquote-bg1);
 }
 
 /* Code block */
@@ -1348,7 +1351,8 @@ ul.forums > li.row:first-child:hover {background-color: var(--li-row-hover); bac
 
 .search-header .inputbox {border-style: solid; border-width: 1px;}
 
-blockquote {border-style: solid; border-width: 0 0 0 12px; padding-left: 12px; margin-left: 0;}
+blockquote {border-style: solid; border-width: 0 0 0 12px; padding-left: 12px;}
+blockquote, blockquote blockquote, blockquote blockquote blockquote {margin-left: 0;}
 
 strong {font-weight: bold !important;}
 
