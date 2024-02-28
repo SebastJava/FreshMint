@@ -47,9 +47,9 @@
 @var text button-bg "button background" "#00AB71 linear-gradient(to bottom, #00AB71 0%, #101010 100%)"
 @var text button-bg-hover "button bg hover" "#00AB71"
 
-@var text rules-bg "rules background" "#BFF2A6 linear-gradient(90deg, #BFF2A6 33%, #A6F2E8 67%)"
-@var color rules-fg "rules text" #333
-@var color rules-anchor "rules links" #0065CD
+@var text rules-bg "rules background" "#1AB481 linear-gradient(90deg, #69B53F 33%, #2AB9A5 67%)"
+@var color rules-fg "rules text" #FFF
+@var color rules-anchor "rules links" #FFF
 @var color rules-anchor-hover "rules links hover" #333
 
 ==/UserStyle== */
@@ -1355,7 +1355,9 @@ strong {font-weight: bold !important;}
 div.stat-block.online-list p a:not(.username) {color: var(--username-coloured) !important;}
 div.stat-block.online-list p a:hover:not(.username) {color: var(--anchor-hover) !important;}
 
-div.rules a {font-weight: bold;}
+div.rules {font-weight: bold;}
+div.rules strong {text-transform: uppercase;}
+div.rules a {text-decoration: underline;}
 
 
 /*_____________________________________________________________________________________________________*/
