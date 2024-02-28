@@ -1345,9 +1345,11 @@ a:hover {text-decoration: underline !important;}
 /* REVERT CUSTOM COLORS FROM THE OLD MINTY THEME */
 ul.forums > li.row:first-child {background-color: var(--ul-forums); background-image: none;}
 ul.forums > li.row:first-child:hover {background-color: var(--li-row-hover); background-image: none;}
-:not(.row .big-column).bg3 {background-color: #EFFFEF;}
+:not(.row .big-column).bg3 {background-color: var(--bg3);}
 
 /* EXTRAS */
+
+input, optgroup, select, textarea {color: #333;}
 
 .search-header .inputbox {border-width: 1px 0px 1px 1px; border-style: solid;}
 
