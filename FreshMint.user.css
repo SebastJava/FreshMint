@@ -256,9 +256,9 @@ table.table1 tbody td {
 }
 
 table.table1 tbody th {
-	border-bottom-color: #000000;
+	border-bottom-color: #808080;
 	color: var(--content);
-	background-color: #FFFFFF;
+	background-color: var(--bg1);
 }
 
 table.info tbody th {
