@@ -1,4 +1,5 @@
 /* ==UserStyle==
+
 @name           FreshMint
 @namespace      https://github.com/SebastJava
 @version        1.1.4
@@ -11,29 +12,65 @@
 
 @preprocessor   default
 
-@var color body-background "body background" #F2F2F2
-@var color body-text "body text" #505050
-@var color post-content "post content" #333333
-@var color anchor "links & titles" #007D69
-@var color anchor-hover "links & titles hover" #333333
-@var color postlink "postlink" #0065CD
-@var color postlink-visited "postlink:visited" #893CD8
-@var color postlink-hover "postlink:hover" #333333
-@var color bg1 "background 1" #EFFFEF
-@var color bg2 "background 2" #FFFFFF
-@var color bg3 "background 3" #EFFFEF
-@var color accent "accent" #2AB9A5
+@var color body-background "body background" #000
+@var color body-text "body text" #C4C4C4
+@var color body-titles "body titles" #D3D3D3
+@var color content "content" #FFF
+
+@var color anchor "links & titles" #0BDE74
+@var color anchor-hover "links & titles hover" #FFF
+@var color postlink "postlink" #6CF
+@var color postlink-visited "postlink:visited" #D072FF
+@var color postlink-hover "postlink:hover" #FFF
+
+@var color ul-forums "forums lists bg" #333
+@var color li-row-hover "list row hover" #3B3B3B
+@var color ul-topiclist-li "list text" #FFF
+@var color list-borders "list borders" #4B4B4B
+@var color bg1 "background 1 (bg1)" #003D33
+@var color bg2 "background 2 (bg2)" #333
+@var color bg3 "background 3 (bg3)" #006554
+
+@var color dropdown-header-bg "dropdown header bg" #003D33
+@var color dropdown-header-text "dropdown header text" #FFF
+@var color dropdown-contents-bg "dropdown bg" #333
+@var color dropdown-extended-hover "dropdown hover" #3B3B3B
+@var text dropdown-contents-shadow "dropdown contents shadow" "0px 0px 6px 3px #FFF"
+@var color notification-time "notification time" #A3A3A3
+
+@var color accent "accent" #00AB71
+@var color username-coloured "team username" #8ED500
+
 @var text page-header "page-header" "#1AB481 linear-gradient(90deg, #69B53F 33%, #2AB9A5 67%)"
-@var text forumbg-navbarbg "forumbg & navbarbg" "#1AB481 linear-gradient(90deg, #69B53F 33%, #2AB9A5 67%)"
+@var text forumbg-navbarbg "forum & navbar bg" "#1AB481 linear-gradient(90deg, #69B53F 33%, #2AB9A5 67%)"
+
+@var text button-bg "button background" "#1A1A1A linear-gradient(to bottom, #808080 10%, #1A1A1A 90%)"
+@var text button-bg-hover "button bg hover" "#808080 linear-gradient(to bottom, #333333 10%, #808080 90%)"
+@var text button-bg-active "button bg active" "#00AB71"
+@var color button-bd "button border" #0BDE74
+@var color button-fg "button foreground" #FFF
+
+@var text rules-bg "rules background" "#1AB481 linear-gradient(90deg, #69B53F 33%, #2AB9A5 67%)"
+@var color rules-fg "rules text" #FFF
+@var color rules-anchor "rules links" #FFF
+@var color rules-anchor-hover "rules links hover" #333
+
+@var color blockquote-bg1 "blockquote bg1" #444
+@var color blockquote-bg2 "blockquote bg2" #333
+@var color codebox-bg "code block background" #1F3347
+@var color codebox-bd "code block border" #001A34
+
 ==/UserStyle== */
 
 @-moz-document domain("forums.linuxmint.com") {
 /* THIS PAIR OF CURLY BRACKETS ({}) ENCOMPASS THIS ENTIRE DOCUMENT! */
 
+/*_____________________________________________________________________________________________________*/
+/*_____________________________________________________________________________________________________*/
 
-/*
-COLOURS.USER.CSS
-This very long section (approx. 1200 lines) is based on a duplicate of prosilver/theme/colours.css
+/* COLOURS.USER.CSS____________________________________________________________________________________*/
+
+/* This very long section (approx. 1200 lines) is based on a duplicate of prosilver/theme/colours.css
 These are only color values. Only a few got changed or added. The core FRESHMINT.USER.CSS is just a
 small section at the bottom of this file...*/
 
@@ -52,17 +89,17 @@ h1 {
 }
 
 h2 {
-	color: #333333;
+	color: var(--body-titles);
 }
 
 h3 {
-	border-bottom-color: #CCCCCC;
-	color: #505050;
+	border-bottom-color: var(--body-titles);
+	color: var(--body-titles);
 }
 
 hr {
-	border-color: #FFFFFF;
-	border-top-color: #CCCCCC;
+	border-color: var(--body-titles);
+	border-top-color: var(--body-titles);
 }
 
 /*
@@ -70,7 +107,7 @@ hr {
 Colours and backgrounds for links.css
 -------------------------------------------------------------- */
 
-a { color: var(--anchor); }
+a, a:focus, a:active { color: var(--anchor); } /* Fix for values from styles/prosilver/theme/base.css */
 a:hover { color: var(--anchor-hover); }
 
 /* Links on gradient backgrounds */
@@ -79,7 +116,7 @@ a:hover { color: var(--anchor-hover); }
 }
 
 .forumbg .header a:hover, .forabg .header a:hover, th a:hover {
-	color: white;
+	color: #FFFFFF;
 }
 
 /* Notification mark read link */
@@ -111,7 +148,7 @@ a:hover { color: var(--anchor-hover); }
 
 /* Arrow links  */
 .arrow-left:hover, .arrow-right:hover {
-	color: #333333;
+	color: var(--anchor-hover);
 }
 
 /* Round cornered boxes and backgrounds
@@ -138,12 +175,12 @@ a:hover { color: var(--anchor-hover); }
 }
 
 .panel {
-	background-color: #EFFFEF;
-	color: #333333;
+	background-color: var(--bg3);
+	color: var(--content);
 }
 
 .post:target .content {
-	color: var(--post-content);
+	color: var(--content);
 }
 
 .post h3 a.first-unread,
@@ -206,12 +243,12 @@ table.table1 tbody tr {
 }
 
 table.table1 tbody tr:hover, table.table1 tbody tr.hover {
-	background-color: #F8F8F8;
+	background-color: var(--li-row-hover);
 	color: #000;
 }
 
 table.table1 td {
-	color: #536482;
+	color: var(--content);
 }
 
 table.table1 tbody td {
@@ -219,9 +256,9 @@ table.table1 tbody td {
 }
 
 table.table1 tbody th {
-	border-bottom-color: #000000;
-	color: #333333;
-	background-color: #FFFFFF;
+	border-bottom-color: #808080;
+	color: var(--content);
+	background-color: var(--bg1);
 }
 
 table.info tbody th {
@@ -231,11 +268,11 @@ table.info tbody th {
 /* Misc layout styles
 ---------------------------------------- */
 dl.details dt {
-	color: #000000;
+	color: var(--contents); font-weight: bold;
 }
 
 dl.details dd {
-	color: #536482;
+	color: var(--content);
 }
 
 .sep {
@@ -253,7 +290,7 @@ dl.details dd {
 }
 
 .icon.icon-red, a:hover .icon.icon-red {
-	color: #BC2A4D;
+	color: #66CCFF;
 }
 
 .icon.icon-orange, a:hover .icon.icon-orange {
@@ -261,7 +298,7 @@ dl.details dd {
 }
 
 .icon.icon-bluegray, a:hover .icon.icon-bluegray {
-	color: #536482;
+	color: var(--content);
 }
 
 .icon.icon-gray, a:hover .icon.icon-gray {
@@ -273,7 +310,7 @@ dl.details dd {
 }
 
 .icon.icon-black, a:hover .icon.icon-black {
-	color: #333333;
+	color: var(--body-text);
 }
 
 .alert_close .icon:before {
@@ -282,50 +319,50 @@ dl.details dd {
 
 /* Jumpbox */
 .jumpbox .dropdown li {
-	border-top-color: #CCCCCC;
+	border-top-color: #80808080;
 }
 
 .jumpbox-cat-link {
-	background-color: var(--accent);
-	border-top-color: var(--accent);
-	color: #FFFFFF;
+	background-color: var(--dropdown-header-bg);
+	border-top-color: var(--dropdown-header-bg);
+	color: var(--dropdown-header-text);
 }
 
 .jumpbox-cat-link:hover {
-	background-color: #505050;
-	border-top-color: #505050;
-	color: #FFFFFF;
+	background-color: var(--dropdown-extended-hover);
+	border-top-color: var(--dropdown-extended-hover);
+	color: var(--dropdown-header-text);
 }
 
 .jumpbox-forum-link {
-	background-color: #E1EBF2;
+	background-color: var(--dropdown-contents-bg);
 }
 
 .jumpbox-forum-link:hover {
-	background-color: #F6F4D0;
+	background-color: var(--dropdown-extended-hover);
 }
 
 .jumpbox .dropdown .pointer-inner {
-	border-color: #E1EBF2 transparent;
+	border-color: var(--dropdown-contents-bg) transparent;
 }
 
 .jumpbox-sub-link {
-	background-color: #EFFFEF;
+	background-color: var(--dropdown-contents-bg);
 }
 
 .jumpbox-sub-link:hover {
-	background-color: white;
+	background-color: var(--dropdown-extended-hover);
 }
 
 /* Miscellaneous styles
 ---------------------------------------- */
 
 .copyright {
-	color: #555555;
+	color: var(--body-text);
 }
 
 .error {
-	color: #BC2A4D;
+	color: #E60026;
 }
 
 .reported {
@@ -340,8 +377,16 @@ li.reported:hover {
 }
 
 div.rules {
-	background-color: #FFCAD2;
-	color: #BD002F;
+	background: var(--rules-bg);
+	color: var(--rules-fg);
+}
+
+div.rules a {
+	color: var(--rules-anchor);
+}
+
+div.rules a:hover {
+	color: var(--rules-anchor-hover);
 }
 
 p.post-notice {
@@ -355,16 +400,16 @@ Colours and backgrounds for content.css
 -------------------------------------------------------------- */
 
 ul.forums {
-	background-color: white;
+	background-color: var(--ul-forums);
 	background-image: none;
 }
 
 ul.topiclist li {
-	color: #333333;
+	color: var(--ul-topiclist-li);
 }
 
 ul.topiclist dd {
-	border-left-color: #E6E6E6;
+	border-left-color: var(--list-borders);
 }
 
 .rtl ul.topiclist dd {
@@ -373,20 +418,20 @@ ul.topiclist dd {
 }
 
 li.row {
-	border-top-color: #E6E6E6;
-	border-bottom-color: #E6E6E6;
+	border-top-color: var(--list-borders);
+	border-bottom-color: var(--list-borders);
 }
 
 li.row strong {
-	color: #000000;
+	color: inherit;
 }
 
 li.row:hover {
-	background-color: #F8F8F8;
+	background-color: var(--li-row-hover);
 }
 
 li.row:hover dd {
-	border-left-color: #E6E6E6;
+	border-left-color: var(--list-borders);
 }
 
 .rtl li.row:hover dd {
@@ -401,27 +446,27 @@ li.header dt, li.header dd {
 /* Post body styles
 ----------------------------------------*/
 .postbody {
-	color: var(--post-content);
+	color: var(--content);
 }
 
 /* Content container styles
 ----------------------------------------*/
 .content {
-	color: var(--post-content);
+	color: var(--content);
 }
 
 .content h2, .panel h2 {
-	color: #333333;
+	color: var(--content);
 	border-bottom-color: #CCCCCC;
 }
 
 dl.faq dt {
-	color: #333333;
+	color: var(--content);
 }
 
 .posthilit {
 	background-color: #F3BFCC;
-	color: #BC2A4D;
+	color: #E60026;
 }
 
 .announce, .unreadpost {
@@ -442,34 +487,38 @@ dl.faq dt {
 ----------------------------------------*/
 /* Quote block */
 blockquote {
-	background-color: #F2F2F2;
+	background-color: var(--blockquote-bg1);
 	border-color: var(--accent);
 }
 
 blockquote blockquote {
 	/* Nested quotes */
-	background-color: #FFFFFF;
+	background-color: var(--blockquote-bg2);
 }
 
 blockquote blockquote blockquote {
 	/* Nested quotes */
-	background-color: #F2F2F2;
+	background-color: var(--blockquote-bg1);
 }
 
 /* Code block */
 .codebox {
-	background-color: #303030;
-	border-color: #000;
-	color: #2AD47F;
-}
-
-.codebox a {
+	background-color: var(--codebox-bg) !important;
+	border-color: var(--codebox-bd) !important;
 	color: #55C7FF;
 }
 
+.codebox a {
+	color: #0BDE74;
+}
+
+.codebox a:hover {
+	color: #FFFFFF;
+}
+
 .codebox p {
-	background-color: #000;
-	border-bottom-color: #000;
+	background-color: var(--codebox-bd);
+	border-bottom-color: var(--codebox-bd);
 }
 
 .codebox code {
@@ -599,8 +648,8 @@ fieldset.polls dd div {
 /* Poster profile block
 ----------------------------------------*/
 .postprofile {
-	color: #666666;
-	border-color: #FFFFFF;
+	color: var(--content);
+	border-color: #808080;
 }
 
 .pm .postprofile {
@@ -608,7 +657,7 @@ fieldset.polls dd div {
 }
 
 .postprofile strong {
-	color: #000000;
+	color: inherit;
 }
 
 .online {
@@ -616,7 +665,7 @@ fieldset.polls dd div {
 }
 
 dd.profile-warnings {
-	color: #BC2A4D;
+	color: #E60026;
 }
 
 /*
@@ -624,45 +673,40 @@ dd.profile-warnings {
 Colours and backgrounds for buttons.css
 -------------------------------------------------------------- */
 .button {
-	border-color: #BFBFBF;
-	background-color: #E9E9E9; /* Old browsers */ /* FF3.6+ */
-	background-image: -webkit-linear-gradient(top, #FFFFFF 0%, #E9E9E9 100%);
-	background-image: linear-gradient(to bottom, #FFFFFF 0%,#E9E9E9 100%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FFFFFF', endColorstr='#E9E9E9',GradientType=0 ); /* IE6-9 */
-	box-shadow: 0 0 0 1px #FFFFFF inset;
-	-webkit-box-shadow: 0 0 0 1px #FFFFFF inset;
-	color: #D31141;
+	border-color: var(--button-bd);
+	background: var(--button-bg);
+	box-shadow: 0 0 0 1px var(--button-bd) inset; /* (bug fix...) */
+	color: var(--button-fg);
+	text-shadow: none;
 }
 
 .button:hover,
 .button:focus {
-	border-color: #8F8F8F;
-	background-color: #FFFFFF; /* Old browsers */ /* FF3.6+ */
-	background-image: -webkit-linear-gradient(top, #E9E9E9 0%, #FFFFFF 100%);
-	background-image: linear-gradient(to bottom, #E9E9E9 0%,#FFFFFF 100%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#E9E9E9', endColorstr='#FFFFFF',GradientType=0 ); /* IE6-9 */
-	text-shadow: 1px 1px 0 #FFFFFF, -1px -1px 0 #FFFFFF, -1px -1px 0 rgba(188, 42, 77, 0.2);
+	border-color: var(--button-bd);
+	background: var(--button-bg-hover);
+	box-shadow: 0 0 0 1px var(--button-bd) inset; /* (bug fix...) */
+	color: var(--button-fg);
+	text-shadow: none;
 }
 
 .button .icon,
 .button-secondary {
-	color: #8F8F8F;
+	color: var(--button-fg);
 }
 
 .button-secondary:focus,
 .button-secondary:hover,
 .button:focus .icon,
 .button:hover .icon {
-	color: #333333;
+	color: var(--button-fg);
 }
 
 .button-search:hover,
 .button-search-end:hover {
-	border-color: #BFBFBF;
+	border-color: var(--button-bd);
 }
 
-.caret	{ border-color: #DADADA; }
-.caret	{ border-color: #C7C3BF; }
+.caret	{ border-color: var(--content); }
 
 .contact-icons a	{ border-color: #DCDCDC; }
 .contact-icons a:hover	{ background-color: #F2F6F9; }
@@ -671,30 +715,32 @@ Colours and backgrounds for buttons.css
 ---------------------------------------- */
 
 .pagination li a {
-	background: #ECEDEE;
+	background: var(--button-bg);
 	filter: none;
-	border-color: #B4BAC0;
+	border: 1px solid var(--button-bd);
 	box-shadow: none;
-	-webkit-box-shadow: none;
-	color: #5C758C;
+	color: var(--button-fg);
+	text-shadow: none;
 }
 
 .pagination li.ellipsis span {
 	background: transparent;
-	color: #000000;
+	color: var(--body-text);
 }
 
 .pagination li.active span {
-	background: var(--accent);
-	border-color: var(--accent);
-	color: #FFFFFF;
+	background: var(--button-bg-active);
+	border-color: var(--button-bd);
+	color: var(--button-fg);
+	font-weight: bold;
 }
 
 .pagination li a:hover, .pagination li a:hover .icon, .pagination .dropdown-visible a.dropdown-trigger, .nojs .pagination .dropdown-container:hover a.dropdown-trigger {
-	background: #505050;
-	border-color: #505050;
+	background: var(--button-bg-active);
 	filter: none;
-	color: #FFFFFF;
+	border-color: var(--button-bd);
+	box-shadow: none;
+	color: var(--button-fg);
 	text-shadow: none;
 }
 
@@ -704,16 +750,16 @@ Colours and backgrounds for buttons.css
 .search-box .inputbox,
 .search-box .inputbox:hover,
 .search-box .inputbox:focus {
-	border-color: #C7C3BF;
+	border-color: #CCC;
 }
 
 .search-header {
-	box-shadow: 0 0 10px #0075B0;
+	box-shadow: 0 0 6px 3px #FFF;
 }
 
 .search-results li:hover,
 .search-results li.active {
-	background-color: #F8F8F8;
+	background-color: var(--li-row-hover);
 }
 
 /* Icon images
@@ -738,99 +784,99 @@ Colours and backgrounds for buttons.css
 
 /* Forum icons & Topic icons */
 .global_read {
-	background-image: url("https://forums.linuxmint.com/styles/minty/theme/images/announce_read.svg"); }
+	background-image: url("https://raw.githubusercontent.com/SebastJava/FreshMint/main/icons/announce_read.svg"); }
 .global_read_mine {
-	background-image: url("https://forums.linuxmint.com/styles/minty/theme/images/announce_read_mine.svg"); }
+	background-image: url("https://raw.githubusercontent.com/SebastJava/FreshMint/main/icons/announce_read_mine.svg"); }
 .global_read_locked {
-	background-image: url("https://forums.linuxmint.com/styles/minty/theme/images/announce_read_locked.svg"); }
+	background-image: url("https://raw.githubusercontent.com/SebastJava/FreshMint/main/icons/announce_read_locked.svg"); }
 .global_read_locked_mine {
-	background-image: url("https://forums.linuxmint.com/styles/minty/theme/images/announce_read_locked_mine.svg"); }
+	background-image: url("https://raw.githubusercontent.com/SebastJava/FreshMint/main/icons/announce_read_locked_mine.svg"); }
 .global_unread {
-	background-image: url("https://forums.linuxmint.com/styles/minty/theme/images/announce_unread.svg"); }
+	background-image: url("https://raw.githubusercontent.com/SebastJava/FreshMint/main/icons/announce_unread.svg"); }
 .global_unread_mine {
-	background-image: url("https://forums.linuxmint.com/styles/minty/theme/images/announce_unread_mine.svg"); }
+	background-image: url("https://raw.githubusercontent.com/SebastJava/FreshMint/main/icons/announce_unread_mine.svg"); }
 .global_unread_locked {
-	background-image: url("https://forums.linuxmint.com/styles/minty/theme/images/announce_unread_locked.svg"); }
+	background-image: url("https://raw.githubusercontent.com/SebastJava/FreshMint/main/icons/announce_unread_locked.svg"); }
 .global_unread_locked_mine {
-	background-image: url("https://forums.linuxmint.com/styles/minty/theme/images/announce_unread_locked_mine.svg"); }
+	background-image: url("https://raw.githubusercontent.com/SebastJava/FreshMint/main/icons/announce_unread_locked_mine.svg"); }
 
 .announce_read {
-	background-image: url("https://forums.linuxmint.com/styles/minty/theme/images/announce_read.svg"); }
+	background-image: url("https://raw.githubusercontent.com/SebastJava/FreshMint/main/icons/announce_read.svg"); }
 .announce_read_mine {
-	background-image: url("https://forums.linuxmint.com/styles/minty/theme/images/announce_read_mine.svg"); }
+	background-image: url("https://raw.githubusercontent.com/SebastJava/FreshMint/main/icons/announce_read_mine.svg"); }
 .announce_read_locked {
-	background-image: url("https://forums.linuxmint.com/styles/minty/theme/images/announce_read_locked.svg"); }
+	background-image: url("https://raw.githubusercontent.com/SebastJava/FreshMint/main/icons/announce_read_locked.svg"); }
 .announce_read_locked_mine {
-	background-image: url("https://forums.linuxmint.com/styles/minty/theme/images/announce_read_locked_mine.svg"); }
+	background-image: url("https://raw.githubusercontent.com/SebastJava/FreshMint/main/icons/announce_read_locked_mine.svg"); }
 .announce_unread {
-	background-image: url("https://forums.linuxmint.com/styles/minty/theme/images/announce_unread.svg"); }
+	background-image: url("https://raw.githubusercontent.com/SebastJava/FreshMint/main/icons/announce_unread.svg"); }
 .announce_unread_mine {
-	background-image: url("https://forums.linuxmint.com/styles/minty/theme/images/announce_unread_mine.svg"); }
+	background-image: url("https://raw.githubusercontent.com/SebastJava/FreshMint/main/icons/announce_unread_mine.svg"); }
 .announce_unread_locked {
-	background-image: url("https://forums.linuxmint.com/styles/minty/theme/images/announce_unread_locked.svg"); }
+	background-image: url("https://raw.githubusercontent.com/SebastJava/FreshMint/main/icons/announce_unread_locked.svg"); }
 .announce_unread_locked_mine {
-	background-image: url("https://forums.linuxmint.com/styles/minty/theme/images/announce_unread_locked_mine.svg"); }
+	background-image: url("https://raw.githubusercontent.com/SebastJava/FreshMint/main/icons/announce_unread_locked_mine.svg"); }
 
 .forum_link {
-	background-image: url("https://forums.linuxmint.com/styles/minty/theme/images/forum_link.svg"); }
+	background-image: url("https://raw.githubusercontent.com/SebastJava/FreshMint/main/icons/forum_link.svg"); }
 .forum_read {
-	background-image: url("https://forums.linuxmint.com/styles/minty/theme/images/forum_read.svg"); }
+	background-image: url("https://raw.githubusercontent.com/SebastJava/FreshMint/main/icons/forum_read.svg"); }
 .forum_read_locked {
-	background-image: url("https://forums.linuxmint.com/styles/minty/theme/images/forum_read_locked.svg"); }
+	background-image: url("https://raw.githubusercontent.com/SebastJava/FreshMint/main/icons/forum_read_locked.svg"); }
 .forum_read_subforum {
-	background-image: url("https://forums.linuxmint.com/styles/minty/theme/images/forum_read_subforum.svg"); }
+	background-image: url("https://raw.githubusercontent.com/SebastJava/FreshMint/main/icons/forum_read_subforum.svg"); }
 .forum_unread {
-	background-image: url("https://forums.linuxmint.com/styles/minty/theme/images/forum_unread.svg"); }
+	background-image: url("https://raw.githubusercontent.com/SebastJava/FreshMint/main/icons/forum_unread.svg"); }
 .forum_unread_locked {
-	background-image: url("https://forums.linuxmint.com/styles/minty/theme/images/forum_unread_locked.svg"); }
+	background-image: url("https://raw.githubusercontent.com/SebastJava/FreshMint/main/icons/forum_unread_locked.svg"); }
 .forum_unread_subforum {
-	background-image: url("https://forums.linuxmint.com/styles/minty/theme/images/forum_unread_subforum.svg"); }
+	background-image: url("https://raw.githubusercontent.com/SebastJava/FreshMint/main/icons/forum_unread_subforum.svg"); }
 
 .sticky_read {
-	background-image: url("https://forums.linuxmint.com/styles/minty/theme/images/sticky_read.svg"); }
+	background-image: url("https://raw.githubusercontent.com/SebastJava/FreshMint/main/icons/sticky_read.svg"); }
 .sticky_read_mine {
-	background-image: url("https://forums.linuxmint.com/styles/minty/theme/images/sticky_read_mine.svg"); }
+	background-image: url("https://raw.githubusercontent.com/SebastJava/FreshMint/main/icons/sticky_read_mine.svg"); }
 .sticky_read_locked {
-	background-image: url("https://forums.linuxmint.com/styles/minty/theme/images/sticky_read_locked.svg"); }
+	background-image: url("https://raw.githubusercontent.com/SebastJava/FreshMint/main/icons/sticky_read_locked.svg"); }
 .sticky_read_locked_mine {
-	background-image: url("https://forums.linuxmint.com/styles/minty/theme/images/sticky_read_locked_mine.svg"); }
+	background-image: url("https://raw.githubusercontent.com/SebastJava/FreshMint/main/icons/sticky_read_locked_mine.svg"); }
 .sticky_unread {
-	background-image: url("https://forums.linuxmint.com/styles/minty/theme/images/sticky_unread.svg"); }
+	background-image: url("https://raw.githubusercontent.com/SebastJava/FreshMint/main/icons/sticky_unread.svg"); }
 .sticky_unread_mine {
-	background-image: url("https://forums.linuxmint.com/styles/minty/theme/images/sticky_unread_mine.svg"); }
+	background-image: url("https://raw.githubusercontent.com/SebastJava/FreshMint/main/icons/sticky_unread_mine.svg"); }
 .sticky_unread_locked {
-	background-image: url("https://forums.linuxmint.com/styles/minty/theme/images/sticky_unread_locked.svg"); }
+	background-image: url("https://raw.githubusercontent.com/SebastJava/FreshMint/main/icons/sticky_unread_locked.svg"); }
 .sticky_unread_locked_mine {
-	background-image: url("https://forums.linuxmint.com/styles/minty/theme/images/sticky_unread_locked_mine.svg"); }
+	background-image: url("https://raw.githubusercontent.com/SebastJava/FreshMint/main/icons/sticky_unread_locked_mine.svg"); }
 
 .topic_moved {
-	background-image: url("https://forums.linuxmint.com/styles/minty/theme/images/topic_moved.svg"); }
+	background-image: url("https://raw.githubusercontent.com/SebastJava/FreshMint/main/icons/topic_moved.svg"); }
 .pm_read,
 .topic_read {
-	background-image: url("https://forums.linuxmint.com/styles/minty/theme/images/topic_read.svg"); }
+	background-image: url("https://raw.githubusercontent.com/SebastJava/FreshMint/main/icons/topic_read.svg"); }
 .topic_read_mine {
-	background-image: url("https://forums.linuxmint.com/styles/minty/theme/images/topic_read_mine.svg"); }
+	background-image: url("https://raw.githubusercontent.com/SebastJava/FreshMint/main/icons/topic_read_mine.svg"); }
 .topic_read_hot {
-	background-image: url("https://forums.linuxmint.com/styles/minty/theme/images/topic_read_hot.svg"); }
+	background-image: url("https://raw.githubusercontent.com/SebastJava/FreshMint/main/icons/topic_read_hot.svg"); }
 .topic_read_hot_mine {
-	background-image: url("https://forums.linuxmint.com/styles/minty/theme/images/topic_read_hot_mine.svg"); }
+	background-image: url("https://raw.githubusercontent.com/SebastJava/FreshMint/main/icons/topic_read_hot_mine.svg"); }
 .topic_read_locked {
-	background-image: url("https://forums.linuxmint.com/styles/minty/theme/images/topic_read_locked.svg"); }
+	background-image: url("https://raw.githubusercontent.com/SebastJava/FreshMint/main/icons/topic_read_locked.svg"); }
 .topic_read_locked_mine {
-	background-image: url("https://forums.linuxmint.com/styles/minty/theme/images/topic_read_locked_mine.svg"); }
+	background-image: url("https://raw.githubusercontent.com/SebastJava/FreshMint/main/icons/topic_read_locked_mine.svg"); }
 .pm_unread,
 .topic_unread {
-	background-image: url("https://forums.linuxmint.com/styles/minty/theme/images/topic_unread.svg"); }
+	background-image: url("https://raw.githubusercontent.com/SebastJava/FreshMint/main/icons/topic_unread.svg"); }
 .topic_unread_mine {
-	background-image: url("https://forums.linuxmint.com/styles/minty/theme/images/topic_unread_mine.svg"); }
+	background-image: url("https://raw.githubusercontent.com/SebastJava/FreshMint/main/icons/topic_unread_mine.svg"); }
 .topic_unread_hot {
-	background-image: url("https://forums.linuxmint.com/styles/minty/theme/images/topic_unread_hot.svg"); }
+	background-image: url("https://raw.githubusercontent.com/SebastJava/FreshMint/main/icons/topic_unread_hot.svg"); }
 .topic_unread_hot_mine {
-	background-image: url("https://forums.linuxmint.com/styles/minty/theme/images/topic_unread_hot_mine.svg"); }
+	background-image: url("https://raw.githubusercontent.com/SebastJava/FreshMint/main/icons/topic_unread_hot_mine.svg"); }
 .topic_unread_locked {
-	background-image: url("https://forums.linuxmint.com/styles/minty/theme/images/topic_unread_locked.svg"); }
+	background-image: url("https://raw.githubusercontent.com/SebastJava/FreshMint/main/icons/topic_unread_locked.svg"); }
 .topic_unread_locked_mine {
-	background-image: url("https://forums.linuxmint.com/styles/minty/theme/images/topic_unread_locked_mine.svg"); }
+	background-image: url("https://raw.githubusercontent.com/SebastJava/FreshMint/main/icons/topic_unread_locked_mine.svg"); }
 
 
 /*
@@ -842,54 +888,54 @@ Colours and backgrounds for cp.css
 ----------------------------------------*/
 
 .panel-container h3, .panel-container hr, .cp-menu hr {
-	border-color: #A4B3BF;
+	border-color: #808080;
 }
 
 .panel-container .panel li.row {
-	border-bottom-color: #B5C1CB;
-	border-top-color: #F9F9F9;
+	border-bottom-color: var(--list-borders);
+	border-top-color: var(--list-borders);
 }
 
 ul.cplist {
-	border-top-color: #B5C1CB;
+	border-top-color: var(--list-borders);
 }
 
 .panel-container .panel li.header dd, .panel-container .panel li.header dt {
-	color: #000000;
+	color: var(--content);
 }
 
 .panel-container table.table1 thead th {
-	color: #333333;
-	border-bottom-color: #333333;
+	color: var(--content);
+	border-bottom-color: var(--content);
 }
 
 .cp-main .pm-message {
-	border-color: #DBDEE2;
-	background-color: #FFFFFF;
+	border-color: #808080;
+	background-color: var(--bg2);
 }
 
 /* CP tabbed menu
 ----------------------------------------*/
 .tabs .tab > a {
-	background: #BACCD9;
-	color: #536482;
+	background: var(--bg1);
+	color: var(--content);
 }
 
 .tabs .tab > a:hover {
-	background: white;
-	color: #D31141;
+	background: var(--bg3);
+	color: var(--content);
 }
 
 .tabs .activetab > a,
 .tabs .activetab > a:hover {
-	background-color: #EFFFEF;
-	border-color: #CCC #CCC #EFFFEF #CCC;
+	background-color: var(--bg3);
+	border-color: #CCC #CCC var(--bg3) #CCC;
 	box-shadow: none;
-	color: #333333;
+	color: var(--content);
 }
 
 .tabs .activetab > a:hover {
-	color: #000000;
+	color: var(--anchor-hover);
 }
 
 /* Mini tabbed menu used in MCP
@@ -901,17 +947,17 @@ ul.cplist {
 .minitabs .activetab > a,
 .minitabs .activetab > a:hover {
 	background-color: #F9F9F9;
-	color: #333333;
+	color: var(--content);
 }
 
 /* Responsive tabs
 ----------------------------------------*/
 .responsive-tab .responsive-tab-link:before {
-	border-color: #536482;
+	border-color: var(--content);
 }
 
 .responsive-tab .responsive-tab-link:hover:before {
-	border-color: #D31141;
+	border-color: #E60026;
 }
 
 /* UCP navigation menu
@@ -919,73 +965,71 @@ ul.cplist {
 
 /* Link styles for the sub-section links */
 .navigation a {
-	color: #333333;
-	background: #E0E0E0;
-	/*background: linear-gradient(to right, #E0E0E0 0%,#F9F9F9 75%);*/
+	color: var(--content);
+	background: linear-gradient(to right, var(--bg1) 50%, var(--bg3) 100%);
 }
 
 .rtl .navigation a {
-	color: #333333;
-	background: #E0E0E0;
-	/*background: linear-gradient(to right, #E0E0E0 0%,#F9F9F9 75%);*/
+	color: var(--content);
+	background: linear-gradient(to left, var(--bg1) 50%, var(--bg3) 100%);
 }
 
 .navigation a:hover {
-	background: #F9F9F9;
-	color: #BC2A4D;
+	color: var(--content);
+	background: linear-gradient(to right, var(--bg2) 50%, var(--bg3) 100%);
 }
 
 .navigation .active-subsection a {
-	background: #F9F9F9;
-	color: #D31141;
+	background: linear-gradient(to right, var(--bg2) 50%, var(--bg3) 100%);
+	color: var(--content);
 	filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
 }
 
 .navigation .active-subsection a:hover {
-	color: #D31141;
+	color: var(--content);
 }
 
 @media only screen and (max-width: 900px), only screen and (max-device-width: 900px)
 {
 	#navigation a, .rtl #navigation a {
-		background: #B2C2CF;
+		background: var(--bg1);
 	}
 }
 
 /* Preferences pane layout
 ----------------------------------------*/
 .panel-container h2 {
-	color: #333333;
+	color: var(--content);
 }
 
 .panel-container .panel {
-	background-color: #F9F9F9;
+	background-color: var(--bg2);
 }
 
 .cp-main .pm {
-	background-color: #FFFFFF;
+	background-color: var(--bg2);
 }
 
 /* Friends list */
 .cp-mini {
-	background-color: #EEF5F9;
+	background-color: var(--bg2);
 }
 
 dl.mini dt {
-	color: #425067;
+	color: var(--content);
 }
 
 /* PM Styles
 ----------------------------------------*/
 /* PM Message history */
 .current {
-	color: #000000 !important;
+	color: var(--content) !important;
 }
 
 /* PM marking colours */
 .pmlist li.pm_message_reported_colour, .pm_message_reported_colour {
-	border-left-color: #BC2A4D;
-	border-right-color: #BC2A4D;
+	border-left-color: #E60026;
+	border-right-color: #E60026;
 }
 
 .pmlist li.pm_marked_colour, .pm_marked_colour {
@@ -1024,11 +1068,11 @@ Colours and backgrounds for forms.css
 select {
 	border-color: #666666;
 	background-color: #FAFAFA;
-	color: #000;
+	color: #333333;
 }
 
 label {
-	color: #425067;
+	color: var(--content);
 }
 
 option.disabled-option {
@@ -1038,7 +1082,7 @@ option.disabled-option {
 /* Definition list layout for forms
 ---------------------------------------- */
 dd label {
-	color: #333333;
+	color: var(--content);
 }
 
 fieldset.fields1 {
@@ -1047,7 +1091,7 @@ fieldset.fields1 {
 
 /* Hover effects */
 fieldset dl:hover dt label {
-	color: #000000;
+	color: var(--anchor);
 }
 
 fieldset.fields2 dl:hover dt label {
@@ -1111,45 +1155,24 @@ fieldset.quick-login input.inputbox {
 ---------------------------------------- */
 
 a.button1, input.button1, input.button3, a.button2, input.button2 {
-	color: #000;
-	background-color: #EFEFEF; /* Old browsers */ /* FF3.6+ */
-	background-image: -webkit-linear-gradient(top, #D2D2D2 0%, #EFEFEF 100%);
-	background-image: linear-gradient(to bottom, #D2D2D2 0%,#EFEFEF 100%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#D2D2D2', endColorstr='#EFEFEF',GradientType=0 ); /* IE6-9 */
-}
-
-a.button1, input.button1 {
-	border-color: #666666;
-}
-
-input.button3 {
-	background-image: none;
-}
-
-/* Alternative button */
-a.button2, input.button2, input.button3 {
-	border-color: #666666;
-}
-
-/* <a> button in the style of the form buttons */
-a.button1, a.button2 {
-	color: #000000;
+	border-color: var(--button-bd);
+	color: var(--button-fg);
+	background: var(--button-bg);
+	box-shadow: 0 0 0 1px var(--button-bd) inset; /* (bug fix...) */
 }
 
 /* Hover states */
 a.button1:hover, input.button1:hover, a.button2:hover, input.button2:hover, input.button3:hover {
-	border-color: #D31141;
-	color: #D31141;
-	background-color: #D2D2D2; /* Old browsers */ /* FF3.6+ */
-	background-image: -webkit-linear-gradient(top, #EFEFEF 0%, #D2D2D2 100%);
-	background-image: linear-gradient(to bottom, #EFEFEF 0%,#D2D2D2 100%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#EFEFEF', endColorstr='#D2D2D2',GradientType=0 ); /* IE6-9 */
+	border-color: var(--button-bd);
+	color: var(--button-fg);
+	background: var(--button-bg-hover);
+	box-shadow: 0 0 0 1px var(--button-bd) inset; /* (bug fix...) */
 }
 
 /* Focus states */
 input.button1:focus, input.button2:focus, input.button3:focus {
-	border-color: #8F8F8F;
-	color: #333333;
+	border-color: var(--button-bg-active);
+	color: var(--button-fg);
 }
 
 input.disabled {
@@ -1172,17 +1195,17 @@ input.disabled {
 }
 
 .dropdown-extended ul li {
-	border-top-color: #B9B9B9;
+	border-top-color: #80808080;
 }
 
 .dropdown-extended ul li:hover {
-	background-color: #F8F8F8;
-	color: #000000;
+	background-color: var(--dropdown-extended-hover);
+	color: var(--content);
 }
 
 .dropdown-extended .header, .dropdown-extended .footer {
-	border-color: #B9B9B9;
-	color: #000000;
+	border-color: #80808080;
+	color: var(--content);
 }
 
 .dropdown-extended .footer {
@@ -1191,122 +1214,156 @@ input.disabled {
 }
 
 .dropdown-extended .header {
-	background-color: #EFFFEF;
+	background-color: var(--dropdown-header-bg);
 	background-image: none;
+	color: var(--dropdown-header-text);
+	text-shadow: none;
 }
 
 .dropdown .pointer {
-	border-color: #B9B9B9 transparent;
+	border-color: #80808080 transparent;
 }
 
 .dropdown .pointer-inner {
-	border-color: #FFF transparent;
+	border-color: var(--dropdown-contents-bg) transparent;
 }
 
 .dropdown-extended .pointer-inner {
-	border-color: #EFFFEF transparent;
+	border-color: var(--dropdown-header-bg) transparent;
 }
 
 .dropdown .dropdown-contents {
-	background: #fff;
-	border-color: #B9B9B9;
-	box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.2);
+	background: var(--dropdown-contents-bg);
+	border-color: #80808080;
+	box-shadow: var(--dropdown-contents-shadow);
 }
 
 .dropdown-up .dropdown-contents {
-	box-shadow: 1px 0 5px rgba(0, 0, 0, 0.2);
+	box-shadow: var(--dropdown-contents-shadow);
 }
 
 .dropdown li, .dropdown li li {
-	border-color: #DCDCDC;
+	border-color: #80808080;
 }
 
 .dropdown li.separator {
-	border-color: #DCDCDC;
+	border-color: #80808080;
 }
 
 /* Notifications
 ---------------------------------------- */
 
 .notification_list p.notification-time {
-	color: #4C5D77;
+	color: var(--notification-time);
 }
 
 li.notification-reported strong, li.notification-disapproved strong {
-	color: #D31141;
+	color: #E60026;
 }
 
 .badge {
-	background-color: #D31141;
+	background-color: #E60026;
 	color: #ffffff;
 }
 
 /*_____________________________________________________________________________________________________*/
 /*_____________________________________________________________________________________________________*/
 
+/* FRESHMINT.USER.CSS__________________________________________________________________________________*/
 
-/* FRESHMINT.USER.CSS */
+/* ANCHORS */
+a {font-weight: bold !important;}
+a:hover {text-decoration: underline !important;}
 
-  /* ANCHORS */
-  a:hover {text-decoration: underline !important;}
+#page-header {background: var(--page-header); border-radius: 7px;}
 
-  #page-header {background: var(--page-header); border-radius: 7px;}
+/* HEADERBAR */
+.headerbar {background-color: transparent; background-image: none; border-radius: 7px 7px 0 0;
+  margin-bottom: 0;}
 
-  /* HEADERBAR */
-  .headerbar {background-color: transparent; background-image: none; border-radius: 7px 7px 0 0;
-    margin-bottom: 0;}
+/* This {display: none;} could be better achieved with two deletions in ./template/overall_header.html */
+#site-description h1, #site-description p:not(.skiplink) {display: none;}
 
-  /* This {display: none;} could be better achieved with two deletions in ./template/overall_header.html */
-  #site-description h1, #site-description p:not(.skiplink) {display: none;}
+.logo, .site_logo {width: 480px; height: 70px;}
+.logo {padding: 10px;}
 
-  .logo, .site_logo {width: 480px; height: 70px;}
-  .logo {padding: 10px;}
+#search-box.search-header {margin-top: 35px;}
 
-  #search-box.search-header {margin-top: 35px;}
+/* PAGE-HEADER NAVBAR */
+#page-header .navbar {background-color: transparent; background-image: none; padding-top: 0px;}
+#page-header #nav-main {padding-top: 4px; border-top: 1px solid #FFFFFF;}
+#page-header .navbar a {color: #FFFFFF; font-weight: bold;}
+#page-header .navbar ul.dropdown-contents a, #page-header .navbar div.dropdown-contents a {
+  color: var(--anchor);}
+#page-header .navbar ul.dropdown-contents a:hover, #page-header .navbar div.dropdown-contents a:hover {
+  color: var(--anchor-hover);}
+#page-header .breadcrumbs .crumb::before {color:#FFFFFF;}
 
-  /* PAGE-HEADER NAVBAR */
-  #page-header .navbar {background-color: transparent; background-image: none; padding-top: 0px;}
-  #page-header #nav-main {padding-top: 4px; border-top: 1px solid white;}
-  #page-header .navbar a {color: white; font-weight: bold;}
-  #page-header .navbar ul.dropdown-contents a, #page-header .navbar div.dropdown-contents a {
-    color: var(--anchor);}
-  #page-header .navbar ul.dropdown-contents a:hover, #page-header .navbar div.dropdown-contents a:hover {
-    color: #333333;}
-  #page-header .breadcrumbs .crumb::before {color:white;}
+#notification_list .footer:hover {background-color: var(--dropdown-extended-hover);}
 
-  #notification_list .footer:hover {background-color: #F8F8F8;}
+/* POSTLINKS */
+.postlink, .postlink:visited {text-decoration: none; border-bottom: none;}
+.postlink:hover {text-decoration: underline; border-bottom: none;}
 
-  /* POSTLINKS */
-  .postlink, .postlink:visited {text-decoration: none; border-bottom: none;}
-  .postlink:hover {text-decoration: underline; border-bottom: none;}
+/* NAV-FOOTER */
+#nav-footer {color: #FFFFFF;}
+#nav-footer a {color: #FFFFFF; font-weight: bold;}
 
-  /* NAV-FOOTER */
-  #nav-footer {color: white;}
-  #nav-footer a {color: white; font-weight: bold;}
+/* RESPONSIVE DESIGN */
+@media (max-width: 700px) {
 
-  /* RESPONSIVE DESIGN */
-  @media (max-width: 700px) {
+  .headerbar {background-image: none;}
 
-    .headerbar {background-image: none;}
+  /* change display value from none to inline-block to show logo */
+  .logo {display: inline-block; float: none; padding: 0;}
+  .logo, .site_logo { width: 240px; height: 35px;}
+  .site_logo {
+    background-image: url("https://raw.githubusercontent.com/SebastJava/FreshMint/main/images/logo-Exo2-02.svg");}
 
-    /* change display value from none to inline-block to show logo */
-    .logo {display: inline-block; float: none; padding: 0;}
-    .logo, .site_logo { width: 240px; height: 35px;}
-    .site_logo {
-      background-image: url("https://raw.githubusercontent.com/SebastJava/FreshMint/main/images/logo-Exo2-02.svg");}
+  #page-header { border-radius: 0px; margin-left: -5px; margin-right: -5px;}
+}
 
-    #page-header { border-radius: 0px; margin-left: -5px; margin-right: -5px;}
-  }
+/* BUG FIX: Make sure every button is at the same height... */
+.action-bar .button, .pagination li.active span { height: 24px; box-sizing: border-box; }
 
-  /* BUG FIX: make sure every action-bar button is at the same height as ".search-box .inputbox" */
-  .action-bar .button { height: 24px; box-sizing: border-box; }
+/* BUG FIX: clean corners */
+.dropdown-extended .header {border-radius: 3px 3px 0 0;}
 
-  /* REVERT CUSTOM COLORS FROM THE OLD MINTY THEME */
-  ul.forums > li.row:first-child {background-color: white; background-image: none;}
-  ul.forums > li.row:first-child:hover {background-color: #F8F8F8; background-image: none;}
-  :not(.row .big-column).bg3 {background-color: #EFFFEF;}
+/* REVERT CUSTOM COLORS FROM THE OLD MINTY THEME */
+ul.forums > li.row:first-child {background-color: var(--ul-forums); background-image: none;}
+ul.forums > li.row:first-child:hover {background-color: var(--li-row-hover); background-image: none;}
+:not(.row .big-column).bg3 {background-color: var(--bg3);}
 
-  /* EXTRAS */
-  blockquote { border-style: solid; border-width: 0 0 0 12px; padding-left: 12px; margin-left: 0; }
+/* EXTRAS */
+
+input, optgroup, select, textarea {color: #333;}
+
+.search-header .inputbox {border-width: 1px 0px 1px 1px; border-style: solid;}
+
+blockquote {border-style: solid; border-width: 0 0 0 12px; padding-left: 12px;}
+blockquote, blockquote blockquote, blockquote blockquote blockquote {margin-left: 0;}
+
+.codebox {border: 4px solid black;}
+code:not(.codebox) {
+  color: #FFF !important; background-color: var(--codebox-bg) !important;
+  border-color: #0BDE74 !important;}
+
+strong {font-weight: bold !important;}
+
+.username-coloured {color: var(--username-coloured) !important; font-weight: bold;}
+.username-coloured:hover {color: var(--anchor-hover) !important;}
+div.stat-block.online-list p a:not(.username) {color: var(--username-coloured) !important;}
+div.stat-block.online-list p a:hover:not(.username) {color: var(--anchor-hover) !important;}
+
+div.rules {font-weight: bold;}
+div.rules strong {text-transform: uppercase;}
+div.rules a {text-decoration: underline;}
+
+a.button1, input.button1, input.button3, a.button2, input.button2 {border-radius: 4px; padding: 2px 8px;}
+
+
+/*_____________________________________________________________________________________________________*/
+/*_____________________________________________________________________________________________________*/
+
 
 } /* THIS PAIR OF CURLY BRACKETS ({}) ENCOMPASS THIS ENTIRE DOCUMENT! */
