@@ -675,7 +675,7 @@ Colours and backgrounds for buttons.css
 .button {
 	border-color: var(--button-bd);
 	background: var(--button-bg);
-	box-shadow: none; /* box-shadow: 0 0 0 1px #FFFFFF inset; */
+	box-shadow: 0 0 0 1px var(--button-bd) inset; /* (bug fix...) */
 	color: var(--button-fg);
 	text-shadow: none;
 }
@@ -684,7 +684,7 @@ Colours and backgrounds for buttons.css
 .button:focus {
 	border-color: var(--button-bd);
 	background: var(--button-bg-hover);
-	box-shadow: none; /* box-shadow: 0 0 0 1px #FFFFFF inset; */
+	box-shadow: 0 0 0 1px var(--button-bd) inset; /* (bug fix...) */
 	color: var(--button-fg);
 	text-shadow: none;
 }
@@ -736,9 +736,10 @@ Colours and backgrounds for buttons.css
 }
 
 .pagination li a:hover, .pagination li a:hover .icon, .pagination .dropdown-visible a.dropdown-trigger, .nojs .pagination .dropdown-container:hover a.dropdown-trigger {
-	background: var(--button-bg-hover);
-	border-color: var(--button-bd);
+	background: var(--button-bg-active);
 	filter: none;
+	border-color: var(--button-bd);
+	box-shadow: none;
 	color: var(--button-fg);
 	text-shadow: none;
 }
