@@ -1324,7 +1324,10 @@ a:hover {text-decoration: underline !important;}
 }
 
 /* BUG FIX: Make sure every button is at the same height... */
-.action-bar .button, .pagination li.active span { height: 24px; box-sizing: border-box; }
+.action-bar .button, .search-header .button-search, .search-header .button-search-end, .pagination li.active span {height: 24px; box-sizing: border-box;}
+
+.search-header .button-search, .search-header .button-search-end {padding: 2px 5px; border-width: 1px;}
+.search-header .button-search-end {border-left-width: 0;}
 
 /* BUG FIX: clean corners */
 .dropdown-extended .header {border-radius: 3px 3px 0 0;}
