@@ -717,7 +717,7 @@ Colours and backgrounds for buttons.css
 .pagination li a {
 	background: var(--button-bg);
 	filter: none;
-	border-color: var(--button-bd);
+	border: 1px solid var(--button-bd);
 	box-shadow: none;
 	color: var(--button-fg);
 	text-shadow: none;
