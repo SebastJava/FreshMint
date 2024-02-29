@@ -116,7 +116,7 @@ a:hover { color: var(--anchor-hover); }
 }
 
 .forumbg .header a:hover, .forabg .header a:hover, th a:hover {
-	color: white;
+	color: #FFFFFF;
 }
 
 /* Notification mark read link */
@@ -1288,13 +1288,13 @@ a:hover {text-decoration: underline !important;}
 
 /* PAGE-HEADER NAVBAR */
 #page-header .navbar {background-color: transparent; background-image: none; padding-top: 0px;}
-#page-header #nav-main {padding-top: 4px; border-top: 1px solid white;}
-#page-header .navbar a {color: white; font-weight: bold;}
+#page-header #nav-main {padding-top: 4px; border-top: 1px solid #FFFFFF;}
+#page-header .navbar a {color: #FFFFFF; font-weight: bold;}
 #page-header .navbar ul.dropdown-contents a, #page-header .navbar div.dropdown-contents a {
   color: var(--anchor);}
 #page-header .navbar ul.dropdown-contents a:hover, #page-header .navbar div.dropdown-contents a:hover {
   color: var(--anchor-hover);}
-#page-header .breadcrumbs .crumb::before {color:white;}
+#page-header .breadcrumbs .crumb::before {color:#FFFFFF;}
 
 #notification_list .footer:hover {background-color: var(--dropdown-extended-hover);}
 
@@ -1303,8 +1303,8 @@ a:hover {text-decoration: underline !important;}
 .postlink:hover {text-decoration: underline; border-bottom: none;}
 
 /* NAV-FOOTER */
-#nav-footer {color: white;}
-#nav-footer a {color: white; font-weight: bold;}
+#nav-footer {color: #FFFFFF;}
+#nav-footer a {color: #FFFFFF; font-weight: bold;}
 
 /* RESPONSIVE DESIGN */
 @media (max-width: 700px) {
