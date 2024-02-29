@@ -1155,22 +1155,24 @@ fieldset.quick-login input.inputbox {
 ---------------------------------------- */
 
 a.button1, input.button1, input.button3, a.button2, input.button2 {
-	border-color: var(--anchor);
-	color: var(--content);
+	border-color: var(--button-bd);
+	color: var(--button-fg);
 	background: var(--button-bg);
+	box-shadow: 0 0 0 1px var(--button-bd) inset; /* (bug fix...) */
 }
 
 /* Hover states */
 a.button1:hover, input.button1:hover, a.button2:hover, input.button2:hover, input.button3:hover {
-	border-color: var(--anchor);
-	color: var(--content);
+	border-color: var(--button-bd);
+	color: var(--button-fg);
 	background: var(--button-bg-hover);
+	box-shadow: 0 0 0 1px var(--button-bd) inset; /* (bug fix...) */
 }
 
 /* Focus states */
 input.button1:focus, input.button2:focus, input.button3:focus {
-	border-color: var(--anchor);
-	color: var(--content);
+	border-color: var(--button-bg-active);
+	color: var(--button-fg);
 }
 
 input.disabled {
