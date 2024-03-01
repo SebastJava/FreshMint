@@ -290,7 +290,7 @@ dl.details dd {
 }
 
 .icon.icon-red, a:hover .icon.icon-red {
-	color: #66CCFF;
+	color: #0BDE74; /* same green as in icons directory */
 }
 
 .icon.icon-orange, a:hover .icon.icon-orange {
@@ -953,11 +953,11 @@ ul.cplist {
 /* Responsive tabs
 ----------------------------------------*/
 .responsive-tab .responsive-tab-link:before {
-	border-color: var(--content);
+	border-color: var(--anchor);
 }
 
 .responsive-tab .responsive-tab-link:hover:before {
-	border-color: #E60026;
+	border-color: var(--anchor-hover);
 }
 
 /* UCP navigation menu
