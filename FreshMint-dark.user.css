@@ -206,7 +206,7 @@ a:hover { color: var(--anchor-hover); }
 }
 
 table.zebra-list tr:nth-child(odd) td, ul.zebra-list li:nth-child(odd) {
-	background-color: #ECF3F7;
+	background-color: var(--bg1);
 }
 
 .bg2 {
@@ -247,7 +247,7 @@ table.table1 thead th {
 }
 
 table.table1 tbody tr {
-	border-color: #BFC1CF;
+	border-color: #808080;
 }
 
 table.table1 tbody tr:hover, table.table1 tbody tr.hover {
