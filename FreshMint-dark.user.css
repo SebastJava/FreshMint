@@ -57,8 +57,11 @@
 
 @var color blockquote-bg1 "blockquote bg1" #444
 @var color blockquote-bg2 "blockquote bg2" #333
-@var color codebox-bg "code block background" #1F3347
-@var color codebox-bd "code block border" #001A34
+
+@var color codebox-bg "codebox background" #222
+@var color inline-code-bg "inline code background" #222
+@var color codebox-bd "codebox border" #004080
+@var color inline-code-bd "inline code border" #007FFF
 
 ==/UserStyle== */
 
@@ -486,6 +489,7 @@ dl.faq dt {
 /* BB Code styles
 ----------------------------------------*/
 /* Quote block */
+
 blockquote {
 	background-color: var(--blockquote-bg1);
 	border-color: var(--accent);
@@ -501,7 +505,17 @@ blockquote blockquote blockquote {
 	background-color: var(--blockquote-bg1);
 }
 
-/* Code block */
+/* Code block + inline code */
+
+code:not(.codebox code) {
+	background-color: var(--inline-code-bg) !important;
+	border-color: var(--inline-code-bd) !important;
+}
+
+.codebox code, code {
+	color: #FFFFFF !important;
+}
+
 .codebox {
 	background-color: var(--codebox-bg) !important;
 	border-color: var(--codebox-bd) !important;
@@ -519,10 +533,6 @@ blockquote blockquote blockquote {
 .codebox p {
 	background-color: var(--codebox-bd);
 	border-bottom-color: var(--codebox-bd);
-}
-
-.codebox code {
-	color: #FFFFFF;
 }
 
 /* Attachments
@@ -1347,9 +1357,6 @@ blockquote {border-style: solid; border-width: 0 0 0 12px; padding-left: 12px;}
 blockquote, blockquote blockquote, blockquote blockquote blockquote {margin-left: 0;}
 
 .codebox {border: 4px solid black;}
-code:not(.codebox) {
-  color: #FFF !important; background-color: var(--codebox-bg) !important;
-  border-color: #0BDE74 !important;}
 
 strong {font-weight: bold !important;}
 
