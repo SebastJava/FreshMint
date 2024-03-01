@@ -16,6 +16,7 @@
 @var color body-text "body text" #C4C4C4
 @var color body-titles "body titles" #D3D3D3
 @var color content "content" #FFF
+@var color content-dim "content-dim" #9B9B9B
 
 @var color anchor "links & titles" #0BDE74
 @var color anchor-hover "links & titles hover" #FFF
@@ -556,11 +557,11 @@ code:not(.codebox code) {
 }
 
 .attachbox p {
-	color: #666666;
+	color: var(--content-dim);
 }
 
 .attachbox p.stats {
-	color: #666666;
+	color: var(--content-dim);
 }
 
 .attach-image img {
@@ -570,16 +571,16 @@ code:not(.codebox code) {
 /* Inline image thumbnails */
 
 dl.file dd {
-	color: #666666;
+	color: var(--content-dim);
 }
 
 dl.thumbnail img {
-	border-color: #666666;
+	border-color: var(--content-dim);
 	background-color: #FFFFFF;
 }
 
 dl.thumbnail dd {
-	color: #666666;
+	color: var(--content-dim);
 }
 
 dl.thumbnail dt a:hover {
@@ -595,7 +596,7 @@ dl.thumbnail dt a:hover img {
 
 fieldset.polls dl {
 	border-top-color: #DCDEE2;
-	color: #666666;
+	color: var(--content-dim);
 }
 
 fieldset.polls dl.voted {
@@ -1081,7 +1082,7 @@ Colours and backgrounds for forms.css
 /* General form styles
 ----------------------------------------*/
 select {
-	border-color: #666666;
+	border-color: var(--content-dim);
 	background-color: #FAFAFA;
 	color: #333333;
 }
@@ -1191,7 +1192,7 @@ input.button1:focus, input.button2:focus, input.button3:focus {
 }
 
 input.disabled {
-	color: #666666;
+	color: var(--content-dim);
 }
 
 /* jQuery popups
