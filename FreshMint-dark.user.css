@@ -1365,6 +1365,8 @@ strong {font-weight: bold !important;}
 div.stat-block.online-list p a:not(.username) {color: var(--username-coloured) !important;}
 div.stat-block.online-list p a:hover:not(.username) {color: var(--anchor-hover) !important;}
 
+table#team td.info a {color: var(--content) !important;}
+
 div.rules {font-weight: bold;}
 div.rules strong {text-transform: uppercase;}
 div.rules a {text-decoration: underline;}
