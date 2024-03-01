@@ -171,6 +171,11 @@ a:hover { color: var(--anchor-hover); }
 	color: #FFFFFF;
 }
 
+.headerbar {
+	background-color: transparent;
+	background-image: none; 
+}
+
 .forumbg {
 	background: var(--forumbg-navbarbg);
 }
@@ -1294,8 +1299,7 @@ a:hover {text-decoration: underline !important;}
 #page-header {background: var(--page-header); border-radius: 7px;}
 
 /* HEADERBAR */
-.headerbar {background-color: transparent; background-image: none; border-radius: 7px 7px 0 0;
-  margin-bottom: 0;}
+.headerbar {border-radius: 7px 7px 0 0; margin-bottom: 0;}
 
 /* This {display: none;} could be better achieved with two deletions in ./template/overall_header.html */
 #site-description h1, #site-description p:not(.skiplink) {display: none;}
@@ -1349,9 +1353,12 @@ a:hover {text-decoration: underline !important;}
 .dropdown-extended .header {border-radius: 3px 3px 0 0;}
 
 /* REVERT CUSTOM COLORS FROM THE OLD MINTY THEME */
+.navbar a, .navbar a:hover {color: #FFF;}
+:not(.row .big-column).bg3 {background-color: var(--bg3);}
+.row.bg3:nth-child(odd), .big-column.bg3:nth-child(odd) {background-color: var(--bg3);}
 ul.forums > li.row:first-child {background-color: var(--ul-forums); background-image: none;}
 ul.forums > li.row:first-child:hover {background-color: var(--li-row-hover); background-image: none;}
-:not(.row .big-column).bg3 {background-color: var(--bg3);}
+.notification_list li.bg2 {background-color: var(--bg2);}
 
 /* EXTRAS */
 
@@ -1379,7 +1386,7 @@ div.rules a {text-decoration: underline;}
 
 a.button1, input.button1, input.button3, a.button2, input.button2 {border-radius: 4px; padding: 2px 8px;}
 
-
+.cp-main .pmlist dd {padding-top: 2px;}
 /*_____________________________________________________________________________________________________*/
 /*_____________________________________________________________________________________________________*/
 
