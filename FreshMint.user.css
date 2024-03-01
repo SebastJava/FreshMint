@@ -12,57 +12,57 @@
 
 @preprocessor   default
 
-@var color body-background "body background" #000
-@var color body-text "body text" #C4C4C4
-@var color body-titles "body titles" #D3D3D3
-@var color content "content" #FFF
-@var color content-dim "content-dim" #9B9B9B
+@var color body-background "body background" #F0F0F0
+@var color body-text "body text" #505050
+@var color body-titles "body titles" #202020
+@var color content "content" #333
+@var color content-dim "content-dim" #595959
 
-@var color anchor "links & titles" #0BDE74
-@var color anchor-hover "links & titles hover" #FFF
-@var color postlink "postlink" #6CF
-@var color postlink-visited "postlink:visited" #D072FF
-@var color postlink-hover "postlink:hover" #FFF
+@var color anchor "links & titles" #007D69
+@var color anchor-hover "links & titles hover" #333
+@var color postlink "postlink" #0065CD
+@var color postlink-visited "postlink:visited" #893CD8
+@var color postlink-hover "postlink:hover" #333
 
-@var color ul-forums "forums lists bg" #333
-@var color li-row-hover "list row hover" #3B3B3B
-@var color ul-topiclist-li "list text" #FFF
-@var color list-borders "list borders" #4B4B4B
-@var color bg1 "background 1 (bg1)" #003D33
-@var color bg2 "background 2 (bg2)" #333
-@var color bg3 "background 3 (bg3)" #006554
+@var color ul-forums "forums lists bg" #FFF
+@var color li-row-hover "list row hover" #F8F8F8
+@var color ul-topiclist-li "list text" #333
+@var color list-borders "list borders" #E6E6E6
+@var color bg1 "background 1 (bg1)" #EFFFEF
+@var color bg2 "background 2 (bg2)" #FFF
+@var color bg3 "background 3 (bg3)" #BCF5CF
 
-@var color dropdown-header-bg "dropdown header bg" #003D33
-@var color dropdown-header-text "dropdown header text" #FFF
-@var color dropdown-contents-bg "dropdown bg" #333
-@var color dropdown-extended-hover "dropdown hover" #3B3B3B
-@var text dropdown-contents-shadow "dropdown contents shadow" "0px 0px 6px 3px #FFF"
-@var color notification-time "notification time" #A3A3A3
+@var color dropdown-header-bg "dropdown header bg" #EFFFEF
+@var color dropdown-header-text "dropdown header text" #333
+@var color dropdown-contents-bg "dropdown bg" #FFF
+@var color dropdown-extended-hover "dropdown hover" #F8F8F8
+@var text dropdown-contents-shadow "dropdown contents shadow" "0px 0px 9px 0px #606060"
+@var color notification-time "notification time" #6D6D6D
 
-@var color username-coloured "team username" #8ED500
+@var color username-coloured "team username" #69B53F
 
 @var text page-header "page-header" "#1AB481 linear-gradient(90deg, #69B53F 33%, #2AB9A5 67%)"
 @var text forumbg-navbarbg "forum & navbar bg" "#1AB481 linear-gradient(90deg, #69B53F 33%, #2AB9A5 67%)"
 
-@var text button-bg "button background" "#1A1A1A linear-gradient(to bottom, #808080 10%, #1A1A1A 90%)"
-@var text button-bg-hover "button bg hover" "#808080 linear-gradient(to bottom, #333333 10%, #808080 90%)"
+@var text button-bg "button background" "#DDD linear-gradient(to bottom, #FFF 20%, #AAA 90%)"
+@var text button-bg-hover "button bg hover" "#CCC linear-gradient(to bottom, #AAA 10%, #FFF 100%)"
 @var text button-bg-active "button bg active" "#00AB71"
-@var color button-bd "button border" #0BDE74
-@var color button-fg "button foreground" #FFF
+@var color button-bd "button border" #0DF27F
+@var color button-fg "button foreground" #222
 
 @var text rules-bg "rules background" "#1AB481 linear-gradient(90deg, #69B53F 33%, #2AB9A5 67%)"
 @var color rules-fg "rules text" #FFF
 @var color rules-anchor "rules links" #FFF
 @var color rules-anchor-hover "rules links hover" #333
 
-@var color blockquote-bg1 "blockquote bg1" #444
-@var color blockquote-bg2 "blockquote bg2" #333
+@var color blockquote-bg1 "blockquote bg1" #D0E6FD
+@var color blockquote-bg2 "blockquote bg2" #FFF
 @var color blockquote-border "blockquote border" #1F7FE0
 
-@var color codebox-bg "codebox background" #19324B
-@var color inline-code-bg "inline code background" #004080
-@var color codebox-bd "codebox border" #004080
-@var color inline-code-bd "inline code border" #007FFF
+@var color codebox-bg "codebox background" #0D3359
+@var color inline-code-bg "inline code background" #0054A8
+@var color codebox-bd "codebox border" #0054A8
+@var color inline-code-bd "inline code border" #111
 
 ==/UserStyle== */
 
@@ -752,7 +752,7 @@ Colours and backgrounds for buttons.css
 .pagination li.active span {
 	background: var(--button-bg-active);
 	border-color: var(--button-bd);
-	color: var(--button-fg);
+	color: #FFFFFF;
 	font-weight: bold;
 }
 
@@ -761,7 +761,7 @@ Colours and backgrounds for buttons.css
 	filter: none;
 	border-color: var(--button-bd);
 	box-shadow: none;
-	color: var(--button-fg);
+	color: #FFFFFF;
 	text-shadow: none;
 }
 
