@@ -38,7 +38,6 @@
 @var text dropdown-contents-shadow "dropdown contents shadow" "0px 0px 6px 3px #FFF"
 @var color notification-time "notification time" #A3A3A3
 
-@var color accent "accent" #00AB71
 @var color username-coloured "team username" #8ED500
 
 @var text page-header "page-header" "#1AB481 linear-gradient(90deg, #69B53F 33%, #2AB9A5 67%)"
@@ -57,6 +56,7 @@
 
 @var color blockquote-bg1 "blockquote bg1" #444
 @var color blockquote-bg2 "blockquote bg2" #333
+@var color blockquote-border "blockquote border" #1F7FE0
 
 @var color codebox-bg "codebox background" #19324B
 @var color inline-code-bg "inline code background" #004080
@@ -492,7 +492,7 @@ dl.faq dt {
 
 blockquote {
 	background-color: var(--blockquote-bg1);
-	border-color: var(--accent);
+	border-color: var(--blockquote-border);
 }
 
 blockquote blockquote {
