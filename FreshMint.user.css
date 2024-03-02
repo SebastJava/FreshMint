@@ -13,8 +13,8 @@
 @preprocessor   default
 
 @var color body-background "body background" #F0F0F0
-@var color body-text "body text" #505050
-@var color body-titles "body titles" #202020
+@var color body-text "body text" #333
+@var color body-titles "body titles" #333
 @var color content "content" #333
 @var color content-dim "content-dim" #595959
 
@@ -30,7 +30,7 @@
 @var color list-borders "list borders" #E6E6E6
 @var color bg1 "background 1 (bg1)" #EFFFEF
 @var color bg2 "background 2 (bg2)" #FFF
-@var color bg3 "background 3 (bg3)" #BCF5CF
+@var color bg3 "background 3 (bg3)" #BCF5C5
 
 @var color dropdown-header-bg "dropdown header bg" #EFFFEF
 @var color dropdown-header-text "dropdown header text" #333
@@ -39,7 +39,7 @@
 @var text dropdown-contents-shadow "dropdown contents shadow" "0px 0px 9px 0px #606060"
 @var color notification-time "notification time" #6D6D6D
 
-@var color username-coloured "team username" #69B53F
+@var color username-coloured "team username" #439B16
 
 @var text page-header "page-header" "#1AB481 linear-gradient(90deg, #69B53F 33%, #2AB9A5 67%)"
 @var text forumbg-navbarbg "forum & navbar bg" "#1AB481 linear-gradient(90deg, #69B53F 33%, #2AB9A5 67%)"
@@ -304,7 +304,7 @@ dl.details dd {
 }
 
 .icon.icon-red, a:hover .icon.icon-red {
-	color: #0BDE74; /* same green as in icons directory */
+	color: #009B4C;
 }
 
 .icon.icon-orange, a:hover .icon.icon-orange {
