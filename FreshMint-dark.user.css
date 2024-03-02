@@ -16,7 +16,7 @@
 @var color body-text "body text" #C4C4C4
 @var color body-titles "body titles" #D3D3D3
 @var color content "content" #FFF
-@var color content-dim "content-dim" #9B9B9B
+@var color content-dim "content-dim" #C1C1C1
 
 @var color anchor "links & titles" #0BDE74
 @var color anchor-hover "links & titles hover" #FFF
@@ -31,6 +31,7 @@
 @var color bg1 "background 1 (bg1)" #003D33
 @var color bg2 "background 2 (bg2)" #333
 @var color bg3 "background 3 (bg3)" #006554
+@var color tab-bg "non-active tab bg" #003D33
 
 @var color dropdown-header-bg "dropdown header bg" #003D33
 @var color dropdown-header-text "dropdown header text" #FFF
@@ -44,13 +45,13 @@
 @var text page-header "page-header" "#1AB481 linear-gradient(90deg, #69B53F 33%, #2AB9A5 67%)"
 @var text forumbg-navbarbg "forum & navbar bg" "#1AB481 linear-gradient(90deg, #69B53F 33%, #2AB9A5 67%)"
 
-@var text button-bg "button background" "#1A1A1A linear-gradient(to bottom, #808080 10%, #1A1A1A 90%)"
-@var text button-bg-hover "button bg hover" "#808080 linear-gradient(to bottom, #333333 10%, #808080 90%)"
+@var text button-bg "button background" "#404040 linear-gradient(to bottom, #A0A0A0 10%, #1A1A1A 90%)"
+@var text button-bg-hover "button bg hover" "#505050 linear-gradient(to bottom, #333333 10%, #808080 90%)"
 @var text button-bg-active "button bg active" "#00AB71"
 @var color button-bd "button border" #0BDE74
 @var color button-fg "button foreground" #FFF
 
-@var text rules-bg "rules background" "#1AB481 linear-gradient(90deg, #69B53F 33%, #2AB9A5 67%)"
+@var text rules-bg "rules background" "#1AB481 linear-gradient(270deg, #69B53F 33%, #2AB9A5 67%)"
 @var color rules-fg "rules text" #FFF
 @var color rules-anchor "rules links" #FFF
 @var color rules-anchor-hover "rules links hover" #333
@@ -61,7 +62,7 @@
 
 @var color codebox-bg "codebox background" #19324B
 @var color inline-code-bg "inline code background" #004080
-@var color codebox-bd "codebox border" #004080
+@var color codebox-bd "codebox border" #1F7FE0
 @var color inline-code-bd "inline code border" #007FFF
 
 ==/UserStyle== */
@@ -97,18 +98,18 @@ h2 {
 }
 
 h3 {
-	border-bottom-color: var(--body-titles);
+	border-bottom-color: #7C7C7C;
 	color: var(--body-titles);
 }
 
 h3.alert_title, p.alert_text {
-	border-bottom-color: #808080;
+	border-bottom-color: #7C7C7C;
 	color: #333333;
 }
 
 hr {
-	border-color: var(--body-titles);
-	border-top-color: var(--body-titles);
+	border-color: #7C7C7C;
+	border-top-color: #7C7C7C;
 }
 
 /*
@@ -530,11 +531,11 @@ code:not(.codebox code) {
 .codebox {
 	background-color: var(--codebox-bg) !important;
 	border-color: var(--codebox-bd) !important;
-	color: #55C7FF;
+	color: #C3E1FF;
 }
 
 .codebox a {
-	color: #0BDE74;
+	color: #00FF00;
 }
 
 .codebox a:hover {
@@ -909,7 +910,7 @@ Colours and backgrounds for cp.css
 ----------------------------------------*/
 
 .panel-container h3, .panel-container hr, .cp-menu hr {
-	border-color: #808080;
+	border-color: #7C7C7C;
 }
 
 .panel-container .panel li.row {
@@ -938,7 +939,7 @@ ul.cplist {
 /* CP tabbed menu
 ----------------------------------------*/
 .tabs .tab > a {
-	background: var(--bg1);
+	background: var(--tab-bg);
 	color: var(--content);
 }
 
@@ -962,12 +963,12 @@ ul.cplist {
 /* Mini tabbed menu used in MCP
 ----------------------------------------*/
 .minitabs .tab > a {
-	background-color: #E1EBF2;
+	background-color: var(--tab-bg);
 }
 
 .minitabs .activetab > a,
 .minitabs .activetab > a:hover {
-	background-color: #F9F9F9;
+	background-color: var(--bg3);
 	color: var(--content);
 }
 
@@ -987,12 +988,12 @@ ul.cplist {
 /* Link styles for the sub-section links */
 .navigation a {
 	color: var(--content);
-	background: linear-gradient(to right, var(--bg1) 50%, var(--bg3) 100%);
+	background: linear-gradient(to right, var(--tab-bg) 50%, var(--bg3) 100%);
 }
 
 .rtl .navigation a {
 	color: var(--content);
-	background: linear-gradient(to left, var(--bg1) 50%, var(--bg3) 100%);
+	background: linear-gradient(to left, var(--tab-bg) 50%, var(--bg3) 100%);
 }
 
 .navigation a:hover {
@@ -1013,7 +1014,7 @@ ul.cplist {
 @media only screen and (max-width: 900px), only screen and (max-device-width: 900px)
 {
 	#navigation a, .rtl #navigation a {
-		background: var(--bg1);
+		background: var(--tab-bg);
 	}
 }
 
@@ -1381,7 +1382,7 @@ strong {font-weight: bold !important;}
 div.stat-block.online-list p a:not(.username) {color: var(--username-coloured) !important;}
 div.stat-block.online-list p a:hover:not(.username) {color: var(--anchor-hover) !important;}
 
-table#team td.info a {color: var(--content) !important;}
+table#team td.info a {color: var(--content-dim) !important;}
 
 div.rules {font-weight: bold;}
 div.rules strong {text-transform: uppercase;}
