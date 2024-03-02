@@ -173,7 +173,7 @@ a:hover { color: var(--anchor-hover); }
 
 .headerbar {
 	background-color: transparent;
-	background-image: none; 
+	background-image: none;
 }
 
 .forumbg {
@@ -1287,6 +1287,17 @@ li.notification-reported strong, li.notification-disapproved strong {
 	color: #ffffff;
 }
 
+/* MINTY/COLOURS.CSS__________________________________________________________________________________*/
+
+/* Undo minty additions */
+
+.navbar a, .navbar a:hover {color: #FFF;}
+:not(.row .big-column).bg3 {background-color: var(--bg3);}
+.row.bg3:nth-child(odd), .big-column.bg3:nth-child(odd) {background-color: var(--bg3);}
+ul.forums > li.row:first-child {background-color: var(--ul-forums); background-image: none;}
+ul.forums > li.row:first-child:hover {background-color: var(--li-row-hover); background-image: none;}
+.notification_list li.bg2 {background-color: var(--bg2);}
+
 /*_____________________________________________________________________________________________________*/
 /*_____________________________________________________________________________________________________*/
 
@@ -1351,14 +1362,6 @@ a:hover {text-decoration: underline !important;}
 
 /* BUG FIX: clean corners */
 .dropdown-extended .header {border-radius: 3px 3px 0 0;}
-
-/* REVERT CUSTOM COLORS FROM THE OLD MINTY THEME */
-.navbar a, .navbar a:hover {color: #FFF;}
-:not(.row .big-column).bg3 {background-color: var(--bg3);}
-.row.bg3:nth-child(odd), .big-column.bg3:nth-child(odd) {background-color: var(--bg3);}
-ul.forums > li.row:first-child {background-color: var(--ul-forums); background-image: none;}
-ul.forums > li.row:first-child:hover {background-color: var(--li-row-hover); background-image: none;}
-.notification_list li.bg2 {background-color: var(--bg2);}
 
 /* EXTRAS */
 
