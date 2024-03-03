@@ -33,7 +33,7 @@
 @var color bg3 "background 3 (bg3)" #006554
 @var color tab-bg "non-active tab bg" #003D33
 
-@var color dropdown-header-bg "dropdown header bg" #003D33
+@var color dropdown-header-bg "dropdown header bg" #006554
 @var color dropdown-header-text "dropdown header text" #FFF
 @var color dropdown-contents-bg "dropdown bg" #333
 @var color dropdown-extended-hover "dropdown hover" #3B3B3B
@@ -1391,6 +1391,9 @@ div.rules a {text-decoration: underline;}
 a.button1, input.button1, input.button3, a.button2, input.button2 {border-radius: 4px; padding: 2px 8px;}
 
 .cp-main .pmlist dd {padding-top: 2px;}
+
+fieldset.fields1 ul.recipients input.button2 {font-size: 1em; font-weight: bold; padding: 3px;}
+
 /*_____________________________________________________________________________________________________*/
 /*_____________________________________________________________________________________________________*/
 

@@ -1391,6 +1391,9 @@ div.rules a {text-decoration: underline;}
 a.button1, input.button1, input.button3, a.button2, input.button2 {border-radius: 4px; padding: 2px 8px;}
 
 .cp-main .pmlist dd {padding-top: 2px;}
+
+fieldset.fields1 ul.recipients input.button2 {font-size: 1em; font-weight: bold; padding: 3px;}
+
 /*_____________________________________________________________________________________________________*/
 /*_____________________________________________________________________________________________________*/
 
