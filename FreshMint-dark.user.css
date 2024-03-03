@@ -18,7 +18,7 @@
 @var color content "content" #FFF
 @var color content-dim "content-dimmed" #C1C1C1
 
-@var color anchor "links & titles" #0BDE74
+@var color anchor "links & titles" #60F685
 @var color anchor-hover "links & titles hover" #FFF
 @var color postlink "postlink" #6CF
 @var color postlink-visited "postlink:visited" #D072FF
@@ -45,10 +45,10 @@
 @var text page-header "page header BG" "#1AB481 linear-gradient(90deg, #69B53F 33%, #2AB9A5 67%)"
 @var text forumbg-navbarbg "forum & navbar BG" "#1AB481 linear-gradient(90deg, #69B53F 33%, #2AB9A5 67%)"
 
-@var text button-bg "button BG" "#404040 linear-gradient(to bottom, #A0A0A0 10%, #1A1A1A 90%)"
-@var text button-bg-hover "button BG hover" "#505050 linear-gradient(to bottom, #333333 10%, #808080 90%)"
+@var text button-bg "button BG" "#404040 linear-gradient(#41C080 10%, #333333 90%)"
+@var text button-bg-hover "button BG hover" "#00AB71"
 @var text button-bg-active "button BG active" "#00AB71"
-@var color button-bd "button border" #0BDE74
+@var color button-bd "button border" #60F685
 @var color button-fg "button foreground" #FFF
 
 @var text rules-bg "rules BG" "#1AB481 linear-gradient(270deg, #69B53F 33%, #2AB9A5 67%)"
@@ -305,7 +305,7 @@ dl.details dd {
 }
 
 .icon.icon-red, a:hover .icon.icon-red {
-	color: #0BDE74; /* same green as in icons directory */
+	color: #60F685; /* same green as in icons directory */
 }
 
 .icon.icon-orange, a:hover .icon.icon-orange {
