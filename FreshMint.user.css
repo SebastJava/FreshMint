@@ -1306,7 +1306,7 @@ ul.forums > li.row:first-child:hover {background-color: var(--li-row-hover); bac
 
 /* ANCHORS */
 a {font-weight: bold !important;}
-a:hover {text-decoration: underline !important;}
+a:hover:not(.button) {text-decoration: underline !important;}
 
 #page-header {background: var(--page-header); border-radius: 7px;}
 
