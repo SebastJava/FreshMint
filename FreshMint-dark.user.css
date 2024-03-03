@@ -12,7 +12,7 @@
 
 @preprocessor   default
 
-@var color body-background "body background" #000
+@var color body-background "body background" #202020
 @var color body-text "body text" #C4C4C4
 @var color body-titles "body titles" #D3D3D3
 @var color content "content" #FFF
