@@ -58,11 +58,11 @@
 
 @var color blockquote-bg1 "blockquote BG 1" #444
 @var color blockquote-bg2 "blockquote BG 2" #333
-@var color blockquote-border "blockquote border" #1F7FE0
+@var color blockquote-border "blockquote border" #0A61B8
 
 @var color codebox-bg "codebox BG" #19324B
-@var color inline-code-bg "inline code BG" #004080
-@var color codebox-bd "codebox border" #1F7FE0
+@var color inline-code-bg "inline code BG" #19324B
+@var color codebox-bd "codebox border" #0A61B8
 @var color inline-code-bd "inline code border" #007FFF
 
 ==/UserStyle== */
