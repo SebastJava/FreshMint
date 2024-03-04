@@ -728,7 +728,7 @@ Colours and backgrounds for buttons.css
 	border-color: var(--button-bd);
 }
 
-.caret	{ border-color: var(--content); }
+.caret	{ border-color: var(--button-fg); }
 
 .contact-icons a	{ border-color: #DCDCDC; }
 .contact-icons a:hover	{ background-color: #F2F6F9; }
