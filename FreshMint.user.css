@@ -396,7 +396,7 @@ div.rules {
 	color: var(--rules-fg);
 }
 
-div.rules a {
+div.rules a, div.rules a:visited {
 	color: var(--rules-anchor);
 }
 
