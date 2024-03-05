@@ -45,12 +45,11 @@
 @var text page-header "page header BG" "#1AB481 linear-gradient(90deg, #69B53F 33%, #2AB9A5 67%)"
 @var text forumbg-navbarbg "forum & navbar BG" "#1AB481 linear-gradient(90deg, #69B53F 33%, #2AB9A5 67%)"
 
-@var text button-bg "button BG" "#404040 linear-gradient(#FFF 10%, #AAA 90%)"
+@var text button-bg "button BG" "#404040 linear-gradient(#41C080 10%, #444444 90%)"
 @var text button-bg-hover "button BG hover" "#00AB71"
 @var text button-bg-active "button BG active" "#00AB71"
 @var color button-bd "button border" #C0C0C0
-@var color button-fg "button foreground" #444
-@var color button-fg-hover "button foreground hover" #FFF
+@var color button-fg "button foreground" #FFF
 
 @var text rules-bg "rules BG" "#1AB481 linear-gradient(270deg, #69B53F 33%, #2AB9A5 67%)"
 @var color rules-fg "rules text" #FFF
@@ -708,7 +707,7 @@ Colours and backgrounds for buttons.css
 	border-color: var(--button-bd);
 	background: var(--button-bg-hover);
 	box-shadow: 0 0 0 1px var(--body-background) inset; /* (bug fix...) */
-	color: var(--button-fg-hover);
+	color: var(--button-fg);
 	text-shadow: none;
 }
 
@@ -721,7 +720,7 @@ Colours and backgrounds for buttons.css
 .button-secondary:hover,
 .button:focus .icon,
 .button:hover .icon {
-	color: var(--button-fg-hover);
+	color: var(--button-fg);
 }
 
 .button-search:hover,
@@ -1187,7 +1186,7 @@ a.button1, input.button1, input.button3, a.button2, input.button2 {
 /* Hover states */
 a.button1:hover, input.button1:hover, a.button2:hover, input.button2:hover, input.button3:hover {
 	border-color: var(--button-bd);
-	color: var(--button-fg-hover);
+	color: var(--button-fg);
 	background: var(--button-bg-hover);
 	box-shadow: 0 0 0 1px var(--button-bd) inset; /* (bug fix...) */
 }
