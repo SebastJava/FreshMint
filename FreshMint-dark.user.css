@@ -43,7 +43,8 @@
 @var color username-coloured "team username" #8ED500
 
 @var text page-header "page header BG" "#1AB481 linear-gradient(90deg, #69B53F 33%, #2AB9A5 67%)"
-@var text forumbg-navbarbg "forum & navbar BG" "#1AB481 linear-gradient(90deg, #69B53F 33%, #2AB9A5 67%)"
+@var text forumbg "forum BG" "#1AB481 linear-gradient(90deg, #69B53F 33%, #2AB9A5 67%)"
+@var text navbar-bg "navbar BG" "#595959"
 
 @var text button-bg "button BG" "#404040 linear-gradient(#41C080 10%, #444444 90%)"
 @var text button-bg-hover "button BG hover" "#00AB71"
@@ -178,15 +179,15 @@ a:hover { color: var(--anchor-hover); }
 }
 
 .forumbg {
-	background: var(--forumbg-navbarbg);
+	background: var(--forumbg);
 }
 
 .forabg {
-	background: var(--forumbg-navbarbg);
+	background: var(--forumbg);
 }
 
 .navbar {
-	background: var(--forumbg-navbarbg);
+	background: var(--navbar-bg);
 }
 
 .panel {
@@ -772,7 +773,7 @@ Colours and backgrounds for buttons.css
 .search-box .inputbox,
 .search-box .inputbox:hover,
 .search-box .inputbox:focus {
-	border-color: #CCC;
+	border-color: #C0C0C0;
 }
 
 .search-header {
