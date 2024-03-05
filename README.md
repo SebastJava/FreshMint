@@ -11,11 +11,7 @@ It works on Android too.
 
 And it would work on all browsers and all systems if the Linux Mint team chose to install this FreshMint on their servers...
 
-**before:**
-![FreshMint preview](screenshots/preview-old.png)  
-
-**after:**
-![FreshMint preview](screenshots/preview-new.png)
+![FreshMint compare](screenshots/Minty-vs-FreshMint.png)  
 
 ## Everything got redesigned
 
@@ -34,11 +30,10 @@ And then the extra coding was reduced to very little. So it shouldn't pose too m
 First, you need a userstyle manager that supports installing UserCSS.
 
 * Stylus for [Firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/) or [Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne) (recommended).
-* xStyle for [Firefox](https://addons.mozilla.org/firefox/addon/xstyle/) or [Chrome](https://chrome.google.com/webstore/detail/xstyle/hncgkmhphmncjohllpoleelnibpmccpj).
 
 #### UserCSS file
 
-Next, open [FreshMint.user.css](https://raw.githubusercontent.com/SebastJava/FreshMint/main/FreshMint.user.css) here in your web browser.
+Next, open [FreshMint.user.css](https://raw.githubusercontent.com/SebastJava/FreshMint/main/FreshMint.user.css) or [FreshMint-dark.user.css](https://raw.githubusercontent.com/SebastJava/FreshMint/main/FreshMint-dark.user.css) here in your web browser.
 
 Stylus will then open a new tab showing some basic information & options:
 
@@ -84,6 +79,9 @@ There is a lot of work behind all this. Hard work to create efficient coding and
 
 ![](screenshots/Minty-vs-FreshMint.png)
 [FULL SCREEN IMAGE](https://raw.githubusercontent.com/SebastJava/FreshMint/main/screenshots/Minty-vs-FreshMint.png) (press F11)
+
+![](screenshots/Minty-vs-FreshMint-dark.png)
+[FULL SCREEN IMAGE](https://raw.githubusercontent.com/SebastJava/FreshMint/main/screenshots/Minty-vs-FreshMint-dark.png) (press F11)
 
 You can also instantly switch between the old and the new. Click on the Stylus icon, then click on the FreshMint checkbox:
 
