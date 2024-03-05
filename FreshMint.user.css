@@ -51,7 +51,7 @@
 @var color button-bd "button border" #C0C0C0
 @var color button-fg "button foreground" #FFF
 
-@var text rules-bg "rules BG" "#1AB481 linear-gradient(270deg, #69B53F 33%, #2AB9A5 67%)"
+@var text rules-bg "rules BG" "#595959"
 @var color rules-fg "rules text" #FFF
 @var color rules-anchor "rules links" #FFF
 @var color rules-anchor-hover "rules links hover" #333
