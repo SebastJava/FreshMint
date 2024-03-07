@@ -62,9 +62,11 @@
 @var color blockquote-border "blockquote border" #0A61B8
 
 @var color codebox-bg "codebox BG" #19324B
-@var color inline-code-bg "inline code BG" #19324B
+@var color inline-code-bg "inline code BG" #0055AA
 @var color codebox-bd "codebox border" #0A61B8
 @var color inline-code-bd "inline code border" #007FFF
+@var color codebox-fg "codebox text" #FFF
+@var color inline-code-fg "inline code text" #FFF
 
 ==/UserStyle== */
 
@@ -525,8 +527,12 @@ code:not(.codebox code) {
 	border-color: var(--inline-code-bd) !important;
 }
 
-.codebox code, code {
-	color: #FFFFFF !important;
+code {
+	color: var(--inline-code-fg) !important;
+}
+
+.codebox code {
+	color: var(--codebox-fg) !important;
 }
 
 .codebox {
