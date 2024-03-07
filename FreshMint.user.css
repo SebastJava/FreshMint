@@ -47,8 +47,8 @@
 @var text navbar-bg "navbar BG" "#595959"
 
 @var text button-bg "button BG" "#404040 linear-gradient(#AAA 10%, #222 100%)"
-@var text button-bg-hover "button BG hover" "#2AB9A5"
-@var text button-bg-active "button BG active" "#2AB9A5"
+@var text button-bg-hover "button BG hover" "#69B53F"
+@var text button-bg-active "button BG active" "#69B53F"
 @var color button-bd "button border" #C0C0C0
 @var color button-fg "button foreground" #FFF
 
