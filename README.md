@@ -64,15 +64,6 @@ The default board style on the forums is **Minty**. That's a fork from the stand
 You can find more information here:  
 https://github.com/openstyles/stylus/wiki/UserCSS
 
-## Sponsoring
-
-This theme is free software, released under GNU General Public License, version 2 (GPL-2.0). If you like it, please consider sponsoring or donating to help fund the project.
-
-* https://github.com/sponsors/SebastJava
-* https://paypal.me/SebastJava
-
-There is a lot of work behind all this. Hard work to create efficient coding and constant re-editing on the design side. Fund it, like it, star it!
-
 ## Compare
 <details>
 <summary>Click here to compare using screenshots or toggle old/new</summary>
@@ -86,7 +77,9 @@ There is a lot of work behind all this. Hard work to create efficient coding and
 You can also instantly switch between the old and the new. Click on the Stylus icon, then click on the FreshMint checkbox:
 
 ![](screenshots/Stylus-on-off.png)
-</details>
+</details>  
+
+But why? Find [whats wrong with Minty](Whats-Wrong-With-Minty.md).
 
 ## Color selection rules
 
