@@ -1324,9 +1324,9 @@ a:hover:not(.button) {text-decoration: underline !important;}
 #site-description h1, #site-description p:not(.skiplink) {display: none;}
 
 .logo, .site_logo {width: 480px; height: 70px;}
-.logo {padding: 10px;}
+.logo {padding: 2.5px;}
 
-#search-box.search-header {margin-top: 35px;}
+#search-box.search-header {margin-top: 31px;}
 
 /* PAGE-HEADER NAVBAR */
 #page-header .navbar {background-color: transparent; background-image: none; padding-top: 0px;}
