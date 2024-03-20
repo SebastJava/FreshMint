@@ -52,14 +52,14 @@
 @var color button-bd "button border" #C0C0C0
 @var color button-fg "button foreground" #FFF
 
-@var text rules-bg "rules BG" "#0067CD"
+@var text rules-bg "rules BG" "#0074E7"
 @var color rules-fg "rules text" #FFF
 @var color rules-anchor "rules links" #FFF
 @var color rules-anchor-hover "rules links hover" #8BFFC4
 
 @var color blockquote-bg1 "blockquote BG 1" #E6F7FF
 @var color blockquote-bg2 "blockquote BG 2" #FFF
-@var color blockquote-border "blockquote border" #0C75DE
+@var color blockquote-border "blockquote border" #0074E7
 
 @var color codebox-bg "codebox BG" #0D3359
 @var color inline-code-bg "inline code BG" #CAE5FF
