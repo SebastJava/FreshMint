@@ -59,7 +59,7 @@
 @var text rules-bg "rules BG" "#E61B4E"
 @var color rules-fg "rules text" #FFF
 @var color rules-anchor "rules links" #FFF
-@var color rules-anchor-hover "rules links hover" #8BFFC4
+@var color rules-anchor-hover "rules links hover" #E2E2E2
 
 @var color blockquote-bg1 "blockquote BG 1" #F0F0F0
 @var color blockquote-bg2 "blockquote BG 2" #FFF
