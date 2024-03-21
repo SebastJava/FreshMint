@@ -51,6 +51,10 @@
 @var text button-bg-active "button BG active" "#00AB71"
 @var color button-bd "button border" #60F685
 @var color button-fg "button foreground" #FFF
+@var color button-hover-fg "button hover FG" #FFF
+@var color button-icon-fg "button icon FG" #FFF
+@var color button-icon-hover-fg "button icon hover FG" #FFF
+@var color button-icon-active-fg "button icon active FG" #FFF
 
 @var text rules-bg "rules BG" "#006CD7"
 @var color rules-fg "rules text" #FFF
@@ -714,20 +718,20 @@ Colours and backgrounds for buttons.css
 	border-color: var(--button-bd);
 	background: var(--button-bg-hover);
 	box-shadow: 0 0 0 1px var(--button-bd) inset; /* (bug fix...) */
-	color: var(--button-fg);
+	color: var(--button-hover-fg);
 	text-shadow: none;
 }
 
 .button .icon,
 .button-secondary {
-	color: var(--button-fg);
+	color: var(--button-icon-fg);
 }
 
 .button-secondary:focus,
 .button-secondary:hover,
 .button:focus .icon,
 .button:hover .icon {
-	color: var(--button-fg);
+	color: var(--button-icon-hover-fg);
 }
 
 .button-search:hover,
@@ -735,7 +739,7 @@ Colours and backgrounds for buttons.css
 	border-color: var(--button-bd);
 }
 
-.caret	{ border-color: var(--button-fg); }
+.caret	{ border-color: var(--button-icon-fg); }
 
 .contact-icons a	{ border-color: #DCDCDC; }
 .contact-icons a:hover	{ background-color: #F2F6F9; }
@@ -748,7 +752,7 @@ Colours and backgrounds for buttons.css
 	filter: none;
 	border: 1px solid var(--button-bd);
 	box-shadow: none;
-	color: var(--button-fg);
+	color: var(--button-icon-fg);
 	text-shadow: none;
 }
 
@@ -760,7 +764,7 @@ Colours and backgrounds for buttons.css
 .pagination li.active span {
 	background: var(--button-bg-active);
 	border-color: var(--button-bd);
-	color: var(--button-fg);
+	color: var(--button-icon-active-fg);
 	font-weight: bold;
 }
 
@@ -769,7 +773,7 @@ Colours and backgrounds for buttons.css
 	filter: none;
 	border-color: var(--button-bd);
 	box-shadow: none;
-	color: var(--button-fg);
+	color: var(--button-icon-active-fg);
 	text-shadow: none;
 }
 
@@ -779,7 +783,7 @@ Colours and backgrounds for buttons.css
 .search-box .inputbox,
 .search-box .inputbox:hover,
 .search-box .inputbox:focus {
-	border-color: #C0C0C0;
+	border-color: var(--button-bd);
 }
 
 .search-header {
