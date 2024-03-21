@@ -46,11 +46,15 @@
 @var text forumbg "forum BG" "#1AB481 linear-gradient(90deg, #69B53F 33%, #2AB9A5 67%)"
 @var text navbar-bg "navbar BG" "#595959"
 
-@var text button-bg "button BG" "#404040 linear-gradient(#AAA 10%, #222 100%)"
-@var text button-bg-hover "button BG hover" "#69B53F"
-@var text button-bg-active "button BG active" "#69B53F"
-@var color button-bd "button border" #C0C0C0
-@var color button-fg "button foreground" #FFF
+@var text button-bg "button BG" "linear-gradient(#FFF 20%, #B7B7B7 90%)"
+@var text button-bg-hover "button BG hover" "#FFF"
+@var text button-bg-active "button BG active" "#FFF"
+@var color button-bd "button border" #B7B7B7
+@var color button-fg "button FG" #004DE7
+@var color button-hover-fg "button hover FG" #004DE7
+@var color button-icon-fg "button icon FG" #595959
+@var color button-icon-hover-fg "button icon hover FG" #004DE7
+@var color button-icon-active-fg "button icon active FG" #004DE7
 
 @var text rules-bg "rules BG" "#0074E7"
 @var color rules-fg "rules text" #FFF
@@ -714,20 +718,20 @@ Colours and backgrounds for buttons.css
 	border-color: var(--button-bd);
 	background: var(--button-bg-hover);
 	box-shadow: 0 0 0 1px var(--body-background) inset; /* (bug fix...) */
-	color: var(--button-fg);
+	color: var(--button-hover-fg);
 	text-shadow: none;
 }
 
 .button .icon,
 .button-secondary {
-	color: var(--button-fg);
+	color: var(--button-icon-fg);
 }
 
 .button-secondary:focus,
 .button-secondary:hover,
 .button:focus .icon,
 .button:hover .icon {
-	color: var(--button-fg);
+	color: var(--button-icon-hover-fg);
 }
 
 .button-search:hover,
@@ -735,7 +739,7 @@ Colours and backgrounds for buttons.css
 	border-color: var(--button-bd);
 }
 
-.caret	{ border-color: var(--button-fg); }
+.caret	{ border-color: var(--button-icon-fg); }
 
 .contact-icons a	{ border-color: #DCDCDC; }
 .contact-icons a:hover	{ background-color: #F2F6F9; }
@@ -748,7 +752,7 @@ Colours and backgrounds for buttons.css
 	filter: none;
 	border: 1px solid var(--button-bd);
 	box-shadow: none;
-	color: var(--button-fg);
+	color: var(--button-icon-fg);
 	text-shadow: none;
 }
 
@@ -760,7 +764,7 @@ Colours and backgrounds for buttons.css
 .pagination li.active span {
 	background: var(--button-bg-active);
 	border-color: var(--button-bd);
-	color: #FFFFFF;
+	color: var(--button-icon-active-fg);
 	font-weight: bold;
 }
 
@@ -769,7 +773,7 @@ Colours and backgrounds for buttons.css
 	filter: none;
 	border-color: var(--button-bd);
 	box-shadow: none;
-	color: #FFFFFF;
+	color: var(--button-icon-active-fg);
 	text-shadow: none;
 }
 
@@ -779,7 +783,7 @@ Colours and backgrounds for buttons.css
 .search-box .inputbox,
 .search-box .inputbox:hover,
 .search-box .inputbox:focus {
-	border-color: #C0C0C0;
+	border-color: var(--button-bd);
 }
 
 .search-header {
@@ -1187,7 +1191,7 @@ a.button1, input.button1, input.button3, a.button2, input.button2 {
 	border-color: var(--button-bd);
 	color: var(--button-fg);
 	background: var(--button-bg);
-	box-shadow: 0 0 0 1px var(--button-bd) inset; /* (bug fix...) */
+	box-shadow: 0 0 0 1px var(--body-background) inset; /* (bug fix...) */
 }
 
 /* Hover states */
@@ -1195,7 +1199,7 @@ a.button1:hover, input.button1:hover, a.button2:hover, input.button2:hover, inpu
 	border-color: var(--button-bd);
 	color: var(--button-fg);
 	background: var(--button-bg-hover);
-	box-shadow: 0 0 0 1px var(--button-bd) inset; /* (bug fix...) */
+	box-shadow: 0 0 0 1px var(--body-background) inset; /* (bug fix...) */
 }
 
 /* Focus states */
