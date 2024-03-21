@@ -56,10 +56,10 @@
 @var color button-icon-hover-fg "button icon hover FG" #FFF
 @var color button-icon-active-fg "button icon active FG" #FFF
 
-@var text rules-bg "rules BG" "#006CD7"
+@var text rules-bg "rules BG" "#E61B4E"
 @var color rules-fg "rules text" #FFF
 @var color rules-anchor "rules links" #FFF
-@var color rules-anchor-hover "rules links hover" #8BFFC4
+@var color rules-anchor-hover "rules links hover" #E2E2E2
 
 @var color blockquote-bg1 "blockquote BG 1" #444
 @var color blockquote-bg2 "blockquote BG 2" #333
