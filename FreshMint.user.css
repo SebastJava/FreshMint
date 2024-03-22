@@ -61,16 +61,16 @@
 @var color rules-anchor "rules links" #FFF
 @var color rules-anchor-hover "rules links hover" #E2E2E2
 
-@var color blockquote-bg1 "blockquote BG 1" #F0F0F0
+@var color blockquote-bg1 "blockquote BG 1" #E6F7FF
 @var color blockquote-bg2 "blockquote BG 2" #FFF
-@var color blockquote-border "blockquote border" #69B53F
+@var color blockquote-border "blockquote border" #0066CB
 
 @var color codebox-bg "codebox BG" #404040
-@var color inline-code-bg "inline code BG" #404040
-@var color codebox-bd "codebox border" #000
-@var color inline-code-bd "inline code border" #000
+@var color inline-code-bg "inline code BG" #CAE5FF
+@var color codebox-bd "codebox border" #0066CB
+@var color inline-code-bd "inline code border" #0066CB
 @var color codebox-fg "codebox text" #FFF
-@var color inline-code-fg "inline code text" #FFF
+@var color inline-code-fg "inline code text" #333
 
 ==/UserStyle== */
 
