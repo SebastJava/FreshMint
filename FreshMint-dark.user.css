@@ -244,7 +244,7 @@ table.zebra-list tr:nth-child(even) td, ul.zebra-list li:nth-child(even) {
 }
 
 .site_logo {
-	background-image: url("https://raw.githubusercontent.com/SebastJava/FreshMint/main/images/logo-Exo2-02.svg");
+	background-image: url("https://raw.githubusercontent.com/SebastJava/FreshMint/main/images/logo-Exo2-03.svg");
 }
 
 /* Horizontal lists
@@ -1327,10 +1327,10 @@ a:hover:not(.button) {text-decoration: underline !important;}
 /* This {display: none;} could be better achieved with two deletions in ./template/overall_header.html */
 #site-description h1, #site-description p:not(.skiplink) {display: none;}
 
-.logo, .site_logo {width: 480px; height: 70px;}
-.logo {padding: 2.5px;}
+.logo, .site_logo {width: 425px; height: 55px;}
+.logo {padding: 10px;}
 
-#search-box.search-header {margin-top: 31px;}
+#search-box.search-header {margin-top: 30px;}
 
 /* PAGE-HEADER NAVBAR */
 #page-header .navbar {background-color: transparent; background-image: none; padding-top: 0px;}
