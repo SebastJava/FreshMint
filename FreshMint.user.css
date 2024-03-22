@@ -51,10 +51,10 @@
 @var text button-bg-active "button BG active" "#FFF"
 @var color button-bd "button border" #B7B7B7
 @var color button-fg "button FG" #E61B4E
-@var color button-hover-fg "button hover FG" #222
+@var color button-hover-fg "button hover FG" #444
 @var color button-icon-fg "button icon FG" #595959
-@var color button-icon-hover-fg "button icon hover FG" #222
-@var color button-icon-active-fg "button icon active FG" #222
+@var color button-icon-hover-fg "button icon hover FG" #444
+@var color button-icon-active-fg "button icon active FG" #444
 
 @var text rules-bg "rules BG" "#E61B4E"
 @var color rules-fg "rules text" #FFF
