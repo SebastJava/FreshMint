@@ -56,10 +56,11 @@
 @var color button-icon-hover-fg "button icon hover FG" #444
 @var color button-icon-active-fg "button icon active FG" #444
 
-@var text rules-bg "rules BG" "#E61B4E"
-@var color rules-fg "rules text" #FFF
-@var color rules-anchor "rules links" #FFF
-@var color rules-anchor-hover "rules links hover" #E2E2E2
+@var text rules-bg "rules BG" "#FFF"
+@var color rules-fg "rules text" #333
+@var color rules-bd "rules border" #E61B4E
+@var color rules-anchor "rules links" #0065CD
+@var color rules-anchor-hover "rules links hover" #333
 
 @var color blockquote-bg1 "blockquote BG 1" #E6F7FF
 @var color blockquote-bg2 "blockquote BG 2" #FFF
@@ -1396,9 +1397,9 @@ div.stat-block.online-list p a:hover:not(.username) {color: var(--anchor-hover) 
 
 table#team td.info a {color: var(--content-dim) !important;}
 
-div.rules {font-weight: bold;}
 div.rules strong {text-transform: uppercase;}
 div.rules a {text-decoration: underline;}
+div.rules {border-style: solid; border-color: var(--rules-bd); border-width: 5px;}
 
 a.button1, input.button1, input.button3, a.button2, input.button2 {border-radius: 4px; padding: 2px 8px;}
 
