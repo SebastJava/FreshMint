@@ -1401,7 +1401,7 @@ div.rules strong {text-transform: uppercase;}
 div.rules a {text-decoration: underline;}
 div.rules {
 	border-style: solid; border-width: 0 0 0 12px; border-color: var(--rules-bd);
-	border-radius: 0 7px 7px 0; padding-left: 12px;}
+	border-radius: 0 7px 7px 0; padding-left: 12px; font-weight: bold;}
 
 a.button1, input.button1, input.button3, a.button2, input.button2 {border-radius: 4px; padding: 2px 8px;}
 
