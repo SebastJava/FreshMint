@@ -530,9 +530,6 @@ blockquote blockquote blockquote {
 code:not(.codebox code) {
 	background-color: var(--inline-code-bg) !important;
 	border-color: var(--inline-code-bd) !important;
-}
-
-code {
 	color: var(--inline-code-fg) !important;
 }
 
