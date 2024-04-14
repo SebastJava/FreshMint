@@ -27,9 +27,10 @@ And then the extra coding was reduced to very little. So it shouldn't pose too m
 
 #### Userstyle manager
 
-First, you need a userstyle manager that supports installing UserCSS.
+First, you need a userstyle manager that supports installing UserCSS. Choose one of these:
 
-* Stylus for [Firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/) or [Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne) (recommended).
+* [Stylus for Firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/) (recommended by the Firefox staff)
+* [Stylus for Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne) (recommended by Chrome)
 
 #### UserCSS file
 
