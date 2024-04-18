@@ -32,26 +32,26 @@
   <path
      id="path11"
      d="M 31,16 C 31,24.2838 24.2844,31 16,31 7.7156,31 1,24.2838 1,16 1,7.7156 7.7156,1 16,1 24.2844,1 31,7.7156 31,16"
-     fill="#9f9f9f"
+     fill="#666666"
      style="fill-rule:evenodd" />
   <path
      id="path13"
      d="M 30,16 C 30,23.7315 23.7321,30 16,30 8.2679,30 2,23.7315 2,16 2,8.2679 8.2679,2 16,2 23.7321,2 30,8.2679 30,16"
-     fill="#9f9f9f"
+     fill="#666666"
      style="fill-rule:evenodd" />
   <path
      id="path17"
      d="M 28.5,16 C 28.5,22.9031 22.9036,28.5 16,28.5 9.0964,28.5 3.5,22.9031 3.5,16 3.5,9.0964 9.0964,3.5 16,3.5 22.9036,3.5 28.5,9.0964 28.5,16"
      fill="url(#forum_link-a)"
-     style="fill:#cccccc;fill-rule:evenodd;fill-opacity:1" />
+     style="fill:#aaaaaa;fill-rule:evenodd;fill-opacity:1" />
   <path
      id="path19"
      d="m 24,23 v 1 H 8 v -1 z m 0,-3 v 1 H 8 v -1 z m -8,-3 v 1 H 8 v -1 z"
-     fill="#666666"
+     fill="#444444"
      style="fill-rule:evenodd" />
   <path
      id="path21"
      d="M 12.601,9.992 H 8.035 V 8 H 16 v 7.965 H 14.008 V 11.399 L 9.407,16 8,14.593 Z"
-     fill="#9f9f9f"
+     fill="#666666"
      style="fill-rule:evenodd" />
 </svg>
