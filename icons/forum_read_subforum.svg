@@ -59,7 +59,7 @@
      id="path17"
      d="M 28.5,16 C 28.5,22.9031 22.9036,28.5 16,28.5 9.0964,28.5 3.5,22.9031 3.5,16 3.5,9.0964 9.0964,3.5 16,3.5 22.9036,3.5 28.5,9.0964 28.5,16"
      fill="url(#forum_read_subforum-a)"
-     style="fill:url(#linearGradient1);fill-rule:evenodd" />
+     style="fill:#cccccc;fill-rule:evenodd;fill-opacity:1" />
   <path
      id="path19"
      d="M 8.3636,24 H 16 V 23 H 8 v 1 h 0.36364 z m 0.045455,-3 h 8.5909 v -1 h -9 v 1 h 0.40909 z m 0.25758,-3 h 7.3333 v -1 h -8 v 1 h 0.66667 z m 0.060606,-3 h 15.273 v -1 h -16 v 1 h 0.72727 z m 0,-3 h 15.273 v -1 h -16 v 1 h 0.72727 z M 8.666635,9 h 7.3333 V 8 h -8 v 1 h 0.66667 z"
@@ -89,7 +89,7 @@
      id="path29"
      d="m 29.75,25 c 0,2.6232 -2.1266,4.75 -4.75,4.75 -2.6234,0 -4.75,-2.1268 -4.75,-4.75 0,-2.6234 2.1266,-4.75 4.75,-4.75 2.6234,0 4.75,2.1266 4.75,4.75"
      fill="url(#forum_read_subforum-a)"
-     style="fill:url(#linearGradient2);fill-rule:evenodd" />
+     style="fill:#cccccc;fill-rule:evenodd;fill-opacity:1" />
   <path
      id="path31"
      d="m 22.273,27.5 h 5.7273 v -1 h -6 v 1 h 0.27273 z m 0,-2 h 5.7273 v -1 h -6 v 1 h 0.27273 z m -0.02273,-2 h 2.75 v -1 h -3 v 1 z"

@@ -18,7 +18,8 @@
       <stop
          id="stop2"
          stop-color="#DBDEE3"
-         offset="0" />
+         offset="0"
+         style="stop-color:#cccccc;stop-opacity:1;" />
       <stop
          id="stop4"
          stop-color="#FDFDFD"
@@ -43,7 +44,7 @@
      id="path17"
      d="M 28.5,16 C 28.5,22.9031 22.9036,28.5 16,28.5 9.0964,28.5 3.5,22.9031 3.5,16 3.5,9.0964 9.0964,3.5 16,3.5 22.9036,3.5 28.5,9.0964 28.5,16"
      fill="url(#topic_read_mine-a)"
-     style="fill:url(#topic_read_mine-a);fill-rule:evenodd" />
+     style="fill:#cccccc;fill-rule:evenodd;fill-opacity:1" />
   <path
      id="path19"
      d="M 8.6667,24 H 16 V 23 H 8 v 1 h 0.66667 z m 0.060606,-3 h 15.273 v -1 h -16 v 1 h 0.72727 z m 0,-3 h 15.273 v -1 h -16 v 1 h 0.72727 z m 0,-3 h 15.273 v -1 h -16 v 1 h 0.72727 z m -0.13636,-3 h 12.409 v -1 h -13 v 1 h 0.59091 z M 8.562537,8.9999 h 8.4375 v -1 h -9 v 1 z"

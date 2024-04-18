@@ -43,7 +43,7 @@
      id="path17"
      d="M 28.5,16 C 28.5,22.9031 22.9036,28.5 16,28.5 9.0964,28.5 3.5,22.9031 3.5,16 3.5,9.0964 9.0964,3.5 16,3.5 22.9036,3.5 28.5,9.0964 28.5,16"
      fill="url(#froum_read-a)"
-     style="fill:url(#froum_read-a);fill-rule:evenodd" />
+     style="fill:#cccccc;fill-rule:evenodd;fill-opacity:1" />
   <path
      id="path19"
      d="m 8.7273,24 h 15.273 v -1 h -16 v 1 h 0.72727 z m 0,-3 h 15.273 v -1 h -16 v 1 H 8.72757 Z M 8.666694,18 h 7.3333 v -1 h -8 v 1 h 0.66667 z M 8.7273,15 h 15.273 v -1 h -16 v 1 h 0.72727 z m 0,-3 h 15.273 v -1 h -16 v 1 H 8.72757 Z M 8.666694,9 h 7.3333 V 8 h -8 v 1 h 0.66667 z"
