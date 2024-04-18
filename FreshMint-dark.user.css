@@ -18,10 +18,10 @@
 @var color content "content" #FFF
 @var color content-dim "content-dimmed" #C1C1C1
 
-@var color anchor "links & titles" #60F685
+@var color anchor "links & titles" #65BEE9
 @var color anchor-hover "links & titles hover" #FFF
-@var color postlink "postlink" #6CF
-@var color postlink-visited "postlink:visited" #D072FF
+@var color postlink "postlink" #65BEE9
+@var color postlink-visited "postlink:visited" #C47FE6
 @var color postlink-hover "postlink:hover" #FFF
 
 @var color ul-forums "forums lists BG" #333
@@ -42,24 +42,24 @@
 
 @var color username-coloured "team username" #8ED500
 
-@var text page-header "page header BG" "#1AB481 linear-gradient(90deg, #69B53F 33%, #2AB9A5 67%)"
-@var text forumbg "forum BG" "#1AB481 linear-gradient(90deg, #69B53F 33%, #2AB9A5 67%)"
+@var text page-header "page header BG" "#008570"
+@var text forumbg "forum BG" "#008570"
 @var text navbar-bg "navbar BG" "#595959"
 
-@var text button-bg "button BG" "#404040 linear-gradient(#41C080 10%, #444444 90%)"
-@var text button-bg-hover "button BG hover" "#00AB71"
-@var text button-bg-active "button BG active" "#00AB71"
-@var color button-bd "button border" #60F685
-@var color button-fg "button foreground" #FFF
+@var text button-bg "button BG" "linear-gradient(#888 20%, #444 80%)"
+@var text button-bg-hover "button BG hover" "#888"
+@var text button-bg-active "button BG active" "#888"
+@var color button-bd "button border" #444
+@var color button-fg "button FG" #FFF
 @var color button-hover-fg "button hover FG" #FFF
-@var color button-icon-fg "button icon FG" #FFF
+@var color button-icon-fg "button icon FG" #81FF9F
 @var color button-icon-hover-fg "button icon hover FG" #FFF
 @var color button-icon-active-fg "button icon active FG" #FFF
 
-@var text rules-bg "rules BG" "#A90039"
+@var text rules-bg "rules BG" "#670023"
 @var color rules-fg "rules text" #FFF
-@var color rules-bd "rules border" #FF1865
-@var color rules-anchor "rules links" #6CF
+@var color rules-bd "rules border" #F00D59
+@var color rules-anchor "rules links" #99DCFF
 @var color rules-anchor-hover "rules links hover" #FFF
 
 @var color blockquote-bg1 "blockquote BG 1" #204060
@@ -68,7 +68,7 @@
 
 @var color codebox-bg "codebox BG" #404040
 @var color inline-code-bg "inline code BG" #004080
-@var color codebox-bd "codebox border" #0066CB
+@var color codebox-bd "codebox border" #004080
 @var color inline-code-bd "inline code border" #0074E7
 @var color codebox-fg "codebox text" #FFF
 @var color inline-code-fg "inline code text" #FFF
@@ -706,7 +706,7 @@ Colours and backgrounds for buttons.css
 .button {
 	border-color: var(--button-bd);
 	background: var(--button-bg);
-	box-shadow: 0 0 0 1px var(--button-bd) inset; /* (bug fix...) */
+	box-shadow: 0 0 0 1px var(--body-background) inset; /* (bug fix...) */
 	color: var(--button-fg);
 	text-shadow: none;
 }
@@ -715,7 +715,7 @@ Colours and backgrounds for buttons.css
 .button:focus {
 	border-color: var(--button-bd);
 	background: var(--button-bg-hover);
-	box-shadow: 0 0 0 1px var(--button-bd) inset; /* (bug fix...) */
+	box-shadow: 0 0 0 1px var(--body-background) inset; /* (bug fix...) */
 	color: var(--button-hover-fg);
 	text-shadow: none;
 }
@@ -1152,9 +1152,9 @@ fieldset.quick-login input.inputbox {
 /* Input field styles
 ---------------------------------------- */
 .inputbox {
-	background-color: #FFFFFF;
-	border-color: #B4BAC0;
-	color: #333333;
+	background-color: #202020;
+	border-color: #444;
+	color: #FFF;
 }
 
 .inputbox:-moz-placeholder {
