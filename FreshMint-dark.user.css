@@ -56,7 +56,7 @@
 @var color button-icon-hover-fg "button icon hover FG" #FFF
 @var color button-icon-active-fg "button icon active FG" #FFF
 
-@var text rules-bg "rules BG" "#670023"
+@var text rules-bg "rules BG" "#444"
 @var color rules-fg "rules text" #FFF
 @var color rules-bd "rules border" #F00D59
 @var color rules-anchor "rules links" #99DCFF
