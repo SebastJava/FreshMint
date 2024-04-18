@@ -49,7 +49,7 @@
 @var text button-bg "button BG" "linear-gradient(#888 20%, #444 80%)"
 @var text button-bg-hover "button BG hover" "#888"
 @var text button-bg-active "button BG active" "#888"
-@var color button-bd "button border" #444
+@var color button-bd "button border" #888
 @var color button-fg "button FG" #FFF
 @var color button-hover-fg "button hover FG" #FFF
 @var color button-icon-fg "button icon FG" #81FF9F
