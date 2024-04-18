@@ -43,7 +43,7 @@
      id="path17"
      d="M 28.5,16 C 28.5,22.9031 22.9036,28.5 16,28.5 9.0964,28.5 3.5,22.9031 3.5,16 3.5,9.0964 9.0964,3.5 16,3.5 22.9036,3.5 28.5,9.0964 28.5,16"
      fill="url(#topic_moved-a)"
-     style="fill:url(#topic_moved-a);fill-rule:evenodd" />
+     style="fill:#cccccc;fill-rule:evenodd;fill-opacity:1" />
   <path
      id="path19"
      d="m 8.83333,24 h 9.1667 v -1 h -10 v 1 H 8.83336 Z M 8.72727,21 h 15.273 v -1 h -16 v 1 h 0.72727 z m 11.455,-3 h 3.8182 v -1 h -4 v 1 h 0.18182 z m 0,-3 h 3.8182 v -1 h -4 v 1 h 0.18182 z"
