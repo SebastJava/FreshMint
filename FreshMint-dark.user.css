@@ -73,6 +73,10 @@
 @var color codebox-fg "codebox text" #FFF
 @var color inline-code-fg "inline code text" #FFF
 
+@var color input-bg "input background" #444
+@var color input-bd "input border" #AAA
+@var color input-fg "input text" #FFF
+
 ==/UserStyle== */
 
 @-moz-document domain("forums.linuxmint.com") {
@@ -1097,9 +1101,9 @@ Colours and backgrounds for forms.css
 /* General form styles
 ----------------------------------------*/
 select {
-	border-color: var(--content-dim);
-	background-color: #FAFAFA;
-	color: #333333;
+	border-color: var(--input-bd);
+	background-color: var(--input-bg);
+	color: var(--input-fg);
 }
 
 label {
@@ -1375,7 +1379,7 @@ a:hover:not(.button) {text-decoration: underline !important;}
 
 /* EXTRAS */
 
-input, optgroup, select, textarea {color: #333;}
+input, optgroup, select, textarea {color: var(--input-fg);}
 
 .search-header .inputbox {border-width: 1px 0px 1px 1px; border-style: solid;}
 
