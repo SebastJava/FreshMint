@@ -11,7 +11,9 @@ It works on Android too.
 
 And it would work on all browsers and all systems if the Linux Mint team chose to install this FreshMint on their servers...
 
-![FreshMint compare](screenshots/Minty-vs-FreshMint.png)  
+![FreshMint compare](screenshots/Minty-vs-FreshMint.png) 
+
+![FreshMint compare](screenshots/Minty-vs-FreshMint-dark.png) 
 
 ## Everything got redesigned
 
@@ -22,6 +24,8 @@ The page header is the first thing people will see and thus it is very important
 * colors that echo the main website
 
 And then the extra coding was reduced to very little. So it shouldn't pose too much trouble when the time comes to update the phpBB engine.
+
+But why all this trouble? Find [whats wrong with Minty](Whats-Wrong-With-Minty.md).
 
 ## Installation
 
@@ -51,14 +55,11 @@ The default board style on the forums is **Minty**. That's a fork from the stand
 
 **If you are in a hurry, don't worry and just skip this step.** All the `colors.css` got duplicated, so this FreshMint should look the same on both Minty and Prosilver. But if you want to make sure everything is 100% accurate, please switch to Prosilver.
 
-<details>
-<summary>Click here to switch to Prosilver</summary>
-
+**To switch to Prosilver:**
 1. [Login](https://forums.linuxmint.com/ucp.php?mode=login&redirect=index.php) or [Register](https://forums.linuxmint.com/ucp.php?mode=register) to the forums.
 2. Go to your [User Control Panel](https://forums.linuxmint.com/ucp.php).
 3. Click on the **Board preferences** tab and select **prosilver** for your board style.
 4. Click on the **Submit** button.
-</details>
 
 #### Learn more (optional)
 
@@ -66,26 +67,11 @@ You can find more information here:
 https://github.com/openstyles/stylus/wiki/UserCSS
 
 ## Compare
-<details>
-<summary>Click here to compare using screenshots or toggle old/new</summary>
-
-![](screenshots/Minty-vs-FreshMint.png)
-[FULL SCREEN IMAGE](https://raw.githubusercontent.com/SebastJava/FreshMint/main/screenshots/Minty-vs-FreshMint.png) (press F11)
-
-![](screenshots/Minty-vs-FreshMint-dark.png)
-[FULL SCREEN IMAGE](https://raw.githubusercontent.com/SebastJava/FreshMint/main/screenshots/Minty-vs-FreshMint-dark.png) (press F11)
-
-You can also instantly switch between the old and the new. Click on the Stylus icon, then click on the FreshMint checkbox:
+You can instantly switch between the old and the new. Click on the Stylus icon, then click on the FreshMint checkbox:
 
 ![](screenshots/Stylus-on-off.png)
-</details>  
-
-But why? Find [whats wrong with Minty](Whats-Wrong-With-Minty.md).
 
 ## Color selection rules
-
-<details>
-<summary>Click here to find out where these color choices come from</summary>
 
 ![website-vs-forums](screenshots/website-vs-forums.png)
 [FULL SCREEN IMAGE](https://raw.githubusercontent.com/SebastJava/FreshMint/main/screenshots/website-vs-forums.png) (press F11)
@@ -106,21 +92,16 @@ https://marijohannessen.github.io/color-contrast-checker/
 https://uxmovement.com/content/why-you-should-avoid-bright-saturated-background-colors/  
 https://uxmovement.com/content/why-you-should-never-use-pure-black-for-text-or-backgrounds/  
 https://flatuicolors.com/  
-</details>
 
 ## Experiment with colors and styles
 
 This theme is based on UserCSS. There are some variables you can instantly try and see. Click on the Stylus icon, then click on the FreshMint gear icon.
-
-<details>
-<summary>Click here to see how</summary>
 
 ![](screenshots/Stylus-configure.png)
 
 You will then get a control panel where you can instantly change some CSS variables:
 
 ![](screenshots/Stylus-UserCSS-config.png)
-</details>
 
 ## Forum signatures
 
