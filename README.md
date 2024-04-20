@@ -55,7 +55,6 @@ The default board style on the forums is **Minty**. That's a fork from the stand
 
 **If you are in a hurry, don't worry and just skip this step.** All the `colors.css` got duplicated, so this FreshMint should look the same on both Minty and Prosilver. But if you want to make sure everything is 100% accurate, please switch to Prosilver.
 
-**To switch to Prosilver:**
 1. [Login](https://forums.linuxmint.com/ucp.php?mode=login&redirect=index.php) or [Register](https://forums.linuxmint.com/ucp.php?mode=register) to the forums.
 2. Go to your [User Control Panel](https://forums.linuxmint.com/ucp.php).
 3. Click on the **Board preferences** tab and select **prosilver** for your board style.
