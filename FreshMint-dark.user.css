@@ -42,7 +42,7 @@
 
 @var color username-coloured "team username" #8ED500
 
-@var text page-header "page header BG" "linear-gradient(180deg, #2F8F00 20%, #008570 80%)"
+@var text page-header "page header BG" "#2F8F00"
 @var text forumbg "forum BG" "#008570"
 @var text navbar-bg "navbar BG" "#595959"
 
@@ -186,7 +186,7 @@ a:hover { color: var(--anchor-hover); }
 
 .headerbar {
 	background-color: transparent;
-	background-image: none;
+	background-image: url("https://raw.githubusercontent.com/SebastJava/FreshMint/main/images/banner-v7.svg");
 }
 
 .forumbg {
@@ -256,7 +256,7 @@ table.zebra-list tr:nth-child(even) td, ul.zebra-list li:nth-child(even) {
 ----------------------------------------*/
 
 ul.navlinks {
-	border-top-color: #FFFFFF;
+	border-top-color: #FFFFFF80;
 }
 
 /* Table styles
@@ -1335,8 +1335,9 @@ a:hover:not(.button) {text-decoration: underline !important;}
 #search-box.search-header {margin-top: 30px;}
 
 /* PAGE-HEADER NAVBAR */
-#page-header .navbar {background-color: transparent; background-image: none; padding-top: 0px;}
-#page-header #nav-main {padding-top: 4px; border-top: 1px solid #FFFFFF;}
+#page-header .navbar {border-radius: 0 0 7px 7px; background-color: var(--forumbg);
+	background-image: none; padding-top: 0px;}
+#page-header #nav-main {padding-top: 4px; border-top: 1px solid transparent;}
 #page-header .navbar a {color: #FFFFFF; font-weight: bold;}
 #page-header .navbar ul.dropdown-contents a, #page-header .navbar div.dropdown-contents a {
   color: var(--anchor);}
