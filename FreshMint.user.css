@@ -186,7 +186,7 @@ a:hover { color: var(--anchor-hover); }
 
 .headerbar {
 	background-color: transparent;
-	background-image: none;
+	background-image: url("https://raw.githubusercontent.com/SebastJava/FreshMint/main/images/banner-v7.svg");
 }
 
 .forumbg {
