@@ -21,11 +21,11 @@ The page header is the first thing people will see and thus it is very important
 
 * a communicative design
 * sufficient contrasts
-* colors that echo the main website
+* nice and professional
 
 And then the extra coding was reduced to very little. So it shouldn't pose too much trouble when the time comes to update the phpBB engine.
 
-But why all this trouble? Find [whats wrong with Minty](Whats-Wrong-With-Minty.md).
+But why all this trouble? Find [whats wrong with Minty.](Whats-Wrong-With-Minty.md)
 
 ## Installation
 
@@ -47,7 +47,7 @@ Stylus will then open a new tab showing some basic information & options:
 
 Once installed, you will be redirected to Stylus editor page with the newly installed/updated UserCSS loaded. Close this if you don't want or need to modify the style.
 
-**Now you can see and feel your new [Linux Mint Forums](https://forums.linuxmint.com)!**
+**Now you can see and feel your new [Linux Mint Forums !](https://forums.linuxmint.com)**
 
 #### A better start (optional)
 
@@ -72,14 +72,11 @@ You can instantly switch between the old and the new. Click on the Stylus icon, 
 
 ## Color selection rules
 
-![website-vs-forums](screenshots/website-vs-forums.png)
-[FULL SCREEN IMAGE](https://raw.githubusercontent.com/SebastJava/FreshMint/main/screenshots/website-vs-forums.png) (press F11)
+I don't want to have to choose between pretty or "professional" colors. I try to find colors that are pretty, relevant, well contrasted, and not stressful on the eyes. All together.
 
-#### Color gradient
+Bluish greens are naturally better contrasted and less stressful. And they still look good when reduced in saturation or brightness. And then it fits more with the definition of mint green, in my humble opinion.
 
-This color gradient has the exact same colors as those found on the main website. We all agree there should be some consistency all across the different Linux Mint websites. But the page-header here on FreshMint is much smaller than the one on the [main website](https://linuxmint.com/). So, i find it works better here with a 90° angle and different starting and ending points: `linear-gradient(90deg, #69B53F 33%, #2AB9A5 67%)`.
-
-Anyway, i turned this into a text variable, so you can quickly try anything you want. [Experiment with colors and styles!](https://github.com/SebastJava/FreshMint?tab=readme-ov-file#experiment-with-colors-and-styles)
+But we can allow for a few exceptions. The logo should be more vibrant, more attractive. There is no need for subdued colors for the logo.
 
 #### References
 
