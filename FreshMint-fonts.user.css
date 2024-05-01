@@ -1,0 +1,25 @@
+/* ==UserStyle==
+
+@name           FreshMint-fonts
+@namespace      https://github.com/SebastJava
+@version        1.0
+@description    Linux Mint Forums fonts (overriding this: prosilver-all-fonts.css)
+@author         SebastJava (https://raw.githubusercontent.com/SebastJava/FreshMint/main/COPYRIGHT)
+@homepageURL    https://github.com/SebastJava/FreshMint
+@supportURL     https://github.com/SebastJava/FreshMint/issues
+@updateURL      https://raw.githubusercontent.com/SebastJava/FreshMint/main/FreshMint-fonts.user.css
+@license        GPL-2.0-or-later
+
+@preprocessor   default
+
+==/UserStyle== */
+
+@-moz-document domain("forums.linuxmint.com") {
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-variation-settings: "wdth" 100;
+}
+}
