@@ -1,0 +1,35 @@
+/* ==UserStyle==
+
+@name           FreshMint-fonts
+@namespace      https://github.com/SebastJava
+@version        1.0
+@description    Linux Mint Forums, standard fonts accross all systems
+@author         SebastJava (https://raw.githubusercontent.com/SebastJava/FreshMint/main/COPYRIGHT)
+@homepageURL    https://github.com/SebastJava/FreshMint
+@supportURL     https://github.com/SebastJava/FreshMint/issues
+@updateURL      https://raw.githubusercontent.com/SebastJava/FreshMint/main/FreshMint-fonts.user.css
+@license        GPL-2.0-or-later
+
+@preprocessor   default
+
+==/UserStyle== */
+
+@-moz-document domain("forums.linuxmint.com") {
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.icon, .button .icon, blockquote cite:before, .uncited:before {
+  	font-family: FontAwesome;
+}
+a.header-avatar span:after {
+	font-family: FontAwesome;
+}
+
+}
