@@ -101,9 +101,14 @@ textarea {
 a.button1, input.button1, input.button3, a.button2, input.button2 {
 	font-family: "Lucida Grande", Verdana, Helvetica, Arial, sans-serif;
 }
+
 .icon, .button .icon, blockquote cite:before, .uncited:before {
   	font-family: FontAwesome;
 }
+a.header-avatar span:after {
+	font: normal normal normal 14px/1 FontAwesome;
+}
+
 a.forumtitle {
 	font-family: "Trebuchet MS", Helvetica, Arial, Sans-serif;
 }
