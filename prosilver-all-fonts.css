@@ -1,8 +1,12 @@
-/* METHOD:
-   1. Download phpBB v3.3.10 from https://www.phpbb.com/downloads/
-   2. Search for "font-family" in all files in phpBB3/styles/prosilver/theme using Nemo
-   3. Open all those files containing "font-family" in Xed
-   4. Search for "font-family" using Xed, and copy-paste the results here
+/* 
+	This file brings together all the “font-family” scattered in several CSS files,
+	in order to have an overview of all Prosilver fonts.
+
+	METHOD:
+	1. Download phpBB v3.3.10 from https://www.phpbb.com/downloads/
+	2. Search for "font-family" in all files in phpBB3/styles/prosilver/theme using Nemo
+	3. Open all those files containing "font-family" in Xed
+	4. Search for "font-family" using Xed, and copy-paste the results here
 */
 
 html {
