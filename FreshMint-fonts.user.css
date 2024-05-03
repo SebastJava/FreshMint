@@ -22,7 +22,7 @@
   font-family: 'Ubuntu';
   font-style: normal;
   font-weight: 400;
-  src: local(Ubuntu Regular), url('https://raw.githubusercontent.com/SebastJava/FreshMint/main/fonts/Ubuntu/ubuntu-v20-cyrillic_cyrillic-ext_greek_greek-ext_latin_latin-ext-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  src: local(Ubuntu), url('https://raw.githubusercontent.com/SebastJava/FreshMint/main/fonts/Ubuntu/ubuntu-v20-cyrillic_cyrillic-ext_greek_greek-ext_latin_latin-ext-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
 /* ubuntu-italic - cyrillic_cyrillic-ext_greek_greek-ext_latin_latin-ext */
