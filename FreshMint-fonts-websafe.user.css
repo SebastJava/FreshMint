@@ -1,0 +1,34 @@
+/* ==UserStyle==
+
+@name           FreshMint-fonts-websafe
+@namespace      https://github.com/SebastJava
+@version        1.0
+@description    Linux Mint Forums, standard fonts accross all systems
+@author         SebastJava (https://raw.githubusercontent.com/SebastJava/FreshMint/main/COPYRIGHT)
+@homepageURL    https://github.com/SebastJava/FreshMint
+@supportURL     https://github.com/SebastJava/FreshMint/issues
+@updateURL      https://raw.githubusercontent.com/SebastJava/FreshMint/main/FreshMint-fonts-websafe.user.css
+@license        GPL-2.0-or-later
+
+@preprocessor   default
+
+==/UserStyle== */
+
+@-moz-document domain("forums.linuxmint.com") {
+
+:not(code, kbd, pre, samp) {
+	font-family: "Liberation Sans", "Arial", "Helvetica", "Roboto", sans-serif !important;
+}
+code, kbd, pre, samp {
+	font-family: "DejaVu Sans Mono", Monaco, "Andale Mono", "Courier New", Courier, monospace !important;
+}
+body {
+	line-height: 1.2;
+}
+.icon, .button .icon, blockquote cite:before, .uncited:before {
+	font-family: FontAwesome !important;
+}
+a.header-avatar span:after {
+	font-family: FontAwesome !important;
+}
+}
