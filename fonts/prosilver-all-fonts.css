@@ -118,6 +118,10 @@ a.topictitle {
 code, kbd, pre, samp {
 	font-family: monospace;
 }
+.codebox code {
+	font: 0.9em Monaco, "Andale Mono","Courier New", Courier, monospace;
+}
+
 /* PRINT.CSS */
 
 h1, h2, h3, h1 a, h2 a, h3 a {
