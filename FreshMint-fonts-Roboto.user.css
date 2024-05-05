@@ -2,7 +2,7 @@
 
 @name           FreshMint-fonts-Roboto
 @namespace      https://github.com/SebastJava
-@version        1.0
+@version        2.5
 @description    Linux Mint Forums, standard fonts accross all systems
 @author         SebastJava (https://raw.githubusercontent.com/SebastJava/FreshMint/main/COPYRIGHT)
 @homepageURL    https://github.com/SebastJava/FreshMint
@@ -60,6 +60,9 @@
 
 :not(code, kbd, pre, samp) {
 	font-family: "Roboto", "Liberation Sans", "Arial", "Helvetica", sans-serif !important;
+}
+code, kbd, pre, samp {
+	font-family: "DejaVu Sans Mono", Monaco, "Andale Mono", "Courier New", Courier, monospace !important;
 }
 body {
 	line-height: 1.2;
