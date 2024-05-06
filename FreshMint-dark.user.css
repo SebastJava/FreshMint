@@ -2,7 +2,7 @@
 
 @name           FreshMint-dark
 @namespace      https://github.com/SebastJava
-@version        3.2.0
+@version        4.0.0
 @description    Linux Mint Forums, completely redesigned
 @author         SebastJava (https://raw.githubusercontent.com/SebastJava/FreshMint/main/COPYRIGHT)
 @homepageURL    https://github.com/SebastJava/FreshMint
@@ -1316,6 +1316,24 @@ ul.forums > li.row:first-child:hover {background-color: var(--li-row-hover); bac
 /*_____________________________________________________________________________________________________*/
 
 /* FRESHMINT.USER.CSS__________________________________________________________________________________*/
+
+/* FONTS */
+
+:not(code, kbd, pre, samp) {
+	font-family: "Liberation Sans", "Arial", "Helvetica", "Roboto", sans-serif !important;
+}
+code, kbd, pre, samp {
+	font-family: "DejaVu Sans Mono", Monaco, "Andale Mono", "Courier New", Courier, monospace !important;
+}
+body {
+	line-height: 1.2;
+}
+.icon, .button .icon, blockquote cite:before, .uncited:before {
+	font-family: FontAwesome !important;
+}
+a.header-avatar span:after {
+	font-family: FontAwesome !important;
+}
 
 /* ANCHORS */
 a {font-weight: bold !important;}
