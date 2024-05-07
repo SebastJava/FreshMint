@@ -17,7 +17,7 @@ And it would work on all browsers and all systems if the Linux Mint team chose t
 
 ## Everything got redesigned
 
-The page header is the first thing people will see and thus it is very important. Extra care was taken on this page header. But there is much more than this here. Everything was looked at and readjusted.
+The page header is the first thing people will see and thus it is very important. Extra care was taken on this page header. But there is much more than this here. Everything was looked at and readjusted. Every section and every page.
 
 * a communicative design
 * sufficient contrasts
