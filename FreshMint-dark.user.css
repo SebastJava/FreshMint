@@ -42,7 +42,7 @@
 
 @var color username-coloured "team username" #8ED500
 
-@var text page-header "page header BG" "#2F8F00"
+@var text page-header "page header BG" "linear-gradient(180deg, #2ECC71 0%, #008570 80%)"
 @var text forumbg "forum BG" "#008570"
 @var text navbar-bg "navbar BG" "#595959"
 
@@ -1353,9 +1353,9 @@ a:hover:not(.button) {text-decoration: underline !important;}
 #search-box.search-header {margin-top: 30px;}
 
 /* PAGE-HEADER NAVBAR */
-#page-header .navbar {border-radius: 0 0 7px 7px; background-color: var(--forumbg);
+#page-header .navbar {border-radius: 0 0 7px 7px; background-color: transparent;
 	background-image: none; padding-top: 0px;}
-#page-header #nav-main {padding-top: 4px; border-top: 1px solid transparent;}
+#page-header #nav-main {padding-top: 4px; border-top: 1px solid #FFFFFF80;}
 #page-header .navbar a {color: #FFFFFF; font-weight: bold;}
 #page-header .navbar ul.dropdown-contents a, #page-header .navbar div.dropdown-contents a {
   color: var(--anchor);}
