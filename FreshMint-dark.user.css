@@ -1319,15 +1319,10 @@ ul.forums > li.row:first-child:hover {background-color: var(--li-row-hover); bac
 
 /* FONTS */
 
-:not(code, kbd, pre, samp) {
-	font-family: "Nimbus Sans", "Arial", "Helvetica", "Roboto", sans-serif !important;
-}
 code, kbd, pre, samp {
 	font-family: "DejaVu Sans Mono", Monaco, "Andale Mono", "Courier New", Courier, monospace !important;
 }
 body {line-height: 1.2;}
-/* FIX: Changing font-family affects line-height !? (1.4em -> 1.5em) */
-/* .postbody, .content, .content p {line-height: 1.5em;} */
 
 .icon, .button .icon, blockquote cite:before, .uncited:before {
 	font-family: FontAwesome !important;
