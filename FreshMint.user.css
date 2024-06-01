@@ -1402,6 +1402,9 @@ a:hover:not(.button) {text-decoration: underline !important;}
 /* BUG FIX: clean corners */
 .dropdown-extended .header {border-radius: 3px 3px 0 0;}
 
+/* BUG FIX: space for 1px border on top of inline code */
+.content {padding-top: 1px;}
+
 /* EXTRAS */
 
 input, optgroup, select, textarea {color: var(--input-fg);}
