@@ -1319,9 +1319,19 @@ ul.forums > li.row:first-child:hover {background-color: var(--li-row-hover); bac
 
 /* FONTS */
 
-code, kbd, pre, samp {
-	font-family: "DejaVu Sans Mono", Monaco, "Andale Mono", "Courier New", Courier, monospace !important;
+body, h1, h2, h3, h4, h5, h6, h1 a, h2 a, h3 a, .postbody h3, .content, .content p, a.forumtitle, a.topictitle {
+font-family: "Nimbus Sans", "Arial", "Helvetica", "Roboto", sans-serif;
 }
+dl.faq, p.author, .notice, dl.file, dl.file dt, fieldset.polls, fieldset, input, select, select optgroup option {
+font-family: "Nimbus Sans", "Arial", "Helvetica", "Roboto", sans-serif;
+}
+textarea, .message-box textarea, .author, .date, .notification_list p.notifications_title {
+font-family: "Nimbus Sans", "Arial", "Helvetica", "Roboto", sans-serif;
+}
+code, kbd, pre, samp {
+	font-family: "DejaVu Sans Mono", Consolas, Monaco, "Andale Mono", "Courier New", Courier, monospace !important;
+}
+
 body {line-height: 1.2;}
 
 .icon, .button .icon, blockquote cite:before, .uncited:before {
