@@ -1331,6 +1331,12 @@ font-family: "Nimbus Sans", "Arial", "Helvetica", "Roboto", sans-serif;
 code, kbd, pre, samp {
 	font-family: "DejaVu Sans Mono", Consolas, Monaco, "Andale Mono", "Courier New", Courier, monospace !important;
 }
+.button, .pagination li.active span {
+	font-family: "Liberation Sans", Arial, Helvetica, Roboto, sans-serif;
+}
+a.button1, input.button1, input.button3, a.button2, input.button2 {
+	font-family: "Liberation Sans", Arial, Helvetica, Roboto, sans-serif;
+}
 
 body {line-height: 1.2;}
 
