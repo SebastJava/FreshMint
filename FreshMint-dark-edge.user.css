@@ -1348,7 +1348,7 @@ a.header-avatar span:after {
 }
 
 /* ANCHORS */
-a {font-weight: bold !important;}
+
 a:hover:not(.button) {text-decoration: underline !important;}
 
 #page-header {background: var(--page-header); border-radius: 7px;}
