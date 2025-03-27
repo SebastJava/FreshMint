@@ -66,6 +66,7 @@ You can find more information here:
 https://github.com/openstyles/stylus/wiki/UserCSS
 
 ## Compare
+
 You can instantly switch between the old and the new. Click on the Stylus icon, then click on the FreshMint checkbox:
 
 ![](screenshots/Stylus-on-off.png)
@@ -104,6 +105,20 @@ You will then get a control panel where you can instantly change some CSS variab
 There are also new signatures for members of the Linux Mint community. A signature is a signature. The style should stand out a little: [LM-forums-signatures](https://github.com/SebastJava/LM-forums-signatures)
 
 ![my Signature](https://raw.githubusercontent.com/SebastJava/LM-forums-signatures/main/img_host/sebastjava-sign-2lines-14.png)
+
+## Is this professional? Without any bugs?
+
+These files are almost 1,500 lines of code. How can you be sure everything is done correctly?
+
+In fact, most of the `FreshMint.user.css` and `FreshMint-dark.user.css` files are just a copy of `prosilver/theme/colours.css`. This file is part of the Prosilver theme, the default [phpBB](https://www.phpbb.com) theme.
+
+Only a few color values have been changed in this copy of `prosilver/theme/colours.css`. So, you could simply compare this Prosilver file with the `FreshMint.user.css` or `FreshMint-dark.user.css` files to get a clear idea of what's going on. A "diff" software like Meld could do this.
+
+You'll then see that `FreshMint.user.css` and `FreshMint-dark.user.css` boil down to this:
+
+1. Several dozen CSS variables at the top of the document.
+2. A copy of `prosilver/theme/colours.css` with a few color values changed.
+3. The core of FreshMint, which is located at the bottom of the document and is about a hundred lines long.
 
 ## Troubleshooting
 
