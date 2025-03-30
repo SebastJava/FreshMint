@@ -68,8 +68,8 @@
 
 @var color codebox-bg "codebox BG" #404040
 @var color inline-code-bg "inline code BG" #004080
-@var color codebox-bd "codebox border" #004080
-@var color inline-code-bd "inline code border" #0074E7
+@var color codebox-bd "codebox border" #0066CB
+@var color inline-code-bd "inline code border" #0066CB
 @var color codebox-fg "codebox text" #FFF
 @var color inline-code-fg "inline code text" #FFF
 
