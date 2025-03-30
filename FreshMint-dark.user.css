@@ -2,7 +2,7 @@
 
 @name           FreshMint-dark
 @namespace      https://github.com/SebastJava
-@version        4.5.5
+@version        4.6.0
 @description    Linux Mint Forums, completely redesigned
 @author         SebastJava (https://raw.githubusercontent.com/SebastJava/FreshMint/main/COPYRIGHT)
 @homepageURL    https://github.com/SebastJava/FreshMint
@@ -42,7 +42,7 @@
 
 @var color username-coloured "team username" #8ED500
 
-@var text page-header "page header BG" "linear-gradient(180deg, #4DB21A 33%, #008570 83%)"
+@var text page-header "page header BG" "linear-gradient(180deg, #5DA638 25%, #008570 75%)"
 @var text forumbg "forum BG" "#008570"
 @var text navbar-bg "navbar BG" "#595959"
 
@@ -249,7 +249,7 @@ table.zebra-list tr:nth-child(even) td, ul.zebra-list li:nth-child(even) {
 }
 
 .site_logo {
-	background-image: url("https://raw.githubusercontent.com/SebastJava/FreshMint/main/images/logo-Exo2-03-dark-95.svg");
+	background-image: url("https://raw.githubusercontent.com/SebastJava/FreshMint/main/images/logo-Exo2-03.svg");
 }
 
 /* Horizontal lists
