@@ -1366,7 +1366,7 @@ a:hover:not(.button) {text-decoration: underline !important;}
 
 /* PAGE-HEADER NAVBAR */
 #page-header .navbar {border-radius: 0 0 7px 7px; background-color: transparent;
-	background-image: none; padding-top: 0px;}
+	background-image: none; padding-top: 0px; padding-bottom: 2px;}
 #page-header #nav-main {border-top: 1px solid #FFFFFF80;}
 #page-header .navbar a {color: #FFFFFF; font-weight: bold;}
 #page-header .navbar ul.dropdown-contents a, #page-header .navbar div.dropdown-contents a {
