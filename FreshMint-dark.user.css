@@ -44,7 +44,7 @@
 
 @var text page-header "page header BG" "linear-gradient(180deg, #5DA638 25%, #008570 75%)"
 @var text forumbg "forum BG" "#008570"
-@var text navbar-bg "navbar BG" "#595959"
+@var text navbar-bg "navbar BG" "#008570"
 
 @var text button-bg "button BG" "linear-gradient(180deg, #888 20%, #444 80%)"
 @var text button-bg-hover "button BG hover" "linear-gradient(0deg, #666 20%, #444 80%)"
