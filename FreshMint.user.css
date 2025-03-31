@@ -42,9 +42,9 @@
 
 @var color username-coloured "team username" #439B16
 
-@var text page-header "page header BG" "linear-gradient(180deg, #69B53F 25%, #169983 75%)"
-@var text forumbg "forum BG" "#169983"
-@var text navbar-bg "navbar BG" "#595959"
+@var text page-header "page header BG" "linear-gradient(180deg, #69B53F 25%, #008F78 75%)"
+@var text forumbg "forum BG" "#008F78"
+@var text navbar-bg "navbar BG" "#008F78"
 
 @var text button-bg "button BG" "linear-gradient(#FFF 20%, #B7B7B7 90%)"
 @var text button-bg-hover "button BG hover" "#FFF"
