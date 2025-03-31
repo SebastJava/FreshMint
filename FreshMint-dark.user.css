@@ -30,10 +30,10 @@
 @var color list-borders "list borders" #4B4B4B
 @var color bg1 "BG 1 (rows, posts, etc)" #25363E
 @var color bg2 "BG 2 (rows, posts, etc)" #333
-@var color bg3 "BG 3 (control panel, etc)" #006554
+@var color bg3 "BG 3 (control panel, etc)" #006767
 @var color tab-bg "inactive tab BG" #003D33
 
-@var color dropdown-header-bg "dropdown header BG" #006554
+@var color dropdown-header-bg "dropdown header BG" #006767
 @var color dropdown-header-text "dropdown header text" #FFF
 @var color dropdown-contents-bg "dropdown BG" #333
 @var color dropdown-extended-hover "dropdown hover" #3B3B3B
